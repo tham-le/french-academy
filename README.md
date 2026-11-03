@@ -12,11 +12,13 @@ python3 server.py
 
 Mở http://127.0.0.1:8000, tạo tài khoản, làm bài kiểm tra đầu vào. Dữ liệu nằm trong `data/academy.db` (SQLite) và `data/audio/`. Sao lưu bằng cách chép thư mục `data/`.
 
-Biến môi trường: `FA_PORT` (mặc định 8000), `FA_HOST` (mặc định 127.0.0.1), `FA_DB` (đường dẫn database), `FA_MODEL` (mặc định `claude-opus-5-5`).
+Biến môi trường: `FA_PORT` (mặc định 8000), `FA_HOST` (mặc định 127.0.0.1), `FA_DB` (đường dẫn database), `FA_MODEL` (mặc định `claude-opus-5-5`, hoặc `deepseek-flash` khi dùng DeepSeek).
 
 ## Bật AI tutor
 
 Không có khoá API, mọi chức năng AI chạy ở chế độ mô phỏng: bài nói và bài viết vẫn được lưu nhưng không có điểm, và câu trả lời của tutor được đánh dấu rõ là mô phỏng. Hệ thống không bao giờ tạo điểm giả.
+
+Cách 1, Anthropic (khoá từ console.anthropic.com):
 
 ```
 pip install anthropic
@@ -24,7 +26,17 @@ export ANTHROPIC_API_KEY=sk-ant-...
 python3 server.py
 ```
 
-Phản hồi AI dùng structured output theo JSON schema (`tutor.py`), có server-side fallback khi mô hình từ chối. Phát âm không được đánh giá vì AI chỉ đọc transcript; giao diện nói rõ điều này.
+Cách 2, DeepSeek (khoá từ platform.deepseek.com, rẻ hơn nhiều). DeepSeek có endpoint tương thích Anthropic nên vẫn dùng cùng SDK:
+
+```
+pip install anthropic
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_API_KEY=sk-...        # khoá DeepSeek
+export FA_MODEL=deepseek-flash         # hoặc deepseek-v4-pro
+python3 server.py
+```
+
+Trang Cài đặt hiển thị provider và model đang dùng. Với Anthropic, phản hồi AI dùng structured output theo JSON schema (`tutor.py`) và có server-side fallback khi mô hình từ chối. Với DeepSeek, schema được đưa vào prompt và server kiểm tra lại từng trường trước khi lưu; câu trả lời thiếu trường bị từ chối, không bao giờ được điền giá trị giả. Phát âm không được đánh giá vì AI chỉ đọc transcript; giao diện nói rõ điều này.
 
 ## Nhận dạng giọng nói và đọc văn bản
 

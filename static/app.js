@@ -851,9 +851,14 @@ route('settings', async () => {
       <label>Mục tiêu</label><textarea name="goals" style="min-height:70px">${esc(p.goals)}</textarea>
       <p><button class="primary">Lưu</button></p></form>
       <p class="small">Bài kiểm tra đầu vào: ${p.diagnostic_at ? fmtDate(p.diagnostic_at) + ' · <a href="#/diagnostic">làm lại</a>' : '<a href="#/diagnostic">chưa làm</a>'}</p></div>
-    <div class="card"><h3 style="margin-top:0">AI tutor</h3><p>Trạng thái: ${ai.mock ? '<span class="badge warn">mô phỏng</span>' : `<span class="badge ok">sẵn sàng</span> (${esc(ai.model)})`}</p>
-      <p class="small">Để bật AI thật, trên máy chạy server:</p><pre class="small" style="white-space:pre-wrap;background:var(--surface-2);padding:10px;border-radius:6px">pip install anthropic
+    <div class="card"><h3 style="margin-top:0">AI tutor</h3><p>Trạng thái: ${ai.mock ? '<span class="badge warn">mô phỏng</span>' : `<span class="badge ok">sẵn sàng</span> (${esc(ai.provider)} · ${esc(ai.model)})`}</p>
+      <p class="small">Để bật AI thật, trên máy chạy server, với khoá Anthropic:</p><pre class="small" style="white-space:pre-wrap;background:var(--surface-2);padding:10px;border-radius:6px">pip install anthropic
 export ANTHROPIC_API_KEY=sk-ant-...
+python3 server.py</pre>
+      <p class="small">Hoặc với khoá DeepSeek (endpoint tương thích Anthropic):</p><pre class="small" style="white-space:pre-wrap;background:var(--surface-2);padding:10px;border-radius:6px">pip install anthropic
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_API_KEY=sk-...
+export FA_MODEL=deepseek-flash
 python3 server.py</pre><p class="muted small">Ở chế độ mô phỏng, bài nói và bài viết vẫn được lưu nhưng không có điểm; hệ thống không giả lập điểm.</p>
       <h3>Giao diện</h3><p class="row"><button id="themeL">Sáng</button><button id="themeD">Tối</button><button id="themeA">Theo hệ thống</button></p>
       <h3>Dữ liệu</h3><p class="small muted">Mọi dữ liệu nằm trong data/academy.db (SQLite) và data/audio/. Sao lưu bằng cách chép thư mục data/.</p></div></div>`;

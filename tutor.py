@@ -1,10 +1,12 @@
-"""AI tutor layer. Uses the Anthropic SDK when configured, otherwise a labelled mock."""
+"""AI tutor layer. Uses the Anthropic SDK (Anthropic or DeepSeek endpoint) when configured, otherwise a labelled mock."""
 import json
 import os
 
 from store import ERROR_CATEGORIES
 
-MODEL = os.environ.get("FA_MODEL", "claude-opus-5-5")
+DEEPSEEK = "deepseek" in os.environ.get("ANTHROPIC_BASE_URL", "")
+PROVIDER = "deepseek" if DEEPSEEK else "anthropic"
+MODEL = os.environ.get("FA_MODEL", "deepseek-flash" if DEEPSEEK else "claude-opus-5-5")
 MOCK_NOTICE = ("[MÔ PHỎNG] AI chưa được cấu hình. Cài `pip install anthropic` và đặt "
                "ANTHROPIC_API_KEY (xem README). Nội dung này không phải đánh giá thật.")
 
@@ -23,7 +25,7 @@ def configured():
 
 
 def status():
-    return {"configured": configured(), "model": MODEL, "mock": not configured()}
+    return {"configured": configured(), "model": MODEL, "provider": PROVIDER, "mock": not configured()}
 
 
 ERROR_ITEM = {
@@ -139,20 +141,40 @@ Tu joues l'examinateur de la production orale du DALF C1 : exposé à partir d'u
 }
 
 
+def _check(obj, schema, path="$"):
+    """Reject a reply that misses a required key or has a wrong type. The DeepSeek endpoint cannot enforce the schema."""
+    t = schema["type"]
+    if not isinstance(obj, {"object": dict, "array": list, "string": str, "integer": int}[t]) or isinstance(obj, bool):
+        raise TutorError(f"AI trả về dữ liệu sai kiểu tại {path}")
+    if "enum" in schema and obj not in schema["enum"]:
+        raise TutorError(f"AI trả về giá trị ngoài danh sách tại {path}: {obj}")
+    if t == "object":
+        for k in schema.get("required", []):
+            if k not in obj:
+                raise TutorError(f"AI trả về dữ liệu thiếu trường {path}.{k}")
+        for k, sub in schema.get("properties", {}).items():
+            if k in obj:
+                _check(obj[k], sub, f"{path}.{k}")
+    elif t == "array":
+        for i, item in enumerate(obj):
+            _check(item, schema["items"], f"{path}[{i}]")
+
+
 def _call(system, messages, schema, max_tokens=8000):
     import anthropic
+    kwargs = dict(model=MODEL, max_tokens=max_tokens, messages=messages,
+                  system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+                  output_config={"effort": "medium"})
+    if DEEPSEEK:
+        # DeepSeek ignores output_config.format: the schema goes in the prompt and _check guards the reply.
+        kwargs["system"][0]["text"] += ("\n\nRéponds uniquement par un objet JSON valide, sans texte autour, "
+                                        "conforme à ce schéma JSON :\n" + json.dumps(schema, ensure_ascii=False))
+    else:
+        kwargs["betas"] = ["server-side-fallback-2026-07-01"]
+        kwargs["fallbacks"] = "default"
+        kwargs["output_config"]["format"] = {"type": "json_schema", "schema": schema}
     try:
-        client = anthropic.Anthropic()
-        resp = client.beta.messages.create(
-            model=MODEL,
-            max_tokens=max_tokens,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
-            system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-            messages=messages,
-            output_config={"effort": "medium",
-                           "format": {"type": "json_schema", "schema": schema}},
-        )
+        resp = anthropic.Anthropic().beta.messages.create(**kwargs)
     except anthropic.AuthenticationError:
         raise TutorError("Khoá API không hợp lệ (AuthenticationError).")
     except anthropic.RateLimitError:
@@ -167,9 +189,11 @@ def _call(system, messages, schema, max_tokens=8000):
         raise TutorError("Câu trả lời quá dài, bị cắt. Thử lại với nội dung ngắn hơn.")
     text = next((b.text for b in resp.content if b.type == "text"), "")
     try:
-        return json.loads(text)
+        out = json.loads(text[text.find("{"):text.rfind("}") + 1])
     except json.JSONDecodeError:
         raise TutorError("AI trả về dữ liệu không đọc được.")
+    _check(out, schema)
+    return out
 
 
 def _system(mode, prof):
