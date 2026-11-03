@@ -1,0 +1,91 @@
+{
+  "id": "b1-w1-l2", "phase": 1, "module": "Vocabulaire quotidien", "week": 1, "order": 2,
+  "level": "B1", "skill": "vocab", "title": "Le logement et la vie quotidienne",
+  "duration_min": 40, "prerequisites": [],
+  "error_tags": ["lexique", "articles", "genre_nombre"],
+  "objectives": [
+    "Nói về nhà ở: loại nhà, tầng, số phòng, tiền thuê và phí chung",
+    "Kể thói quen hằng ngày và việc nhà bằng các cụm động từ cố định",
+    "Dùng đúng mạo từ bộ phận và từ chỉ lượng: du, de la, des, pas de, beaucoup de"
+  ],
+  "intro": "Ở B1, bạn cần mô tả nơi ở và một ngày bình thường mà không bị bí từ. Bài này cho bạn **bộ từ vựng về nhà ở** (loyer, charges, colocation, étage), các **cụm việc nhà** (faire le ménage, sortir les poubelles) và ôn lại điểm ngữ pháp hay sai nhất khi nói về đồ ăn và đồ dùng: mạo từ bộ phận và từ chỉ lượng.",
+  "references": [
+    {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Mục vocabulaire, chủ đề logement"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Chiến lược học từ vựng",
+     "body": "Từ vựng về nhà ở hay đi theo **cụm**, không đi lẻ. Học cả cụm thì nói nhanh hơn và ít sai mạo từ.\n\n- Học danh từ cùng mạo từ: *le loyer*, *la colocation*, *les charges* (luôn số nhiều).\n- Học động từ cùng bổ ngữ: *faire le ménage*, *faire la vaisselle*, *sortir les poubelles*, *passer l'aspirateur*.\n- Với mỗi từ, viết một câu về chính nhà của bạn. Câu thật dễ nhớ hơn câu mẫu.\n- Khi nói về số lượng (tiền, thức ăn, tiếng ồn), dừng một giây để chọn *du / de la / des* hay *de*. Đây là lỗi B1 hay gặp nhất trong chủ đề này."},
+    {"type": "vocab", "title": "Từ vựng : le logement et les tâches ménagères",
+     "items": [
+       {"fr": "un appartement", "vi": "căn hộ", "example": "Nous cherchons un appartement de trois pièces près du centre."},
+       {"fr": "le loyer", "vi": "tiền thuê nhà", "example": "Le loyer est de 800 euros par mois, charges comprises."},
+       {"fr": "le / la propriétaire", "vi": "chủ nhà", "example": "La propriétaire habite au premier étage."},
+       {"fr": "la colocation", "vi": "ở ghép, thuê chung nhà", "example": "Je vis en colocation avec deux étudiants."},
+       {"fr": "les charges", "vi": "phí chung (nước, sưởi, thang máy)", "example": "Les charges comprennent l'eau et le chauffage."},
+       {"fr": "l'étage", "vi": "tầng", "example": "L'appartement est au troisième étage, sans ascenseur."},
+       {"fr": "une pièce", "vi": "phòng (tính chung, trừ bếp và phòng tắm)", "example": "C'est un deux-pièces : un salon et une chambre."},
+       {"fr": "faire le ménage", "vi": "dọn dẹp nhà cửa", "example": "Le samedi matin, je fais le ménage."},
+       {"fr": "faire la vaisselle", "vi": "rửa bát", "example": "C'est à ton tour de faire la vaisselle."},
+       {"fr": "sortir les poubelles", "vi": "đổ rác", "example": "N'oublie pas de sortir les poubelles ce soir."}
+     ]},
+    {"type": "grammar", "title": "Articles partitifs et quantités",
+     "body": "### Mạo từ bộ phận : du, de la, de l', des\n\nDùng khi nói về một lượng không xác định, thường là thứ không đếm được: thức ăn, đồ uống, vật liệu, cảm xúc, tiếng ồn.\n\n- **du** + danh từ giống đực: *du pain, du bruit, du temps*\n- **de la** + danh từ giống cái: *de la viande, de la patience*\n- **de l'** trước nguyên âm hoặc h câm: *de l'eau, de l'huile*\n- **des** + số nhiều: *des légumes, des voisins*\n\nSo sánh: *J'aime le café* (nói chung, mạo từ xác định) và *Je bois du café* (một lượng, mạo từ bộ phận).\n\n### Sau phủ định : pas de, plus de\n\nSau *ne... pas, ne... plus, ne... jamais*, mạo từ bộ phận và mạo từ không xác định đều thành **de** (hoặc **d'** trước nguyên âm).\n\n*Il y a du lait.* → *Il n'y a plus de lait.*\n\n*J'ai une voiture.* → *Je n'ai pas de voiture.*\n\nNgoại lệ: sau *c'est / ce n'est pas*, giữ nguyên mạo từ: *Ce n'est pas du vin, c'est du jus.*\n\n### Từ chỉ lượng : beaucoup de, un peu de, trop de\n\nSau một từ chỉ lượng, danh từ đi với **de**, không có mạo từ: *beaucoup de bruit, un peu de sel, trop de charges, assez de place, un kilo de pommes, un litre d'eau*.\n\nNgoại lệ hay gặp: *la plupart des* giữ mạo từ: *la plupart des voisins*.\n\n### Bẫy thường gặp\n\n- *beaucoup des* là sai ở mức B1. Cứ dùng *beaucoup de*.\n- *de* sau phủ định và sau từ chỉ lượng không đổi theo giống và số: *pas de lait, pas de viande, pas de légumes*.\n- Giống của danh từ quyết định *du* hay *de la*: *le fromage* → *du fromage* ; *la lumière* → *de la lumière*.",
+     "examples": [
+       {"fr": "Le matin, je prends du café et de la confiture sur du pain.", "vi": "Ba lượng không xác định: du (giống đực), de la (giống cái), du."},
+       {"fr": "Il n'y a plus d'eau chaude dans la salle de bains.", "vi": "Sau plus, mạo từ bộ phận thành d' trước nguyên âm."},
+       {"fr": "Nos voisins font beaucoup de bruit le week-end.", "vi": "Sau beaucoup, dùng de, không có mạo từ."},
+       {"fr": "Nous n'avons pas de balcon, mais nous avons des fenêtres sur la cour.", "vi": "Phủ định: pas de. Khẳng định số nhiều: des."}
+     ]},
+    {"type": "exercise", "title": "Articles et vocabulaire du logement", "instructions": "Điền mạo từ đúng (du, de la, de l', des, de, d') hoặc chọn từ đúng.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Le matin, je prends ___ café et des tartines.", "answer": ["du"], "explain": "Café giống đực, lượng không xác định: du.", "error_tag": "articles"},
+       {"id": "e2", "type": "gap", "q": "Il n'y a plus ___ lait dans le frigo.", "answer": ["de"], "explain": "Sau phủ định ne... plus, mạo từ bộ phận thành de.", "error_tag": "articles"},
+       {"id": "e3", "type": "gap", "q": "Dans ma colocation, il y a beaucoup ___ bruit le soir.", "answer": ["de"], "explain": "Sau beaucoup, dùng de không có mạo từ.", "error_tag": "articles"},
+       {"id": "e4", "type": "mcq", "q": "Le loyer est de 700 euros, ___ comprises.", "options": ["charges", "pièces", "étages"], "answer": 0, "explain": "Charges comprises: đã gồm phí chung.", "error_tag": "lexique"},
+       {"id": "e5", "type": "mcq", "q": "Nous habitons au quatrième ___, il n'y a pas d'ascenseur.", "options": ["étage", "pièce", "escalier"], "answer": 0, "explain": "Au quatrième étage: ở tầng bốn.", "error_tag": "lexique"},
+       {"id": "e6", "type": "gap", "q": "Tu peux acheter ___ eau minérale en rentrant ?", "answer": ["de l'", "de l"], "explain": "Eau bắt đầu bằng nguyên âm: de l'.", "error_tag": "articles"},
+       {"id": "e7", "type": "mcq", "q": "Le ___ a augmenté le loyer de 20 euros.", "options": ["propriétaire", "locataire", "voisin"], "answer": 0, "explain": "Người tăng tiền thuê là chủ nhà: le propriétaire. Le locataire là người thuê.", "error_tag": "lexique"},
+       {"id": "e8", "type": "mcq", "q": "C'est ___ appartement ancien avec ___ belle cuisine.", "options": ["un / une", "une / un", "un / un"], "answer": 0, "explain": "Appartement giống đực, cuisine giống cái.", "error_tag": "genre_nombre"}
+     ]},
+    {"type": "listening", "title": "La colocation de Clara", "instructions": "Nghe tối đa 2 lần. Trả lời rồi mới mở văn bản.",
+     "text": "Bonjour, je m'appelle Clara et j'habite en colocation à Nantes depuis septembre. Nous sommes trois dans un appartement de quatre pièces, au deuxième étage d'un immeuble ancien. Le loyer est de 960 euros par mois, charges comprises, donc chacun paie 320 euros. Pour le ménage, nous avons un planning : le lundi, je passe l'aspirateur dans le salon, le mercredi, Thomas nettoie la cuisine, et le samedi, Lina s'occupe de la salle de bains. Chacun fait sa vaisselle tous les jours et on sort les poubelles à tour de rôle. Le dimanche matin, nous faisons les courses ensemble au marché : nous achetons des légumes, du pain et un peu de fromage. Le seul problème, c'est le bruit : les voisins du dessus écoutent de la musique très tard. Mais en général, je suis contente, parce que je ne me sens jamais seule.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Combien de personnes vivent dans l'appartement ?", "options": ["Deux", "Trois", "Quatre"], "answer": 1, "explain": "« Nous sommes trois ». Quatre là số phòng, không phải số người."},
+       {"id": "l2", "type": "mcq", "q": "Combien chacun paie-t-il par mois ?", "options": ["320 euros", "960 euros", "640 euros"], "answer": 0, "explain": "« chacun paie 320 euros ». 960 là tổng tiền thuê."},
+       {"id": "l3", "type": "mcq", "q": "Qui nettoie la cuisine ?", "options": ["Clara", "Thomas", "Lina"], "answer": 1, "explain": "« le mercredi, Thomas nettoie la cuisine »."},
+       {"id": "l4", "type": "truefalse", "q": "Les colocataires font les courses au supermarché le samedi.", "answer": false, "explain": "« Le dimanche matin, nous faisons les courses ensemble au marché »."}
+     ]},
+    {"type": "reading", "title": "Louer un appartement en France", "instructions": "Đọc rồi trả lời. Chú ý các từ về tiền và giấy tờ.",
+     "text": "Trouver un appartement à louer dans une grande ville française demande du temps et de la patience. Les annonces indiquent d'abord le nombre de pièces : un studio a une seule pièce, un « T2 » a un salon et une chambre, un « T3 » a deux chambres. Elles précisent aussi l'étage, la présence d'un ascenseur et le montant du loyer. Attention : le loyer est parfois indiqué « hors charges ». Les charges couvrent l'eau froide, l'entretien de l'immeuble et parfois le chauffage ; elles peuvent ajouter cinquante à cent euros par mois. Avant de signer le bail, le propriétaire demande en général un dossier : une pièce d'identité, les trois derniers bulletins de salaire et souvent un garant, c'est-à-dire une personne qui paie si le locataire ne peut plus payer. Le jour de l'entrée, on fait un état des lieux : on note ensemble l'état de chaque pièce, des murs et des équipements. Ce document est important, car il sert à comparer au moment du départ. Beaucoup de jeunes choisissent la colocation : le loyer est partagé, les charges aussi, et on n'est pas seul. Mais il faut accepter de partager la cuisine, la salle de bains et les tâches ménagères.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Qu'est-ce qu'un T2, d'après le texte ?", "options": ["Un appartement d'une seule pièce", "Un appartement avec un salon et une chambre", "Un appartement avec deux chambres"], "answer": 1, "explain": "« un T2 a un salon et une chambre »."},
+       {"id": "r2", "type": "truefalse", "q": "Les charges sont toujours comprises dans le loyer indiqué.", "answer": false, "explain": "« le loyer est parfois indiqué hors charges »."},
+       {"id": "r3", "type": "mcq", "q": "Qu'est-ce qu'un garant ?", "options": ["Une personne qui paie si le locataire ne paie plus", "Le propriétaire de l'appartement", "Un document signé avant l'entrée"], "answer": 0, "explain": "« une personne qui paie si le locataire ne peut plus payer »."},
+       {"id": "r4", "type": "mcq", "q": "À quoi sert l'état des lieux ?", "options": ["À calculer les charges", "À comparer l'état du logement à l'entrée et au départ", "À trouver un colocataire"], "answer": 1, "explain": "« il sert à comparer au moment du départ »."}
+     ]},
+    {"type": "speaking", "title": "Décrivez votre logement et votre routine", "minutes": 2,
+     "prompt": "Décrivez votre logement actuel en deux minutes : le type de logement, l'étage, les pièces, le loyer ou le quartier, puis votre routine du matin et les tâches ménagères que vous faites. Dites ce que vous aimez et ce que vous aimeriez changer. Utilisez au moins cinq mots de la liste de vocabulaire.",
+     "hints": ["J'habite dans un appartement de ... pièces, au ... étage.", "Le matin, je prends du café, je... Le soir, je...", "Chez moi, c'est moi qui fais le ménage / la vaisselle. Mon colocataire sort les poubelles.", "Ce que j'aime, c'est... Ce qui manque, c'est..."]},
+    {"type": "writing", "title": "Une annonce pour un colocataire", "words": 100,
+     "prompt": "Vous cherchez un colocataire. Écrivez une annonce (90 à 110 mots) : décrivez l'appartement (pièces, étage, quartier), indiquez le loyer et les charges, expliquez comment les tâches ménagères sont partagées, et dites quel type de personne vous cherchez.",
+     "criteria": ["Au moins six mots du vocabulaire du logement", "Articles partitifs et quantités corrects (du, de la, des, pas de, beaucoup de)", "Loyer et charges indiqués clairement", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Tu veux ___ thé ou ___ café ?", "options": ["du / du", "de / de", "le / la"], "answer": 0, "explain": "Thé và café đều giống đực, lượng không xác định: du.", "error_tag": "articles"},
+       {"id": "q2", "type": "mcq", "q": "Je ne mange pas ___ viande.", "options": ["de la", "de", "du"], "answer": 1, "explain": "Sau phủ định: pas de.", "error_tag": "articles"},
+       {"id": "q3", "type": "mcq", "q": "Il y a trop ___ bruit dans cet immeuble.", "options": ["du", "de", "des"], "answer": 1, "explain": "Sau từ chỉ lượng trop: de.", "error_tag": "articles"},
+       {"id": "q4", "type": "mcq", "q": "La personne qui loue son appartement à quelqu'un est :", "options": ["le locataire", "le propriétaire", "le colocataire"], "answer": 1, "explain": "Chủ nhà cho thuê: le propriétaire. Người thuê: le locataire.", "error_tag": "lexique"},
+       {"id": "q5", "type": "mcq", "q": "Nous avons acheté ___ nouvelle table et ___ chaises.", "options": ["un / des", "une / des", "une / de la"], "answer": 1, "explain": "Table giống cái: une. Chaises số nhiều đếm được: des.", "error_tag": "genre_nombre"},
+       {"id": "q6", "type": "mcq", "q": "« Faire le ménage » signifie :", "options": ["cuisiner", "nettoyer la maison", "payer le loyer"], "answer": 1, "explain": "Faire le ménage: dọn dẹp nhà cửa.", "error_tag": "lexique"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Mạo từ bộ phận: du (giống đực), de la (giống cái), de l' (trước nguyên âm), des (số nhiều).\n- Sau phủ định: pas de, plus de, jamais de. Trừ sau c'est / ce n'est pas.\n- Sau từ chỉ lượng: beaucoup de, un peu de, trop de, un kilo de, không có mạo từ.\n- Nhà ở: un appartement de trois pièces, au deuxième étage, loyer 800 euros charges comprises, en colocation.\n- Việc nhà: faire le ménage, faire la vaisselle, passer l'aspirateur, sortir les poubelles."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Thêm 10 từ của bài vào Vocabulary Trainer, mỗi từ kèm một câu về nhà của bạn.\n2. Trong Speaking Lab, mô tả căn bếp của bạn và những gì có trong tủ lạnh (1 phút), chú ý du / de la / des / pas de.\n3. Trong Writing Lab, viết 5 câu về việc nhà bạn làm trong tuần: việc gì, với ai, khi nào."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục « articles partitifs » và « logement » để làm thêm bài tập."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video về đời sống hằng ngày, có câu hỏi."}
+     ]}
+  ]
+}

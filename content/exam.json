@@ -1,0 +1,37 @@
+{
+  "title": "DALF C1 : thi thử",
+  "disclaimer": "Các đề dưới đây được soạn cho nền tảng này theo cấu trúc DALF C1 công bố bởi France Éducation international. Đây không phải đề thi chính thức. Đề mẫu chính thức: https://www.france-education-international.fr/diplome/dalf-c1",
+  "structure": [
+    {"epreuve": "Compréhension de l'oral", "duree": "40 min", "points": 25, "note": "Hai hoặc ba tài liệu nghe, trong đó một tài liệu dài (đối thoại, phỏng vấn) nghe hai lần."},
+    {"epreuve": "Compréhension des écrits", "duree": "50 min", "points": 25, "note": "Văn bản 1500 đến 2000 từ, câu hỏi hiểu chi tiết và hiểu ý."},
+    {"epreuve": "Production écrite", "duree": "2 h 30", "points": 25, "note": "Synthèse de documents (220 từ) và essai argumenté (250 từ)."},
+    {"epreuve": "Production orale", "duree": "30 min + 60 min chuẩn bị", "points": 25, "note": "Exposé từ bộ tài liệu, rồi débat với giám khảo."}
+  ],
+  "oral_tasks": [
+    {"id": "o1", "title": "Le télétravail : liberté ou isolement ?", "prep_min": 60, "expose_min": 10, "debat_min": 15,
+     "consigne": "Vous dégagerez le problème soulevé par les documents, puis vous présenterez votre opinion sur le sujet de manière argumentée. Après votre exposé, l'examinateur vous posera des questions.",
+     "documents": [
+       {"title": "Document 1 : extrait d'enquête (rédigé pour cet exercice)", "text": "Trois ans après la généralisation du télétravail dans de nombreuses entreprises, les salariés interrogés déclarent gagner en moyenne une heure par jour sur les trajets et apprécier une meilleure organisation de leur vie familiale. Pourtant, un tiers d'entre eux disent se sentir moins intégrés à leur équipe, et les jeunes diplômés sont les plus nombreux à regretter l'absence de contacts informels, ceux qui permettent d'apprendre le métier sans le demander."},
+       {"title": "Document 2 : tribune (rédigée pour cet exercice)", "text": "Le bureau n'est pas qu'un lieu de production : c'est l'endroit où une culture commune se construit. En réduisant la présence à deux jours par semaine, les entreprises prennent le risque de devenir des plateformes de prestataires interchangeables. La question n'est pas de revenir en arrière, mais de redonner un sens au temps passé ensemble."}
+     ]},
+    {"id": "o2", "title": "Faut-il limiter l'usage des écrans chez les enfants ?", "prep_min": 60, "expose_min": 10, "debat_min": 15,
+     "consigne": "Vous dégagerez le problème soulevé par les documents, puis vous présenterez votre opinion de manière argumentée. L'examinateur vous posera ensuite des questions.",
+     "documents": [
+       {"title": "Document 1 : point de vue médical (rédigé pour cet exercice)", "text": "Plusieurs pédiatres recommandent aucun écran avant trois ans et moins d'une heure par jour jusqu'à six ans. Ils observent des retards de langage et des troubles du sommeil chez les enfants les plus exposés. Mais ils rappellent que le facteur décisif reste la présence d'un adulte qui parle, lit et joue avec l'enfant."},
+       {"title": "Document 2 : témoignage d'enseignante (rédigé pour cet exercice)", "text": "Interdire ne sert à rien si l'école et la famille n'apprennent pas aux enfants à se servir des outils. Mes élèves de dix ans savent monter une vidéo, mais pas vérifier une information. C'est cela, le vrai chantier."}
+     ]}
+  ],
+  "written_tasks": [
+    {"id": "w1", "title": "Synthèse : la voiture en ville", "kind": "synthese", "words": "200 à 240 mots", "minutes": 90,
+     "consigne": "Vous ferez une synthèse des documents proposés, en 220 mots environ. Vous dégagerez les idées et informations essentielles, les regrouperez et les classerez en fonction de leur contenu, puis vous les présenterez avec vos propres mots, sous forme d'un texte unique et cohérent. Vous n'introduirez pas d'autres idées que celles des documents.",
+     "documents": [
+       {"title": "Document 1 (rédigé pour cet exercice)", "text": "Depuis dix ans, plusieurs grandes villes européennes ont réduit la place de la voiture : zones à faibles émissions, rues piétonnes, stationnement payant plus cher. Les mesures ont fait baisser la pollution de l'air de façon mesurable dans les centres. Elles ont aussi déplacé une partie du trafic vers les communes voisines, qui n'ont ni les transports ni les budgets des grandes villes."},
+       {"title": "Document 2 (rédigé pour cet exercice)", "text": "Pour les habitants des périphéries, la voiture n'est pas un choix mais une nécessité : horaires décalés, enfants à déposer, absence de bus le soir. Les associations d'usagers demandent que chaque restriction soit accompagnée d'une offre de transport réelle, faute de quoi la transition écologique sera perçue comme une punition sociale."}
+     ],
+     "criteria": ["Respect de la consigne et de la longueur", "Reformulation sans copier", "Idées regroupées et classées", "Cohérence et connecteurs", "Correction grammaticale et lexicale"]},
+    {"id": "w2", "title": "Essai argumenté : la culture doit-elle être gratuite ?", "kind": "essai", "words": "250 mots minimum", "minutes": 60,
+     "consigne": "Le conseil municipal de votre ville envisage de rendre gratuits les musées et les bibliothèques. En tant que membre d'une association culturelle, vous écrivez au maire pour donner votre position, en l'appuyant sur des arguments et des exemples.",
+     "documents": [],
+     "criteria": ["Respect de la situation de communication (lettre au maire)", "Prise de position claire", "Arguments développés avec exemples", "Structure et connecteurs", "Richesse et précision de la langue"]}
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "b1-w2-l6", "phase": 1, "module": "Pronoms et propositions relatives", "week": 2, "order": 2,
+  "level": "B1", "skill": "grammar", "title": "Les pronoms relatifs qui, que, où, dont",
+  "duration_min": 45, "prerequisites": ["b1-w1-l1"],
+  "error_tags": ["pronoms_relatifs", "accord_participe_passe"],
+  "objectives": [
+    "Chọn đúng qui, que, qu', où, dont để nối hai câu thành một",
+    "Dùng dont với các động từ đi kèm de và để chỉ sở hữu",
+    "Hợp participe passé sau que và nhận ra ce qui, ce que"
+  ],
+  "intro": "Người học B1 hay nói hai câu ngắn thay vì một câu nối bằng đại từ quan hệ, hoặc chọn sai giữa *que* và *dont*. Bài này dạy cách **chọn đại từ theo chức năng** của từ bị thay thế, rồi áp dụng ngay vào nói và viết.",
+  "references": [
+    {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Mục Grammaire, tìm Pronoms relatifs"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Một câu thay cho hai câu",
+     "body": "Đại từ quan hệ nối hai câu có chung một danh từ. Câu thứ hai trở thành mệnh đề quan hệ và đứng ngay sau danh từ đó.\n\n*J'ai un ami. Cet ami habite à Lyon.* → *J'ai un ami **qui** habite à Lyon.*\n\nĐể chọn đúng đại từ, hãy hỏi: trong câu thứ hai, danh từ ấy giữ vai trò gì?\n\n- Chủ ngữ → **qui**\n- Bổ ngữ trực tiếp → **que** (*qu'* trước nguyên âm)\n- Nơi chốn hoặc thời gian → **où**\n- Bổ ngữ với *de* (*parler de, avoir besoin de, le père de...*) → **dont**\n\nMẹo nhanh: sau *qui* là động từ, sau *que* là chủ ngữ. Nếu động từ đi với *de*, nghĩ ngay đến *dont*."},
+    {"type": "vocab", "title": "Động từ với de và từ vựng của bài",
+     "items": [
+       {"fr": "parler de", "vi": "nói về", "example": "Le film dont je parle est sorti hier."},
+       {"fr": "avoir besoin de", "vi": "cần", "example": "J'ai besoin d'un dictionnaire pour cet exercice."},
+       {"fr": "se souvenir de", "vi": "nhớ về", "example": "Tu te souviens de cette soirée ?"},
+       {"fr": "rêver de", "vi": "mơ về, mơ ước", "example": "Elle rêve d'un voyage au Japon."},
+       {"fr": "s'occuper de", "vi": "lo, chăm sóc", "example": "Il s'occupe du jardin le dimanche."},
+       {"fr": "être fier de", "vi": "tự hào về", "example": "Je suis fier de mon travail."},
+       {"fr": "se servir de", "vi": "dùng, sử dụng", "example": "Je me sers de ce vélo tous les jours."},
+       {"fr": "le quartier", "vi": "khu phố", "example": "Le quartier où j'habite est très animé."},
+       {"fr": "un voisin, une voisine", "vi": "hàng xóm", "example": "La voisine dont je t'ai parlé est médecin."},
+       {"fr": "un souvenir", "vi": "kỷ niệm", "example": "C'est un souvenir que je garde précieusement."}
+     ]},
+    {"type": "grammar", "title": "Bốn đại từ, bốn chức năng",
+     "body": "### qui : chủ ngữ của mệnh đề quan hệ\n\nSau *qui* là động từ. *Qui* không bao giờ rút gọn, kể cả trước nguyên âm: *l'homme qui a parlé*, không phải *qu'a*.\n\n*La voisine **qui** habite en face est médecin.*\n\n### que, qu' : bổ ngữ trực tiếp\n\nSau *que* là chủ ngữ rồi động từ. Trước nguyên âm hoặc *h* câm, *que* thành *qu'*: *le film qu'elle a vu*.\n\nKhi động từ ở passé composé với *avoir*, participe passé **hợp giống và số với danh từ đứng trước que**, vì COD đứng trước động từ: *la lettre que j'ai écrite*, *les amis que j'ai invités*, *les photos que tu as prises*.\n\n### où : nơi chốn và thời gian\n\n*Où* thay một bổ ngữ chỉ nơi chốn: *la ville où je suis né*. *Où* cũng thay một bổ ngữ chỉ thời gian, sau các danh từ như *le jour, l'année, le moment, l'époque*: *le jour où nous avons déménagé*. Không dùng *quand* sau danh từ: *le jour quand* là sai.\n\n### dont : thay de + danh từ\n\nDùng *dont* khi động từ hoặc tính từ đi với *de*: *parler de, avoir besoin de, se souvenir de, rêver de, s'occuper de, se servir de, être fier de, être content de*.\n\n*Le livre **dont** j'ai besoin est à la bibliothèque.* (j'ai besoin **de** ce livre)\n\n*Dont* cũng chỉ sở hữu, thay *de* trong *le père de cet ami*: *un ami **dont** le père est pilote*. Sau *dont* vẫn giữ mạo từ *le, la, les*, không dùng *son, sa, ses*: *dont le père*, không phải *dont son père*.\n\nTrật tự sau *dont*: chủ ngữ, động từ, rồi bổ ngữ. *La femme dont je connais le fils*, không phải *dont le fils je connais*.\n\n### Xem trước : ce qui, ce que\n\nKhi không có danh từ đứng trước, dùng *ce qui* (chủ ngữ) và *ce que* (bổ ngữ): *Je ne sais pas **ce qui** se passe.* *Dis-moi **ce que** tu veux.* Bài sau sẽ luyện kỹ hơn.",
+     "examples": [
+       {"fr": "Le voisin qui habite au troisième étage travaille à l'hôpital.", "vi": "Qui thay chủ ngữ: le voisin habite."},
+       {"fr": "Le gâteau qu'elle a préparé était délicieux.", "vi": "Que thay COD, rút gọn thành qu' trước elle."},
+       {"fr": "Je me souviens du jour où nous avons déménagé.", "vi": "Où chỉ thời gian sau le jour."},
+       {"fr": "C'est l'outil dont je me sers tous les jours.", "vi": "Se servir de: dont."},
+       {"fr": "J'ai une collègue dont le mari est pilote.", "vi": "Dont chỉ sở hữu: le mari de cette collègue."},
+       {"fr": "Les photos que tu as prises sont magnifiques.", "vi": "COD les photos đứng trước avoir: participe hợp giống cái số nhiều."}
+     ]},
+    {"type": "exercise", "title": "Chọn đại từ quan hệ", "instructions": "Điền qui, que, qu', où hoặc dont. Ở câu 7, chia participe passé trong ngoặc.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Le voisin ___ habite au troisième étage est très sympathique.", "answer": ["qui"], "explain": "Sau chỗ trống là động từ habite: le voisin là chủ ngữ, dùng qui.", "error_tag": "pronoms_relatifs"},
+       {"id": "e2", "type": "gap", "q": "C'est le film ___ nous avons vu samedi.", "answer": ["que"], "explain": "Nous avons vu le film: le film là COD, dùng que.", "error_tag": "pronoms_relatifs"},
+       {"id": "e3", "type": "gap", "q": "Voici la ville ___ j'ai passé mon enfance.", "answer": ["où"], "explain": "J'ai passé mon enfance dans cette ville: nơi chốn, dùng où.", "error_tag": "pronoms_relatifs"},
+       {"id": "e4", "type": "gap", "q": "C'est un outil ___ je me sers tous les jours.", "answer": ["dont"], "explain": "Se servir de cet outil: động từ đi với de, dùng dont.", "error_tag": "pronoms_relatifs"},
+       {"id": "e5", "type": "gap", "q": "Je ne connais pas le garçon ___ elle parle.", "answer": ["dont"], "explain": "Elle parle de ce garçon: parler de, dùng dont.", "error_tag": "pronoms_relatifs"},
+       {"id": "e6", "type": "gap", "q": "Tu te souviens du jour ___ nous avons déménagé ?", "answer": ["où"], "explain": "Sau le jour, thời gian: où. Không dùng quand sau danh từ.", "error_tag": "pronoms_relatifs"},
+       {"id": "e7", "type": "gap", "q": "Les photos que tu as ___ (prendre) sont magnifiques.", "answer": ["prises"], "explain": "COD les photos đứng trước avoir: participe hợp giống cái số nhiều, prises.", "error_tag": "accord_participe_passe"},
+       {"id": "e8", "type": "gap", "q": "Le gâteau ___ il a préparé était délicieux.", "answer": ["qu'", "qu"], "explain": "Il a préparé le gâteau: COD, que. Trước il, que rút gọn thành qu'.", "error_tag": "pronoms_relatifs"}
+     ]},
+    {"type": "listening", "title": "Mon ami Karim", "instructions": "Nghe tối đa 2 lần. Chú ý các đại từ quan hệ. Trả lời rồi mới mở văn bản.",
+     "text": "Je vais vous parler de Karim, un ami que j'ai rencontré à l'université. C'est quelqu'un qui adore la cuisine. Le quartier où il habite est plein de petits restaurants, mais le dimanche, c'est lui qui cuisine et il m'invite souvent chez lui. Le plat dont il est le plus fier, c'est un couscous qu'il prépare avec la recette de sa grand-mère. Je me souviens encore du jour où j'ai goûté ce plat pour la première fois : c'était en hiver, il faisait froid, et toute la table est restée silencieuse pendant le repas. Depuis, c'est le restaurant dont je parle à tous mes amis. Sauf que ce n'est pas un restaurant, c'est sa cuisine ! Ce que j'aime chez Karim, c'est sa générosité.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Où le narrateur a-t-il rencontré Karim ?", "options": ["Au travail", "À l'université", "Dans un restaurant"], "answer": 1, "explain": "« un ami que j'ai rencontré à l'université »."},
+       {"id": "l2", "type": "mcq", "q": "Quel plat Karim prépare-t-il avec la recette de sa grand-mère ?", "options": ["Une soupe", "Un couscous", "Un gâteau"], "answer": 1, "explain": "« un couscous qu'il prépare avec la recette de sa grand-mère »."},
+       {"id": "l3", "type": "truefalse", "q": "Le narrateur a goûté ce plat pour la première fois en été.", "answer": false, "explain": "« c'était en hiver, il faisait froid »."},
+       {"id": "l4", "type": "mcq", "q": "Qu'est-ce que le narrateur aime chez Karim ?", "options": ["Sa générosité", "Son humour", "Son appartement"], "answer": 0, "explain": "« Ce que j'aime chez Karim, c'est sa générosité »."}
+     ]},
+    {"type": "reading", "title": "La maison de famille", "instructions": "Đọc rồi trả lời. Với mỗi đại từ quan hệ in trong câu hỏi, tìm xem nó thay từ nào.",
+     "text": "La maison dont je vais vous parler se trouve dans un petit village du Sud-Ouest. C'est la maison où ma mère est née et où nous passons encore toutes nos vacances d'été. Mon grand-père, qui était maçon, l'a construite lui-même dans les années soixante. Les murs qu'il a montés sont épais et la maison reste fraîche même en août.\n\nChaque année, au mois de juillet, toute la famille s'y retrouve : mes cousins, que je ne vois qu'une fois par an, mes oncles, dont l'un habite au Canada, et bien sûr ma grand-mère, qui a aujourd'hui quatre-vingt-dix ans. Le jour où nous arrivons, nous ouvrons toutes les fenêtres et nous installons la grande table sous le tilleul. C'est l'endroit dont nous nous souvenons tous avec le plus d'émotion.\n\nCe que je préfère, ce sont les soirées. Les enfants jouent dans le jardin, les adultes discutent jusqu'à minuit et personne ne regarde son téléphone. Mes parents parlent parfois de vendre la maison, parce que l'entretien coûte cher. Mais pour moi, c'est un lieu qu'on ne peut pas remplacer.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Qui a construit la maison ?", "options": ["Le père du narrateur", "Le grand-père du narrateur", "Un voisin du village"], "answer": 1, "explain": "« Mon grand-père, qui était maçon, l'a construite lui-même »."},
+       {"id": "r2", "type": "mcq", "q": "« La maison où ma mère est née » : ici, où remplace :", "options": ["un lieu", "un moment", "une personne"], "answer": 0, "explain": "Ma mère est née dans cette maison: nơi chốn.", "error_tag": "pronoms_relatifs"},
+       {"id": "r3", "type": "mcq", "q": "« Mes oncles, dont l'un habite au Canada » signifie :", "options": ["un de mes oncles habite au Canada", "tous mes oncles habitent au Canada", "mes oncles partent au Canada"], "answer": 0, "explain": "Dont l'un = l'un de mes oncles: một trong các bác.", "error_tag": "pronoms_relatifs"},
+       {"id": "r4", "type": "truefalse", "q": "Les parents du narrateur veulent garder la maison à tout prix.", "answer": false, "explain": "« Mes parents parlent parfois de vendre la maison, parce que l'entretien coûte cher »."}
+     ]},
+    {"type": "speaking", "title": "Présentez une personne importante pour vous", "minutes": 3,
+     "prompt": "Présentez une personne importante pour vous en deux ou trois minutes : qui elle est, où vous l'avez rencontrée, ce dont vous parlez ensemble, et un jour que vous n'oublierez jamais. Utilisez au moins une fois chacun des pronoms qui, que, où et dont.",
+     "hints": ["C'est quelqu'un qui... / une personne que j'ai rencontrée...", "Le jour où... / l'endroit où...", "Ce dont nous parlons souvent, c'est... / ce que j'aime chez elle, c'est..."]},
+    {"type": "writing", "title": "Mon endroit préféré", "words": 120,
+     "prompt": "Décrivez le lieu que vous préférez dans votre ville (100 à 130 mots) : ce qu'on y trouve, les gens qui y vont, le jour où vous l'avez découvert, et ce dont vous avez besoin pour y passer une bonne journée.",
+     "criteria": ["Au moins six pronoms relatifs, avec au moins un dont et un où", "Participes passés accordés après que (la rue que j'ai choisie)", "Pas de quand après un nom de temps : le jour où", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "J'ai un collègue ___ la femme est pilote.", "options": ["que", "dont", "qui"], "answer": 1, "explain": "La femme de ce collègue: sở hữu, dùng dont.", "error_tag": "pronoms_relatifs"},
+       {"id": "q2", "type": "mcq", "q": "L'été ___ nous sommes allés en Italie, il faisait très chaud.", "options": ["où", "que", "quand"], "answer": 0, "explain": "Sau danh từ chỉ thời gian (l'été): où, không dùng quand.", "error_tag": "pronoms_relatifs"},
+       {"id": "q3", "type": "mcq", "q": "Le train ___ part à huit heures est toujours plein.", "options": ["qui", "que", "où"], "answer": 0, "explain": "Le train part: chủ ngữ, dùng qui.", "error_tag": "pronoms_relatifs"},
+       {"id": "q4", "type": "mcq", "q": "Les chaussures que j'ai ___ hier sont trop petites.", "options": ["acheté", "achetées", "achetés"], "answer": 1, "explain": "COD les chaussures (giống cái, số nhiều) đứng trước avoir: achetées.", "error_tag": "accord_participe_passe"},
+       {"id": "q5", "type": "mcq", "q": "Je ne comprends pas ___ tu veux dire.", "options": ["ce qui", "ce que", "que"], "answer": 1, "explain": "Không có danh từ đứng trước và tu veux dire là chủ ngữ + động từ: ce que.", "error_tag": "pronoms_relatifs"},
+       {"id": "q6", "type": "mcq", "q": "Le livre ___ tu m'as parlé est passionnant.", "options": ["que", "dont", "où"], "answer": 1, "explain": "Tu m'as parlé de ce livre: parler de, dùng dont.", "error_tag": "pronoms_relatifs"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- qui: chủ ngữ, sau nó là động từ. Không bao giờ rút gọn.\n- que / qu': bổ ngữ trực tiếp, sau nó là chủ ngữ. Participe passé với avoir hợp với danh từ đứng trước que.\n- où: nơi chốn và thời gian (le jour où, l'année où). Không dùng quand sau danh từ.\n- dont: thay de + danh từ, với động từ đi kèm de (parler de, avoir besoin de, se souvenir de) và sở hữu (dont le père). Sau dont giữ le, la, les.\n- ce qui / ce que khi không có danh từ đứng trước."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Viết 5 câu về khu phố của bạn, mỗi câu dùng một đại từ khác nhau: qui, que, où, dont, ce que.\n2. Thêm 6 động từ đi với de của bài (parler de, avoir besoin de, se souvenir de, rêver de, s'occuper de, se servir de) vào Vocabulary Trainer và ôn ngay hôm nay.\n3. Trong Speaking Lab, kể lại bài nghe « Mon ami Karim » bằng lời của bạn (2 phút).\n4. Trong Writing Lab, nộp bài « Mon endroit préféré » rồi sửa theo nhận xét về đại từ quan hệ."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Mục Grammaire, tìm Pronoms relatifs: nhiều bài tập có đáp án, miễn phí."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video kèm câu hỏi, miễn phí. Ghi lại các câu có dont và où."}
+     ]}
+  ]
+}

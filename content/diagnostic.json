@@ -1,0 +1,49 @@
+{
+  "title": "Bài kiểm tra đầu vào B1",
+  "intro": "Khoảng 35 đến 45 phút. Phần trắc nghiệm đo ngữ pháp, từ vựng, đọc và nghe ở mức B1. Phần viết và nói được AI chấm nếu đã cấu hình; nếu không, bạn tự đánh giá và hệ thống ghi nhận với độ tin cậy thấp.",
+  "sections": [
+    {"skill": "grammar", "type": "exercise", "title": "Grammaire", "instructions": "Chọn hoặc điền dạng đúng.",
+     "questions": [
+      {"id": "g1", "type": "gap", "q": "Quand j'étais petit, je ___ (jouer) souvent au football avec mes cousins.", "answer": ["jouais"], "explain": "Thói quen trong quá khứ (souvent) dùng imparfait: je jouais.", "error_tag": "passe_compose_imparfait"},
+      {"id": "g2", "type": "mcq", "q": "Hier soir, nous ___ un film, puis nous ___ dormir.", "options": ["regardions / allions", "avons regardé / sommes allés", "avons regardé / allions"], "answer": 1, "explain": "Hai hành động nối tiếp, đã kết thúc (hier soir, puis) dùng passé composé.", "error_tag": "passe_compose_imparfait"},
+      {"id": "g3", "type": "gap", "q": "Il faut que tu ___ (finir) ce rapport avant midi.", "answer": ["finisses"], "explain": "« Il faut que » kéo theo subjonctif: que tu finisses.", "error_tag": "subjonctif"},
+      {"id": "g4", "type": "mcq", "q": "Je pense qu'il ___ raison.", "options": ["ait", "a", "aie"], "answer": 1, "explain": "« Penser que » ở thể khẳng định đi với indicatif: il a raison. Chỉ ở phủ định hoặc nghi vấn mới dùng subjonctif.", "error_tag": "subjonctif"},
+      {"id": "g5", "type": "mcq", "q": "C'est le livre ___ je t'ai parlé.", "options": ["que", "dont", "qui"], "answer": 1, "explain": "Parler DE quelque chose, nên đại từ quan hệ là dont.", "error_tag": "pronoms_relatifs"},
+      {"id": "g6", "type": "mcq", "q": "La ville ___ j'habite est très calme.", "options": ["que", "où", "dont"], "answer": 1, "explain": "Bổ ngữ chỉ nơi chốn (habiter dans la ville) dùng où.", "error_tag": "pronoms_relatifs"},
+      {"id": "g7", "type": "gap", "q": "Si j'avais plus de temps, je ___ (voyager) davantage.", "answer": ["voyagerais"], "explain": "Si + imparfait, mệnh đề chính ở conditionnel présent: je voyagerais.", "error_tag": "conditionnel"},
+      {"id": "g8", "type": "mcq", "q": "Tu as téléphoné à Marie ? — Oui, je ___ ai téléphoné hier.", "options": ["l'", "lui", "la"], "answer": 1, "explain": "Téléphoner À quelqu'un: bổ ngữ gián tiếp, dùng lui.", "error_tag": "pronoms_cod_coi"},
+      {"id": "g9", "type": "mcq", "q": "Les fleurs que tu m'as ___ sont magnifiques.", "options": ["offert", "offerts", "offertes"], "answer": 2, "explain": "COD (les fleurs, giống cái số nhiều) đứng trước avoir nên participe passé hợp giống và số: offertes.", "error_tag": "accord_participe_passe"},
+      {"id": "g10", "type": "gap", "q": "Demain, nous ___ (prendre) le train de 8 heures.", "answer": ["prendrons"], "explain": "Futur simple của prendre: nous prendrons.", "error_tag": "futur"},
+      {"id": "g11", "type": "mcq", "q": "Elle habite ___ Paris mais elle travaille ___ Canada.", "options": ["à / au", "en / au", "à / en"], "answer": 0, "explain": "à + tên thành phố; au + tên nước giống đực (le Canada).", "error_tag": "prepositions"},
+      {"id": "g12", "type": "mcq", "q": "Je ne connais ___ dans cette ville.", "options": ["personne", "rien", "jamais"], "answer": 0, "explain": "Phủ định về người: ne ... personne.", "error_tag": "negation"}
+     ]},
+    {"skill": "vocab", "type": "exercise", "title": "Vocabulaire", "instructions": "Chọn từ đúng theo ngữ cảnh.",
+     "questions": [
+      {"id": "v1", "type": "mcq", "q": "Il a ___ son train parce qu'il est arrivé en retard à la gare.", "options": ["raté", "perdu", "oublié"], "answer": 0, "explain": "Rater son train: lỡ tàu.", "error_tag": "lexique"},
+      {"id": "v2", "type": "mcq", "q": "Mon frère est ___ : il n'aime pas dépenser de l'argent.", "options": ["généreux", "radin", "bavard"], "answer": 1, "explain": "Radin: keo kiệt. Généreux: hào phóng. Bavard: nói nhiều.", "error_tag": "lexique"},
+      {"id": "v3", "type": "mcq", "q": "Je dois ___ un rendez-vous chez le médecin.", "options": ["faire", "prendre", "mettre"], "answer": 1, "explain": "Cụm cố định: prendre (un) rendez-vous.", "error_tag": "lexique"},
+      {"id": "v4", "type": "mcq", "q": "Il a trouvé un ___ dans une banque : il commence lundi.", "options": ["emploi", "métier", "travaille"], "answer": 0, "explain": "Trouver un emploi: tìm được việc làm. « Travaille » là động từ, không phải danh từ.", "error_tag": "lexique"},
+      {"id": "v5", "type": "mcq", "q": "Le contraire de « bruyant » est :", "options": ["calme", "sombre", "étroit"], "answer": 0, "explain": "Bruyant (ồn) trái nghĩa với calme (yên tĩnh).", "error_tag": "lexique"},
+      {"id": "v6", "type": "mcq", "q": "Quand on ne comprend pas, on demande à la personne de ___.", "options": ["répéter", "repasser", "revenir"], "answer": 0, "explain": "Répéter: nhắc lại. Repasser: là quần áo hoặc đi qua lại. Revenir: quay lại.", "error_tag": "lexique"}
+     ]},
+    {"skill": "reading", "type": "reading", "title": "Compréhension écrite", "instructions": "Đọc bài báo ngắn rồi trả lời.",
+     "text": "Depuis le mois de mars, la ville de Nantes propose un nouveau service de vélos en libre-service. Pour un euro par jour, les habitants peuvent emprunter un vélo dans l'une des cent cinquante stations installées dans le centre-ville et dans les quartiers voisins. Le service fonctionne vingt-quatre heures sur vingt-quatre, mais les trente premières minutes sont gratuites seulement pour les abonnés à l'année.\n\nSelon la mairie, plus de dix mille personnes ont déjà utilisé les vélos pendant le premier mois. « Nous voulions offrir une solution simple aux habitants qui ne veulent pas prendre leur voiture pour de petits trajets », explique Claire Martin, responsable des transports. Certains commerçants se plaignent cependant du manque de places de stationnement près des stations, et des cyclistes demandent davantage de pistes cyclables dans les rues étroites du centre.\n\nLa ville promet d'installer cinquante stations supplémentaires avant la fin de l'année et d'ouvrir une nouvelle piste cyclable le long de la Loire.",
+     "questions": [
+      {"id": "r1", "type": "mcq", "q": "Combien coûte le service pour une journée ?", "options": ["Il est gratuit.", "Un euro.", "Trente euros."], "answer": 1, "explain": "« Pour un euro par jour »."},
+      {"id": "r2", "type": "truefalse", "q": "Les trente premières minutes sont gratuites pour tous les utilisateurs.", "answer": false, "explain": "Chỉ miễn phí cho người đăng ký năm (« seulement pour les abonnés à l'année »)."},
+      {"id": "r3", "type": "mcq", "q": "Qui se plaint du manque de places de stationnement ?", "options": ["La mairie", "Les commerçants", "Les cyclistes"], "answer": 1, "explain": "« Certains commerçants se plaignent du manque de places de stationnement »."},
+      {"id": "r4", "type": "mcq", "q": "Que promet la ville ?", "options": ["De baisser le prix du service", "D'ajouter des stations et une piste cyclable", "De fermer les stations du centre"], "answer": 1, "explain": "Đoạn cuối: cinquante stations supplémentaires và une nouvelle piste cyclable."}
+     ]},
+    {"skill": "listening", "type": "listening", "title": "Compréhension orale", "instructions": "Nghe tin nhắn thoại (tối đa 2 lần) rồi trả lời. Văn bản chỉ hiện sau khi nộp.",
+     "text": "Bonjour, c'est Julien, de l'agence immobilière. Je vous appelle au sujet de l'appartement de la rue Victor-Hugo que vous avez visité samedi. Le propriétaire accepte votre dossier, mais il voudrait signer le bail dès la semaine prochaine, jeudi ou vendredi, dans l'après-midi. Il faudra apporter une pièce d'identité, vos trois dernières fiches de paie et un chèque pour la caution, c'est-à-dire un mois de loyer. Si vous ne pouvez pas venir ces jours-là, rappelez-moi avant mercredi pour trouver une autre date. Vous pouvez me joindre au zéro six, quarante-deux, dix-huit, trente-cinq, vingt. Bonne journée et à bientôt.",
+     "questions": [
+      {"id": "l1", "type": "mcq", "q": "Pourquoi Julien appelle-t-il ?", "options": ["Pour proposer une visite", "Pour annoncer que le dossier est accepté", "Pour annuler la location"], "answer": 1, "explain": "« Le propriétaire accepte votre dossier »."},
+      {"id": "l2", "type": "mcq", "q": "Quand le propriétaire veut-il signer le bail ?", "options": ["Cette semaine", "Jeudi ou vendredi de la semaine prochaine", "Samedi matin"], "answer": 1, "explain": "« dès la semaine prochaine, jeudi ou vendredi, dans l'après-midi »."},
+      {"id": "l3", "type": "truefalse", "q": "La caution correspond à deux mois de loyer.", "answer": false, "explain": "« un chèque pour la caution, c'est-à-dire un mois de loyer »."},
+      {"id": "l4", "type": "mcq", "q": "Que faut-il faire si on ne peut pas venir ces jours-là ?", "options": ["Envoyer un courriel", "Rappeler avant mercredi", "Venir à l'agence lundi"], "answer": 1, "explain": "« rappelez-moi avant mercredi pour trouver une autre date »."}
+     ]}
+  ],
+  "writing": {"prompt": "Un ami français vous demande de raconter votre dernier week-end et de dire ce que vous préférez faire pendant votre temps libre. Écrivez-lui un message de 80 à 120 mots.", "min_words": 80},
+  "speaking": {"prompt": "Présentez-vous en une minute : votre parcours, votre travail ou vos études, et pourquoi vous apprenez le français.", "seconds": 60},
+  "self_rating": {"intro": "Nếu AI chưa cấu hình, hãy tự đánh giá (0 đến 100). Hệ thống lưu với nguồn « tự đánh giá », độ tin cậy thấp."}
+}

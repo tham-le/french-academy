@@ -1,0 +1,91 @@
+{
+  "id": "b1-w2-l8", "phase": 1, "module": "Expression écrite", "week": 2, "order": 4,
+  "level": "B1", "skill": "writing", "title": "Écrire un courriel formel et informel",
+  "duration_min": 45, "prerequisites": ["b1-w1-l2"],
+  "error_tags": ["registre", "conditionnel", "orthographe"],
+  "objectives": [
+    "Viết một courriel đủ bốn phần: objet, formule d'appel, corps, formule de politesse",
+    "Chọn đúng registre: tu hay vous, salut hay bonjour, bises hay cordialement",
+    "Xin thông tin, xin lỗi và xác nhận hẹn bằng conditionnel de politesse"
+  ],
+  "intro": "Một courriel ngắn là bài kiểm tra nhanh nhất về registre: cùng một yêu cầu, viết cho bạn và viết cho một cơ quan sẽ khác từ dòng đầu đến dòng cuối. Bài này cho bạn **khung cố định** của courriel và các công thức để xin thông tin, xin lỗi, xác nhận hẹn, ở hai registre.",
+  "references": [
+    {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Mục Production écrite, tìm lettre et courriel"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Bốn phần của một courriel",
+     "body": "Một courriel tiếng Pháp luôn có bốn phần, dù trang trọng hay thân mật.\n\n1. **Objet**: tiêu đề ngắn, không phải câu đầy đủ. *Objet : demande d'information* / *Objet : jeudi soir*.\n2. **Formule d'appel**: *Madame, Monsieur,* khi không biết tên; *Madame Martin,* hoặc *Bonjour Madame Martin,* khi biết tên; *Salut Léa,* hay *Coucou,* với bạn bè.\n3. **Corps**: lý do viết ngay câu đầu (*Je vous écris au sujet de...* / *Je t'écris parce que...*), rồi yêu cầu, rồi chi tiết. Mỗi ý một đoạn.\n4. **Formule de politesse** và chữ ký: *Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.* (rất trang trọng), *Cordialement,* (trang trọng vừa, phổ biến nhất), *Bien à vous,* (thân thiện nhưng vẫn vous), *À bientôt, bises* (thân mật).\n\nDấu hiệu registre: *vous* đi với *Bonjour, Cordialement, Pourriez-vous*; *tu* đi với *Salut, Bises, Tu peux*. Không trộn hai bên trong cùng một thư."},
+    {"type": "vocab", "title": "Công thức của courriel",
+     "items": [
+       {"fr": "l'objet (du courriel)", "vi": "tiêu đề thư", "example": "Objet : demande d'information sur le cours du soir."},
+       {"fr": "une pièce jointe", "vi": "tệp đính kèm", "example": "Vous trouverez mon CV en pièce jointe."},
+       {"fr": "ci-joint", "vi": "đính kèm (trong câu)", "example": "Je vous envoie ci-joint le formulaire rempli."},
+       {"fr": "la formule de politesse", "vi": "câu chào kết thư", "example": "« Cordialement » est la formule de politesse la plus courante."},
+       {"fr": "veuillez + infinitif", "vi": "xin vui lòng", "example": "Veuillez trouver ci-joint ma candidature."},
+       {"fr": "dans l'attente de", "vi": "trong khi chờ", "example": "Dans l'attente de votre réponse, je vous remercie."},
+       {"fr": "confirmer", "vi": "xác nhận", "example": "Je vous confirme notre rendez-vous de jeudi."},
+       {"fr": "reporter (un rendez-vous)", "vi": "dời (lịch hẹn)", "example": "Serait-il possible de reporter notre rendez-vous ?"},
+       {"fr": "je vous prie de m'excuser", "vi": "tôi xin lỗi (trang trọng)", "example": "Je vous prie de m'excuser pour ce retard."},
+       {"fr": "se renseigner sur", "vi": "hỏi thông tin về", "example": "Je souhaite me renseigner sur les horaires du cours."}
+     ]},
+    {"type": "grammar", "title": "Conditionnel de politesse và vouvoiement",
+     "body": "### Le conditionnel de politesse\n\nGốc của futur + đuôi của imparfait: *-ais, -ais, -ait, -ions, -iez, -aient*. *vouloir → je voudrais*, *aimer → j'aimerais*, *pouvoir → vous pourriez*, *être → il serait*, *avoir → vous auriez*.\n\nConditionnel làm yêu cầu mềm hơn:\n\n- *Je veux une information.* → *Je voudrais une information.* / *J'aimerais avoir une information.*\n- *Envoyez-moi le document.* → *Pourriez-vous m'envoyer le document ?*\n- *Est-ce possible ?* → *Serait-il possible de reporter le rendez-vous ?*\n- *Auriez-vous un créneau mardi matin ?* / *Il faudrait confirmer avant vendredi.*\n\nBẫy chính tả: *j'aimerais* (conditionnel, đuôi *-ais*) khác *j'aimerai* (futur, đuôi *-ai*). Trong courriel lịch sự, gần như luôn là *-ais*.\n\n### Le vouvoiement\n\nVới người lạ, cơ quan, cấp trên, khách hàng: *vous* + động từ đuôi *-ez*, tính từ sở hữu *votre / vos*, đại từ bổ ngữ *vous*.\n\n- *Tu peux m'envoyer ton adresse ?* → *Pourriez-vous m'envoyer votre adresse ?*\n- *Je te remercie.* → *Je vous remercie.*\n\nKhi đảo ngữ, viết gạch nối: *pourriez-vous*, *auriez-vous*, *serait-il*. Sau *Madame, Monsieur,* và *Cordialement,* luôn có dấu phẩy rồi xuống dòng.",
+     "examples": [
+       {"fr": "Je voudrais savoir si le cours du soir est encore ouvert.", "vi": "Je voudrais thay je veux: lịch sự hơn."},
+       {"fr": "Pourriez-vous m'envoyer le programme ?", "vi": "Đảo ngữ với vous, có gạch nối."},
+       {"fr": "Serait-il possible de reporter notre rendez-vous au mardi 12 ?", "vi": "Công thức xin dời hẹn."},
+       {"fr": "Je vous remercie par avance de votre réponse.", "vi": "Câu cảm ơn trước khi kết thư."}
+     ]},
+    {"type": "exercise", "title": "Formel ou informel ?", "instructions": "Chọn câu hoặc công thức phù hợp với tình huống.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Vous écrivez à la directrice d'une école de langues. Quelle formule d'appel choisissez-vous ?", "options": ["Salut !", "Madame la Directrice,", "Coucou Madame,"], "answer": 1, "explain": "Người lạ, có chức vụ: Madame + chức vụ, dấu phẩy, xuống dòng.", "error_tag": "registre"},
+       {"id": "e2", "type": "mcq", "q": "Pour demander une information à un service client, vous écrivez :", "options": ["Je veux savoir le prix.", "Je voudrais connaître le prix.", "Dis-moi le prix."], "answer": 1, "explain": "Conditionnel je voudrais làm yêu cầu lịch sự. Je veux quá thẳng, dis-moi là tu.", "error_tag": "registre"},
+       {"id": "e3", "type": "mcq", "q": "Quelle phrase est la plus formelle ?", "options": ["Tu peux m'envoyer le document ?", "Vous pouvez m'envoyer le document ?", "Pourriez-vous m'envoyer le document ?"], "answer": 2, "explain": "Vous + conditionnel + đảo ngữ: mức trang trọng cao nhất.", "error_tag": "registre"},
+       {"id": "e4", "type": "mcq", "q": "Vous écrivez à un ami pour annuler une sortie. Quelle fin de message convient ?", "options": ["Je vous prie d'agréer mes salutations distinguées.", "Désolé, on se voit la semaine prochaine ! Bises", "Dans l'attente de votre réponse, cordialement."], "answer": 1, "explain": "Với bạn: câu ngắn, tu, bises. Hai công thức kia là registre formel.", "error_tag": "registre"},
+       {"id": "e5", "type": "mcq", "q": "Pour s'excuser dans un courriel formel, on écrit :", "options": ["Pardon, c'est ma faute.", "Je vous prie de m'excuser pour ce contretemps.", "Oups, désolé !"], "answer": 1, "explain": "Je vous prie de m'excuser pour...: công thức xin lỗi trang trọng.", "error_tag": "registre"},
+       {"id": "e6", "type": "mcq", "q": "Quelle formule termine un courriel à un collègue que vous vouvoyez ?", "options": ["Cordialement,", "Bisous,", "Ciao,"], "answer": 0, "explain": "Cordialement đi với vous. Bisous và ciao chỉ dùng với tu.", "error_tag": "registre"},
+       {"id": "e7", "type": "mcq", "q": "Vous confirmez un rendez-vous avec un médecin. Vous écrivez :", "options": ["Je vous confirme notre rendez-vous du jeudi 12 mars à 10 h.", "OK pour jeudi 10 h !", "Jeudi 10 h, ça marche."], "answer": 0, "explain": "Xác nhận trang trọng: je vous confirme + ngày giờ đầy đủ.", "error_tag": "registre"},
+       {"id": "e8", "type": "mcq", "q": "Dans un courriel formel, l'objet doit être :", "options": ["absent", "court et précis", "une phrase complète qui commence par bonjour"], "answer": 1, "explain": "Objet là vài từ nêu đúng nội dung, không phải câu chào.", "error_tag": "registre"}
+     ]},
+    {"type": "listening", "title": "Message du secrétariat", "instructions": "Nghe tin nhắn thoại tối đa 2 lần. Ghi: tài liệu thiếu, hạn chót, ngày giờ thi.",
+     "text": "Bonjour, ici le secrétariat de l'école de langues. Je vous appelle au sujet de votre demande d'inscription au cours de français du soir. Nous avons bien reçu votre courriel, mais il manque une pièce jointe : la copie de votre pièce d'identité. Pourriez-vous nous l'envoyer avant vendredi ? Sans ce document, nous ne pouvons pas confirmer votre place. Je vous rappelle aussi que le test de niveau a lieu le lundi 9 à 18 h, salle 3. Si cet horaire ne vous convient pas, il serait possible de le reporter au mercredi suivant, à la même heure. Dans ce cas, merci de nous répondre par courriel, avec votre nom dans l'objet. Je vous souhaite une bonne journée et à bientôt.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Pourquoi le secrétariat appelle-t-il ?", "options": ["Pour annuler le cours", "Parce qu'il manque un document", "Pour changer le prix du cours"], "answer": 1, "explain": "« il manque une pièce jointe : la copie de votre pièce d'identité »."},
+       {"id": "l2", "type": "mcq", "q": "Quel document faut-il envoyer ?", "options": ["Une photo", "Une copie de la pièce d'identité", "Un certificat médical"], "answer": 1, "explain": "« la copie de votre pièce d'identité »."},
+       {"id": "l3", "type": "truefalse", "q": "Le test de niveau a lieu le lundi à 18 h.", "answer": true, "explain": "« le test de niveau a lieu le lundi 9 à 18 h, salle 3 »."},
+       {"id": "l4", "type": "mcq", "q": "Pour reporter le test, il faut :", "options": ["téléphoner au secrétariat", "venir à l'école", "répondre par courriel"], "answer": 2, "explain": "« merci de nous répondre par courriel, avec votre nom dans l'objet »."}
+     ]},
+    {"type": "reading", "title": "Deux courriels, deux registres", "instructions": "Đọc hai thư cùng nội dung. So sánh cách mở đầu, cách xin và cách kết thư.",
+     "text": "Courriel 1\n\nObjet : report de notre rendez-vous du 14 mars\n\nMadame Lefèvre,\n\nJe me permets de vous écrire au sujet de notre rendez-vous du jeudi 14 mars à 9 h. En raison d'un déplacement professionnel, je ne pourrai malheureusement pas être présent ce jour-là. Serait-il possible de le reporter à la semaine suivante, de préférence le mardi ou le mercredi matin ? Je vous prie de m'excuser pour ce changement de dernière minute et je vous remercie de votre compréhension.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, mes salutations distinguées.\n\nThomas Berger\n\nCourriel 2\n\nObjet : jeudi\n\nSalut Léa,\n\nPetit changement de programme : je dois partir à Lille jeudi pour le boulot, donc je ne pourrai pas venir au ciné. Désolé ! On peut décaler à samedi ? Il y a une séance à 20 h, je peux prendre les places si tu veux. Dis-moi ce qui t'arrange.\n\nBises,\nThomas",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi Thomas ne peut-il pas venir le 14 mars ?", "options": ["Il est malade.", "Il doit partir en déplacement pour son travail.", "Il a oublié le rendez-vous."], "answer": 1, "explain": "« En raison d'un déplacement professionnel »; trong thư 2: « je dois partir à Lille pour le boulot »."},
+       {"id": "r2", "type": "mcq", "q": "Dans le courriel 1, « Serait-il possible de le reporter ? » est :", "options": ["une demande polie au conditionnel", "un ordre", "une question au futur"], "answer": 0, "explain": "Serait là conditionnel của être: yêu cầu lịch sự.", "error_tag": "conditionnel"},
+       {"id": "r3", "type": "mcq", "q": "Quel élément montre que le courriel 2 est informel ?", "options": ["L'objet « jeudi » et « Salut Léa »", "La formule « je vous prie d'agréer »", "La date du rendez-vous"], "answer": 0, "explain": "Objet một từ, Salut, tu, le boulot, bises: registre thân mật.", "error_tag": "registre"},
+       {"id": "r4", "type": "truefalse", "q": "Dans les deux courriels, Thomas propose une nouvelle date.", "answer": true, "explain": "Thư 1: mardi ou mercredi matin. Thư 2: samedi."}
+     ]},
+    {"type": "speaking", "title": "Reporter un rendez-vous à l'oral", "minutes": 2,
+     "prompt": "Laissez un message vocal à la secrétaire d'un cabinet médical pour reporter un rendez-vous (une minute) : présentez-vous, donnez la date du rendez-vous, la raison, proposez deux nouvelles dates et terminez poliment. Puis laissez le même message à un ami, en registre familier (une minute).",
+     "hints": ["Bonjour, je m'appelle... Je vous appelle au sujet de mon rendez-vous du...", "Serait-il possible de le reporter au... ou au... ?", "Version amie : Salut, c'est... Je ne peux pas venir... On décale à... ?"]},
+    {"type": "writing", "title": "Courriel formel au secrétariat", "words": 135,
+     "prompt": "Vous voulez suivre un cours de français du soir dans une école de langues. Écrivez un courriel formel (120 à 150 mots) au secrétariat pour : vous présenter, demander les horaires et le prix, expliquer que vous ne pouvez pas venir au test de niveau du lundi et proposer un autre jour. Respectez la structure : objet, formule d'appel, corps, formule de politesse, signature.",
+     "criteria": ["Objet court et précis, formule d'appel et formule de politesse adaptées au registre formel", "Vouvoiement du début à la fin, sans mélange avec tu", "Au moins trois formes de politesse au conditionnel (je voudrais, pourriez-vous, serait-il possible de)", "Trois demandes claires : horaires, prix, report du test", "Orthographe des formules fixes et longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "___ m'indiquer vos horaires d'ouverture ?", "options": ["Pourriez-vous", "Pouvez-tu", "Tu pourrais"], "answer": 0, "explain": "Vos báo hiệu vouvoiement: pourriez-vous, conditionnel + đảo ngữ.", "error_tag": "conditionnel"},
+       {"id": "q2", "type": "mcq", "q": "J'___ savoir si le cours du soir est encore ouvert.", "options": ["aimerai", "aimerais", "aime"], "answer": 1, "explain": "Conditionnel de politesse: j'aimerais, đuôi -ais. J'aimerai là futur.", "error_tag": "orthographe"},
+       {"id": "q3", "type": "mcq", "q": "Quelle formule termine un courriel très formel ?", "options": ["Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.", "À plus !", "Gros bisous"], "answer": 0, "explain": "Công thức kết thư trang trọng nhất.", "error_tag": "registre"},
+       {"id": "q4", "type": "mcq", "q": "Vous ne connaissez pas le nom du destinataire. Vous commencez par :", "options": ["Salut,", "Madame, Monsieur,", "Cher ami,"], "answer": 1, "explain": "Không biết tên và giới tính: Madame, Monsieur.", "error_tag": "registre"},
+       {"id": "q5", "type": "mcq", "q": "Quelle phrase convient à un courriel formel ?", "options": ["Je veux une réponse vite.", "Je vous remercie par avance de votre réponse.", "Réponds-moi vite !"], "answer": 1, "explain": "Vous + công thức cảm ơn trước. Hai câu kia quá thẳng hoặc dùng tu.", "error_tag": "registre"},
+       {"id": "q6", "type": "mcq", "q": "Comment s'écrit la formule correcte ?", "options": ["Cordialement", "Cordialment", "Cordiallement"], "answer": 0, "explain": "Cordialement: cordial + e + ment, một l.", "error_tag": "orthographe"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Bốn phần: objet, formule d'appel, corps, formule de politesse và chữ ký.\n- Formel: Madame, Monsieur / vous / Cordialement, Je vous prie d'agréer. Informel: Salut / tu / Bises, À bientôt.\n- Yêu cầu lịch sự ở conditionnel: je voudrais, j'aimerais, pourriez-vous, serait-il possible de.\n- Xin lỗi: je vous prie de m'excuser pour... Xác nhận: je vous confirme notre rendez-vous du...\n- Chính tả: j'aimerais (đuôi -ais), pourriez-vous (gạch nối), Cordialement (một l)."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Viết lại courriel 2 của bài đọc (thư cho Léa) ở registre formel, như gửi cho một đồng nghiệp bạn vouvoie.\n2. Thêm 8 công thức của bài vào Vocabulary Trainer và ôn ngay hôm nay.\n3. Trong Speaking Lab, đọc to courriel formel của bạn rồi nghe lại: chú ý các dạng -ais và pourriez-vous.\n4. Trong Writing Lab, nộp bài « Courriel formel au secrétariat » rồi sửa theo nhận xét về registre."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Mục Production écrite, tìm lettre et courriel: mẫu thư và bài tập, miễn phí."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe bản tin ngắn có transcript, ghi lại các câu ở conditionnel."}
+     ]}
+  ]
+}

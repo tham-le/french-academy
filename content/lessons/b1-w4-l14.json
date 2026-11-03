@@ -1,0 +1,91 @@
+{
+  "id": "b1-w4-l14", "phase": 1, "module": "Vie quotidienne en France", "week": 4, "order": 2,
+  "level": "B1", "skill": "culture", "title": "Santé et démarches administratives",
+  "duration_min": 45, "prerequisites": ["b1-w1-l2"],
+  "error_tags": ["lexique", "prepositions", "negation"],
+  "objectives": [
+    "Nắm từ vựng của việc khám bệnh và của hồ sơ hành chính (médecin traitant, ordonnance, titre de séjour, justificatif)",
+    "Hiểu một thông báo hoặc một trang câu hỏi thường gặp về thủ tục hành chính",
+    "Ra chỉ dẫn và hiểu chỉ dẫn với impératif, il faut, vous devez, n'oubliez pas de"
+  ],
+  "intro": "Đi khám bệnh và làm giấy tờ là hai việc mà ai sống ở Pháp cũng phải làm, và mỗi việc có từ vựng riêng. Bài này cho bạn các từ khoá, cách đọc một thông báo hành chính, và cách ra chỉ dẫn với impératif, *il faut*, *vous devez*.",
+  "references": [
+    {"title": "Service-Public", "url": "https://www.service-public.fr/", "note": "Trang chính thức về thủ tục hành chính, dùng để tra cứu sau bài"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Y tế và hành chính, nhìn nhanh",
+     "body": "**Khám bệnh.** Mỗi người khai một *médecin traitant* (bác sĩ gia đình). Khám ở đó được hoàn tiền nhiều hơn. Bác sĩ viết *ordonnance* (đơn thuốc), bạn mang ra *pharmacie*. Khi khám, đưa *carte Vitale* (thẻ bảo hiểm y tế nhà nước). Phần còn lại do *mutuelle* (bảo hiểm bổ sung) trả, nếu bạn có. Khám chuyên khoa thường cần *médecin traitant* giới thiệu.\n\n**Giấy tờ.** *Mairie* lo hộ tịch (khai sinh, kết hôn), đăng ký trường cho con, một số giấy chứng nhận. *Préfecture* lo *titre de séjour* và giấy tờ xe. Gần như mọi hồ sơ đều cần *pièce d'identité*, *justificatif de domicile* (hoá đơn điện, hợp đồng thuê nhà, dưới ba hoặc sáu tháng), và một *formulaire* điền đầy đủ.\n\n**Cách đọc một thông báo.** Tìm bốn thứ: ai phải làm (*vous devez*), làm gì (động từ nguyên mẫu), khi nào (*avant le, dans un délai de*), với giấy tờ nào (*sur présentation de, accompagné de*). Các câu còn lại thường là chi tiết."},
+    {"type": "vocab", "title": "Từ vựng y tế và hành chính",
+     "items": [
+       {"fr": "le médecin traitant", "vi": "bác sĩ gia đình, bác sĩ điều trị chính", "example": "Il faut déclarer un médecin traitant pour être bien remboursé."},
+       {"fr": "une ordonnance", "vi": "đơn thuốc", "example": "Le médecin m'a fait une ordonnance pour des antibiotiques."},
+       {"fr": "la carte Vitale", "vi": "thẻ bảo hiểm y tế", "example": "N'oubliez pas votre carte Vitale au rendez-vous."},
+       {"fr": "une mutuelle", "vi": "bảo hiểm y tế bổ sung", "example": "Ma mutuelle rembourse le reste des frais."},
+       {"fr": "prendre rendez-vous", "vi": "đặt lịch hẹn", "example": "J'ai pris rendez-vous chez le dentiste pour jeudi."},
+       {"fr": "la mairie", "vi": "tòa thị chính, ủy ban xã hoặc phường", "example": "On demande l'acte de naissance à la mairie."},
+       {"fr": "la préfecture", "vi": "cơ quan hành chính cấp tỉnh", "example": "Le titre de séjour se demande à la préfecture."},
+       {"fr": "un titre de séjour", "vi": "thẻ cư trú", "example": "Mon titre de séjour expire en juin."},
+       {"fr": "un justificatif de domicile", "vi": "giấy chứng minh nơi ở", "example": "Une facture d'électricité sert de justificatif de domicile."},
+       {"fr": "remplir un formulaire", "vi": "điền tờ khai", "example": "Vous devez remplir le formulaire en ligne avant le rendez-vous."}
+     ]},
+    {"type": "grammar", "title": "Ra chỉ dẫn : impératif, il faut, vous devez",
+     "body": "### L'impératif\n\nImpératif dùng để ra lệnh, khuyên, chỉ dẫn. Có ba ngôi, *tu, nous, vous*, và không có chủ ngữ: *Remplis le formulaire. Remplissons. Remplissez.*\n\nĐộng từ nhóm 1 bỏ *s* ở ngôi *tu*: *Tu regardes* → *Regarde !* Bất quy tắc: *être* (*sois, soyons, soyez*), *avoir* (*aie, ayons, ayez*), *savoir* (*sache, sachons, sachez*).\n\nPhủ định: *ne* + động từ + *pas*: *Ne signez pas tout de suite. N'oubliez pas vos papiers.*\n\n### Ba cách chỉ dẫn khác\n\n- **il faut + nguyên mẫu**: quy tắc chung cho mọi người. *Il faut prendre rendez-vous.*\n- **vous devez + nguyên mẫu**: hướng vào người nghe, giọng hành chính. *Vous devez présenter une pièce d'identité.*\n- **n'oubliez pas de + nguyên mẫu**: nhắc nhở, nhẹ hơn. *N'oubliez pas d'apporter votre carte Vitale.*\n\n### Giới từ cần nhớ\n\n*aller chez le médecin, chez le dentiste* (người), *aller à la pharmacie, à la mairie, à la préfecture* (nơi), *prendre rendez-vous avec le docteur* hoặc *chez le docteur*, *avoir mal à la gorge, au dos, aux dents*.",
+     "examples": [
+       {"fr": "Prenez rendez-vous en ligne et apportez votre carte Vitale.", "vi": "Hai chỉ dẫn ở impératif, ngôi vous."},
+       {"fr": "Il faut remplir le formulaire avant de venir au guichet.", "vi": "Il faut + nguyên mẫu: quy tắc chung."},
+       {"fr": "Vous devez fournir un justificatif de domicile de moins de trois mois.", "vi": "Vous devez + nguyên mẫu: giọng hành chính."},
+       {"fr": "N'oubliez pas de signer la dernière page.", "vi": "Nhắc nhở bằng impératif phủ định."}
+     ]},
+    {"type": "exercise", "title": "Les mots et les consignes", "instructions": "Chọn từ đúng hoặc điền vào chỗ trống.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Pour être bien remboursé, il faut déclarer un ___.", "options": ["médecin traitant", "pharmacien", "facteur"], "answer": 0, "explain": "Le médecin traitant: bác sĩ gia đình được khai với bảo hiểm.", "error_tag": "lexique"},
+       {"id": "e2", "type": "mcq", "q": "Le médecin écrit les médicaments sur ___.", "options": ["une attestation", "une ordonnance", "un formulaire"], "answer": 1, "explain": "L'ordonnance: đơn thuốc.", "error_tag": "lexique"},
+       {"id": "e3", "type": "gap", "q": "J'ai pris rendez-vous ___ le dentiste pour lundi.", "answer": ["chez"], "explain": "Đi đến chỗ một người: chez.", "error_tag": "prepositions"},
+       {"id": "e4", "type": "gap", "q": "Pour le titre de séjour, je dois aller ___ préfecture.", "answer": ["à la"], "explain": "Đi đến một nơi: à la préfecture.", "error_tag": "prepositions"},
+       {"id": "e5", "type": "mcq", "q": "___ pas d'apporter votre carte Vitale.", "options": ["N'oubliez", "Oubliez", "N'oublie"], "answer": 0, "explain": "Phủ định của impératif: n' + động từ + pas. Ngôi vous vì có votre.", "error_tag": "negation"},
+       {"id": "e6", "type": "mcq", "q": "Pour vous inscrire, vous devez ___ ce formulaire.", "options": ["remplir", "remplacer", "rembourser"], "answer": 0, "explain": "Remplir un formulaire: điền tờ khai.", "error_tag": "lexique"},
+       {"id": "e7", "type": "gap", "q": "Ne ___ (laisser, vous) pas vos papiers à la maison.", "answer": ["laissez"], "explain": "Impératif phủ định ngôi vous: ne laissez pas.", "error_tag": "negation"},
+       {"id": "e8", "type": "mcq", "q": "Une facture d'électricité peut servir de ___.", "options": ["justificatif de domicile", "titre de séjour", "carte Vitale"], "answer": 0, "explain": "Hoá đơn điện chứng minh nơi ở.", "error_tag": "lexique"}
+     ]},
+    {"type": "listening", "title": "Prendre rendez-vous chez le médecin", "instructions": "Nghe cuộc gọi tối đa 2 lần. Ghi lại lý do, ngày giờ, và giấy tờ cần mang.",
+     "text": "La secrétaire : Cabinet du docteur Morel, bonjour.\nLe patient : Bonjour madame. Je voudrais prendre rendez-vous avec le docteur Morel, s'il vous plaît.\nLa secrétaire : Vous êtes déjà patient chez nous ?\nLe patient : Non, c'est la première fois. Je viens d'arriver dans le quartier.\nLa secrétaire : D'accord. C'est pour quel motif ?\nLe patient : J'ai mal à la gorge depuis trois jours et j'ai un peu de fièvre.\nLa secrétaire : Le docteur a une place demain à neuf heures quinze, ou jeudi à dix-sept heures trente.\nLe patient : Demain à neuf heures quinze, c'est parfait.\nLa secrétaire : Votre nom, s'il vous plaît ?\nLe patient : Nguyen, N, G, U, Y, E, N. Mon numéro, c'est le 06 12 34 56 78.\nLa secrétaire : Très bien. N'oubliez pas votre carte Vitale et votre carte de mutuelle. La consultation coûte trente euros.\nLe patient : Merci beaucoup, à demain.\nLa secrétaire : À demain, monsieur.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Pourquoi le patient appelle-t-il ?", "options": ["Pour annuler un rendez-vous", "Pour prendre rendez-vous", "Pour demander une ordonnance"], "answer": 1, "explain": "« Je voudrais prendre rendez-vous avec le docteur Morel »."},
+       {"id": "l2", "type": "mcq", "q": "Quel est son problème de santé ?", "options": ["Il a mal au dos.", "Il a mal à la gorge et de la fièvre.", "Il s'est cassé le bras."], "answer": 1, "explain": "« J'ai mal à la gorge depuis trois jours et j'ai un peu de fièvre »."},
+       {"id": "l3", "type": "mcq", "q": "Quand est le rendez-vous ?", "options": ["Demain à 9 h 15", "Jeudi à 17 h 30", "Demain à 17 h 30"], "answer": 0, "explain": "Bệnh nhân chọn « Demain à neuf heures quinze »."},
+       {"id": "l4", "type": "truefalse", "q": "Le patient doit apporter seulement sa carte Vitale.", "answer": false, "explain": "« votre carte Vitale et votre carte de mutuelle »: hai thẻ."}
+     ]},
+    {"type": "reading", "title": "Questions fréquentes : renouveler un titre de séjour", "instructions": "Đọc trang câu hỏi thường gặp rồi trả lời. Tìm: khi nào, ở đâu, giấy tờ nào, bao lâu.",
+     "text": "Quand faut-il faire la demande ?\nVous devez déposer votre demande entre quatre mois et deux mois avant la date de fin de votre titre actuel. Si vous attendez trop, vous risquez une période sans droit au travail.\n\nOù faire la demande ?\nLa demande se fait en ligne, sur le site de la préfecture de votre département. Vous n'avez pas besoin de vous déplacer pour déposer le dossier. Un rendez-vous au guichet est fixé plus tard, uniquement pour prendre vos empreintes et récupérer la carte.\n\nQuels documents préparer ?\nUn passeport valide, votre titre de séjour actuel, un justificatif de domicile de moins de six mois, une photo d'identité récente et, selon votre situation, un contrat de travail, une attestation de l'employeur ou un certificat de scolarité. Tous les documents doivent être scannés en couleur et lisibles.\n\nQue se passe-t-il après le dépôt ?\nVous recevez par courriel une attestation de dépôt. Gardez-la précieusement : elle prouve que votre demande est en cours. Le traitement du dossier prend en général entre deux et quatre mois. Si un document manque, la préfecture vous écrit et vous avez un mois pour l'envoyer.\n\nCombien ça coûte ?\nLe montant dépend du type de titre. Le paiement se fait par timbre fiscal, acheté en ligne ou dans un bureau de tabac.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Quand faut-il déposer la demande ?", "options": ["Après la fin du titre actuel", "Entre quatre et deux mois avant la fin du titre", "Un an avant la fin du titre"], "answer": 1, "explain": "« entre quatre mois et deux mois avant la date de fin de votre titre actuel »."},
+       {"id": "r2", "type": "truefalse", "q": "Il faut aller à la préfecture pour déposer le dossier.", "answer": false, "explain": "« La demande se fait en ligne. Vous n'avez pas besoin de vous déplacer »."},
+       {"id": "r3", "type": "mcq", "q": "À quoi sert l'attestation de dépôt ?", "options": ["À payer le timbre fiscal", "À prouver que la demande est en cours", "À remplacer le passeport"], "answer": 1, "explain": "« elle prouve que votre demande est en cours »."},
+       {"id": "r4", "type": "mcq", "q": "Si un document manque, vous avez ___ pour l'envoyer.", "options": ["une semaine", "un mois", "deux mois"], "answer": 1, "explain": "« vous avez un mois pour l'envoyer »."}
+     ]},
+    {"type": "speaking", "title": "Expliquer à un ami comment se soigner en France", "minutes": 3,
+     "prompt": "Un ami vient d'arriver en France et il est malade. Expliquez-lui en deux ou trois minutes ce qu'il doit faire : trouver un médecin, prendre rendez-vous, ce qu'il faut apporter, ce qu'il faut faire après la consultation. Donnez au moins cinq consignes avec l'impératif, il faut ou tu dois.",
+     "hints": ["D'abord, il faut trouver un médecin traitant près de chez toi...", "Prends rendez-vous par téléphone ou en ligne, et n'oublie pas ta carte Vitale.", "Après la consultation, va à la pharmacie avec l'ordonnance."]},
+    {"type": "writing", "title": "Un courriel à la mairie", "words": 120,
+     "prompt": "Vous avez besoin d'une attestation de la mairie, par exemple pour inscrire votre enfant à l'école ou pour un dossier de logement. Écrivez un courriel (100 à 130 mots) : présentez-vous, expliquez votre demande, dites quels documents vous joignez, demandez le délai, et terminez par une formule de politesse.",
+     "criteria": ["Formule d'appel et formule de politesse adaptées (Madame, Monsieur ; Je vous prie d'agréer...)", "Demande claire avec le vocabulaire administratif de la leçon", "Au moins une phrase avec pourriez-vous ou je vous serais reconnaissant(e) de", "Prépositions correctes (à la mairie, chez le médecin, de moins de trois mois)", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Qui écrit l'ordonnance ?", "options": ["Le pharmacien", "Le médecin", "La secrétaire"], "answer": 1, "explain": "Bác sĩ viết đơn thuốc, dược sĩ bán thuốc theo đơn.", "error_tag": "lexique"},
+       {"id": "q2", "type": "mcq", "q": "Pour obtenir un titre de séjour, on s'adresse ___.", "options": ["à la mairie", "à la préfecture", "à la pharmacie"], "answer": 1, "explain": "Titre de séjour: préfecture.", "error_tag": "lexique"},
+       {"id": "q3", "type": "mcq", "q": "Je vais ___ médecin demain matin.", "options": ["chez le", "au", "à le"], "answer": 0, "explain": "Đến chỗ một người: chez le médecin.", "error_tag": "prepositions"},
+       {"id": "q4", "type": "mcq", "q": "Il faut ___ ce formulaire avant vendredi.", "options": ["renvoyer", "rembourser", "retrouver"], "answer": 0, "explain": "Renvoyer un formulaire: gửi lại tờ khai.", "error_tag": "lexique"},
+       {"id": "q5", "type": "mcq", "q": "___ jamais votre carte Vitale à la maison !", "options": ["N'oubliez", "Oubliez ne", "Ne oubliez"], "answer": 0, "explain": "Ne rút thành n' trước nguyên âm: n'oubliez jamais.", "error_tag": "negation"},
+       {"id": "q6", "type": "mcq", "q": "Une mutuelle, c'est :", "options": ["un médicament", "une assurance santé complémentaire", "un formulaire de la mairie"], "answer": 1, "explain": "La mutuelle trả phần bảo hiểm nhà nước không trả.", "error_tag": "lexique"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Y tế: médecin traitant → ordonnance → pharmacie; carte Vitale và mutuelle để được hoàn tiền.\n- Hành chính: mairie (hộ tịch, trường học), préfecture (titre de séjour); luôn cần pièce d'identité, justificatif de domicile, formulaire.\n- Chỉ dẫn: impératif (*apportez, n'oubliez pas de*), *il faut* + nguyên mẫu, *vous devez* + nguyên mẫu.\n- Giới từ: *chez le médecin, à la pharmacie, à la préfecture, avoir mal à la gorge*.\n- Đọc thông báo: ai, làm gì, khi nào, với giấy tờ nào."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Thêm 10 từ của bài vào Vocabulary Trainer, mỗi từ kèm một câu của bạn.\n2. Trong Speaking Lab, đóng vai gọi điện đặt lịch khám: nói tên, lý do, giờ mong muốn (1 phút).\n3. Trong Writing Lab, viết 5 chỉ dẫn cho một người mới đến Pháp về giấy tờ cần chuẩn bị, dùng il faut, vous devez, n'oubliez pas de."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Service-Public", "url": "https://www.service-public.fr/", "note": "Trang chính thức về thủ tục hành chính; đọc một trang về titre de séjour và ghi lại 5 từ mới."},
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục Impératif và mục Santé, bài tập miễn phí."}
+     ]}
+  ]
+}

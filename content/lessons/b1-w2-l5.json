@@ -1,0 +1,92 @@
+{
+  "id": "b1-w2-l5", "phase": 1, "module": "Temps et modes verbaux", "week": 2, "order": 1,
+  "level": "B1", "skill": "grammar", "title": "Le futur simple et le conditionnel présent",
+  "duration_min": 45, "prerequisites": ["b1-w1-l1"],
+  "error_tags": ["futur", "conditionnel", "concordance_temps"],
+  "objectives": [
+    "Chia đúng futur simple và conditionnel présent, kể cả 10 động từ bất quy tắc hay gặp",
+    "Chọn đúng giữa futur simple và futur proche theo ngữ cảnh: dự định, dự báo, lời hứa",
+    "Dùng conditionnel để nói lịch sự, nói ước muốn và giả định với si + imparfait"
+  ],
+  "intro": "Futur simple và conditionnel présent có **cùng một gốc**, chỉ khác đuôi. Học hai thì cùng lúc thì nhớ gốc bất quy tắc một lần cho cả hai. Bài này đi từ cách chia, qua cách dùng (dự định, dự báo, lời hứa, lịch sự, ước muốn), đến cấu trúc giả định *si + imparfait, conditionnel* mà người học hay chia sai thành *si + conditionnel*.",
+  "references": [
+    {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Bài tập chia futur và conditionnel"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Một gốc, hai thì",
+     "body": "Người học B1 thường biết chia futur nhưng ngại dùng, và dùng conditionnel chỉ trong *je voudrais*. Mục tiêu bài này là dùng cả hai một cách tự nhiên.\n\n- Khi nói về **tương lai gần và chắc chắn**, người Pháp dùng futur proche (*je vais partir*). Futur simple dành cho **dự định xa hơn, dự báo, lời hứa**, và văn viết.\n- Conditionnel không chỉ để lịch sự. Nó là thì của **điều chưa có thật**: ước muốn, lời khuyên, giả định.\n- Cách học gốc bất quy tắc: học theo cặp *futur / conditionnel*: *je serai / je serais, j'aurai / j'aurais, j'irai / j'irais*. Gốc luôn kết thúc bằng **r**.\n- Khi nghe, phân biệt *-rai* (đọc như é, futur) và *-rais* (đọc như è, conditionnel). Khi viết, chỉ khác một chữ s."},
+    {"type": "vocab", "title": "Từ vựng : parler de l'avenir",
+     "items": [
+       {"fr": "l'avenir", "vi": "tương lai", "example": "Je pense souvent à mon avenir professionnel."},
+       {"fr": "un rêve", "vi": "ước mơ", "example": "Mon rêve serait d'ouvrir un café."},
+       {"fr": "une prévision", "vi": "dự báo", "example": "Les prévisions annoncent de la pluie pour demain."},
+       {"fr": "promettre", "vi": "hứa", "example": "Je te promets que je viendrai."},
+       {"fr": "avoir l'intention de", "vi": "có ý định", "example": "J'ai l'intention de changer de travail l'année prochaine."},
+       {"fr": "envisager", "vi": "dự tính, cân nhắc", "example": "Nous envisageons d'acheter une maison."},
+       {"fr": "dès que", "vi": "ngay khi", "example": "Je t'appellerai dès que j'arriverai."},
+       {"fr": "d'ici", "vi": "trong vòng, từ nay đến", "example": "D'ici deux ans, nous habiterons ailleurs."},
+       {"fr": "à ta place", "vi": "nếu là bạn", "example": "À ta place, je refuserais cette offre."},
+       {"fr": "au cas où", "vi": "phòng khi", "example": "Prends un parapluie, au cas où il pleuvrait."}
+     ]},
+    {"type": "grammar", "title": "Formation et emplois",
+     "body": "### Futur simple : cách chia\n\nGốc = động từ nguyên mẫu (bỏ *e* cuối với động từ *-re*) + đuôi **-ai, -as, -a, -ons, -ez, -ont**.\n\n*parler* → *je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront*\n\n*finir* → *je finirai* ; *prendre* → *je prendrai*\n\nGốc bất quy tắc, học thuộc: *être* → **ser-** (je serai), *avoir* → **aur-** (j'aurai), *aller* → **ir-** (j'irai), *faire* → **fer-** (je ferai), *venir* → **viendr-** (je viendrai), *pouvoir* → **pourr-** (je pourrai), *vouloir* → **voudr-** (je voudrai), *devoir* → **devr-** (je devrai), *savoir* → **saur-** (je saurai), *voir* → **verr-** (je verrai). Thêm: *il y aura, il faudra, il pleuvra*.\n\n### Futur simple hay futur proche ?\n\n- **Futur proche** (*aller* + nguyên mẫu): việc sắp xảy ra, đã quyết, gần như chắc chắn. *Je vais appeler le propriétaire ce soir.*\n- **Futur simple**: dự định xa hơn (*L'année prochaine, je changerai de travail*), dự báo (*Demain, il pleuvra*), lời hứa (*Je t'écrirai toutes les semaines*), văn viết.\n- Sau *quand, dès que, lorsque* nói về tương lai, tiếng Pháp dùng **futur**, không dùng présent: *Quand j'aurai le temps, je t'appellerai.*\n- Giả định có thể xảy ra: **si + présent, futur**: *S'il fait beau, nous irons à la plage.* Không bao giờ *si + futur*.\n\n### Conditionnel présent : cách chia\n\nCùng gốc với futur + đuôi của imparfait **-ais, -ais, -ait, -ions, -iez, -aient**.\n\n*je parlerais, je serais, j'aurais, j'irais, je ferais, je viendrais, je pourrais, je voudrais, je devrais, je saurais, je verrais*\n\n### Conditionnel : cách dùng\n\n- **Lịch sự**: *Je voudrais un renseignement. Pourriez-vous répéter ?*\n- **Ước muốn**: *J'aimerais vivre à la mer. Ce serait bien.*\n- **Lời khuyên**: *Tu devrais te reposer. À ta place, je refuserais.*\n- **Giả định không có thật hoặc chưa chắc**: **si + imparfait, conditionnel**. *Si j'avais plus de temps, je ferais du sport.* Không bao giờ *si j'aurais*.\n- **Thông tin chưa chắc chắn**: *Le loyer augmenterait l'année prochaine.*\n\n### Bẫy thường gặp\n\n- *je serai* (futur, chắc chắn) và *je serais* (conditionnel, giả định): một chữ *s* đổi nghĩa.\n- *Si j'aurai* và *si j'aurais* đều sai. Sau *si* giả định chỉ có présent hoặc imparfait.\n- *Quand je serai* (futur), không phải *quand je suis* như tiếng Việt.\n- Gốc *pourr-, verr-* có hai r. Gốc *voudr-, viendr-* có d.",
+     "examples": [
+       {"fr": "L'année prochaine, nous déménagerons à Nantes.", "vi": "Dự định: futur simple."},
+       {"fr": "Attention, tu vas tomber !", "vi": "Việc sắp xảy ra ngay: futur proche."},
+       {"fr": "Je te promets que je viendrai à ton anniversaire.", "vi": "Lời hứa: futur simple, gốc bất quy tắc viendr-."},
+       {"fr": "Si j'avais une voiture, j'irais au travail plus vite.", "vi": "Giả định: si + imparfait, conditionnel (ir- + -ais)."},
+       {"fr": "Vous pourriez fermer la fenêtre, s'il vous plaît ?", "vi": "Lịch sự: conditionnel."}
+     ]},
+    {"type": "exercise", "title": "Futur ou conditionnel ?", "instructions": "Chia động từ trong ngoặc ở futur simple hoặc conditionnel présent theo nghĩa của câu.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Demain, nous ___ (aller) au marché.", "answer": ["irons"], "explain": "Dự định: futur simple. Gốc bất quy tắc ir-.", "error_tag": "futur"},
+       {"id": "e2", "type": "gap", "q": "L'année prochaine, je ___ (faire) un stage à Bordeaux.", "answer": ["ferai"], "explain": "Dự định: futur simple. Gốc bất quy tắc fer-.", "error_tag": "futur"},
+       {"id": "e3", "type": "gap", "q": "Bonjour, je ___ (vouloir) un renseignement, s'il vous plaît.", "answer": ["voudrais"], "explain": "Lịch sự: conditionnel. Gốc voudr- + -ais.", "error_tag": "conditionnel"},
+       {"id": "e4", "type": "gap", "q": "Si j'avais plus de temps, je ___ (lire) davantage.", "answer": ["lirais"], "explain": "Si + imparfait, conditionnel.", "error_tag": "concordance_temps"},
+       {"id": "e5", "type": "gap", "q": "S'il pleut demain, nous ___ (rester) à la maison.", "answer": ["resterons"], "explain": "Si + présent, futur.", "error_tag": "concordance_temps"},
+       {"id": "e6", "type": "gap", "q": "À ta place, je ___ (parler) directement au propriétaire.", "answer": ["parlerais"], "explain": "Lời khuyên với à ta place: conditionnel.", "error_tag": "conditionnel"},
+       {"id": "e7", "type": "gap", "q": "Quand elle ___ (avoir) son diplôme, elle cherchera un travail.", "answer": ["aura"], "explain": "Sau quand nói về tương lai: futur. Gốc aur-.", "error_tag": "concordance_temps"},
+       {"id": "e8", "type": "gap", "q": "Ils ___ (venir) nous voir en été, c'est promis.", "answer": ["viendront"], "explain": "Lời hứa: futur simple. Gốc viendr-.", "error_tag": "futur"}
+     ]},
+    {"type": "listening", "title": "Les projets de Sophie", "instructions": "Nghe tối đa 2 lần. Ghi lại các động từ ở futur và ở conditionnel.",
+     "text": "L'année prochaine, beaucoup de choses vont changer pour moi. En juin, je finirai mes études et, si tout se passe bien, j'aurai mon diplôme d'infirmière. Ensuite, je chercherai un poste dans un hôpital, de préférence à Toulouse, parce que mon copain y habite déjà. Nous prendrons un appartement ensemble, pas trop grand, mais avec un balcon. Dès que j'aurai un salaire, je mettrai de l'argent de côté, parce que j'aimerais partir trois mois en Amérique du Sud avant mes trente ans. Si je pouvais, je partirais tout de suite, mais ce n'est pas possible pour le moment. Mes parents sont un peu inquiets, mais c'est promis, je les appellerai toutes les semaines. Bref, ce sera une année pleine de changements, et je suis plutôt optimiste.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Quel diplôme Sophie aura-t-elle en juin ?", "options": ["Un diplôme d'infirmière", "Un diplôme de médecin", "Un diplôme de professeur"], "answer": 0, "explain": "« j'aurai mon diplôme d'infirmière »."},
+       {"id": "l2", "type": "mcq", "q": "Pourquoi veut-elle travailler à Toulouse ?", "options": ["Elle y a grandi.", "Son copain y habite.", "L'hôpital est célèbre."], "answer": 1, "explain": "« parce que mon copain y habite déjà »."},
+       {"id": "l3", "type": "mcq", "q": "« Si je pouvais, je partirais tout de suite » exprime :", "options": ["une promesse", "une hypothèse irréelle", "une prévision"], "answer": 1, "explain": "Si + imparfait, conditionnel: giả định không có thật lúc này.", "error_tag": "conditionnel"},
+       {"id": "l4", "type": "truefalse", "q": "Sophie a promis d'appeler ses parents tous les jours.", "answer": false, "explain": "« je les appellerai toutes les semaines », mỗi tuần chứ không phải mỗi ngày."}
+     ]},
+    {"type": "reading", "title": "Quitter la ville ?", "instructions": "Đọc rồi trả lời. Chú ý các động từ ở futur và ở conditionnel.",
+     "text": "Chaque année, des milliers de citadins français quittent les grandes villes pour s'installer à la campagne ou dans une ville moyenne. Les raisons sont souvent les mêmes : un loyer moins cher, moins de bruit, plus de nature. Mais beaucoup hésitent encore. « Si je partais, je perdrais mes amis et ma vie culturelle », explique Karim, trente-quatre ans, qui vit à Paris depuis dix ans. « Et puis, est-ce que je trouverais un travail là-bas ? » Pour d'autres, la décision est prise. Élodie et son mari déménageront en septembre dans un village près de Clermont-Ferrand. « Nous travaillerons à distance trois jours par semaine et nous prendrons le train pour les réunions. Les enfants iront à l'école du village, à cinq minutes à pied. Ce ne sera pas toujours facile, mais nous aurons un jardin et un vrai calme. » Les spécialistes prévoient que ce mouvement continuera dans les prochaines années, surtout si le télétravail reste possible. Un conseil revient souvent : avant de tout quitter, il faudrait passer quelques semaines sur place, en hiver aussi, pour voir la réalité de la vie locale. Sinon, le rêve pourrait vite devenir une déception.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi certains citadins veulent-ils partir à la campagne ?", "options": ["Pour gagner plus d'argent", "Pour un loyer moins cher et plus de calme", "Pour être près de leurs amis"], "answer": 1, "explain": "« un loyer moins cher, moins de bruit, plus de nature »."},
+       {"id": "r2", "type": "mcq", "q": "« Si je partais, je perdrais mes amis » : Karim parle d'une situation :", "options": ["réelle et décidée", "imaginée, pas encore décidée", "passée"], "answer": 1, "explain": "Si + imparfait, conditionnel: giả định, chưa quyết định.", "error_tag": "conditionnel"},
+       {"id": "r3", "type": "truefalse", "q": "Élodie et son mari travailleront tous les jours au bureau.", "answer": false, "explain": "« Nous travaillerons à distance trois jours par semaine »."},
+       {"id": "r4", "type": "mcq", "q": "Que conseille le texte avant de déménager ?", "options": ["Vendre son appartement", "Passer quelques semaines sur place, même en hiver", "Chercher un travail à Paris"], "answer": 1, "explain": "« il faudrait passer quelques semaines sur place, en hiver aussi »."}
+     ]},
+    {"type": "speaking", "title": "Dans dix ans", "minutes": 3,
+     "prompt": "Imaginez votre vie dans dix ans et racontez-la en deux ou trois minutes : où vous habiterez, quel travail vous ferez, avec qui vous vivrez. Puis dites ce que vous feriez si vous aviez un an de liberté totale et beaucoup d'argent. Utilisez au moins six verbes au futur simple et trois au conditionnel.",
+     "hints": ["Dans dix ans, j'habiterai..., je travaillerai..., j'aurai...", "Je ne sais pas encore si..., mais je pense que...", "Si j'avais un an de liberté, je partirais..., je ferais..., j'apprendrais...", "Ce serait... parce que..."]},
+    {"type": "writing", "title": "Projets et promesses", "words": 130,
+     "prompt": "Écrivez un message à un ami (120 à 140 mots) : expliquez vos projets pour l'année prochaine (futur simple), faites-lui une promesse, et donnez-lui un conseil pour un problème qu'il a (tu devrais..., à ta place...). Terminez par une phrase avec si + imparfait, conditionnel.",
+     "criteria": ["Au moins cinq verbes au futur simple, dont deux irréguliers", "Une promesse au futur et un conseil au conditionnel", "Une phrase correcte avec si + imparfait, conditionnel", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Demain, il ___ beau sur toute la France.", "options": ["fera", "ferait", "fait"], "answer": 0, "explain": "Dự báo: futur simple, gốc fer-.", "error_tag": "futur"},
+       {"id": "q2", "type": "mcq", "q": "Je ___ un café, s'il vous plaît.", "options": ["voudrai", "voudrais", "veux"], "answer": 1, "explain": "Yêu cầu lịch sự: conditionnel voudrais. Voudrai là futur, veux nghe cộc.", "error_tag": "conditionnel"},
+       {"id": "q3", "type": "mcq", "q": "Si nous avions une voiture, nous ___ plus souvent à la mer.", "options": ["irons", "irions", "allions"], "answer": 1, "explain": "Si + imparfait, conditionnel: irions.", "error_tag": "concordance_temps"},
+       {"id": "q4", "type": "mcq", "q": "Quand tu ___ à Paris, appelle-moi.", "options": ["seras", "serais", "es"], "answer": 0, "explain": "Sau quand nói về tương lai: futur seras.", "error_tag": "concordance_temps"},
+       {"id": "q5", "type": "mcq", "q": "Attention, le train ___ partir !", "options": ["va", "partira", "ira"], "answer": 0, "explain": "Việc sắp xảy ra ngay: futur proche, va partir.", "error_tag": "futur"},
+       {"id": "q6", "type": "mcq", "q": "S'il ___ moins de bruit, je dormirais mieux.", "options": ["y avait", "y aura", "y aurait"], "answer": 0, "explain": "Vế chính ở conditionnel nên sau si là imparfait: y avait.", "error_tag": "concordance_temps"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Futur simple: nguyên mẫu (bỏ e của -re) + -ai, -as, -a, -ons, -ez, -ont.\n- Gốc bất quy tắc: ser-, aur-, ir-, fer-, viendr-, pourr-, voudr-, devr-, saur-, verr-.\n- Conditionnel: cùng gốc + -ais, -ais, -ait, -ions, -iez, -aient.\n- Futur proche: sắp xảy ra, đã quyết. Futur simple: dự định, dự báo, lời hứa, sau quand / dès que.\n- Conditionnel: lịch sự, ước muốn, lời khuyên, giả định.\n- Si + présent, futur. Si + imparfait, conditionnel. Không bao giờ si + futur hay si + conditionnel."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Viết bảng chia 10 động từ bất quy tắc ở futur và conditionnel, ngôi je và nous, rồi thêm vào Vocabulary Trainer.\n2. Trong Speaking Lab, nói dự báo thời tiết cho tuần tới ở thành phố của bạn (1 phút, futur simple).\n3. Trong Writing Lab, viết 5 câu si + imparfait, conditionnel về cuộc sống của bạn."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục « futur simple » và « conditionnel » để luyện chia."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe dự báo và bản tin, ghi lại các động từ ở futur."}
+     ]}
+  ]
+}

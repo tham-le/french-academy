@@ -1,0 +1,88 @@
+{
+  "id": "b1-w1-l3", "phase": 1, "module": "Compréhension orale", "week": 1, "order": 3,
+  "level": "B1", "skill": "listening", "title": "Une journée à Lyon : comprendre un récit et des consignes",
+  "duration_min": 45, "prerequisites": ["b1-w1-l1"],
+  "error_tags": ["lexique", "prepositions"],
+  "objectives": [
+    "Hiểu ý chính và chi tiết của một đoạn kể dài 1 đến 2 phút",
+    "Nhận ra các mốc thời gian và chỉ dẫn đường đi",
+    "Ghi chú nhanh khi nghe: ai, ở đâu, khi nào, chuyện gì"
+  ],
+  "intro": "Nghe hiểu B1 đòi hỏi nắm được **ý chính** và **vài chi tiết đúng** mà không cần hiểu mọi từ. Bài này luyện hai dạng hay gặp: một đoạn kể cá nhân và một đoạn chỉ dẫn thực tế. Hãy nghe lần một để nắm ý chính, lần hai để tìm chi tiết.",
+  "references": [
+    {"title": "TV5MONDE Apprendre, niveau B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video có bài tập cùng dạng"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Chiến lược nghe",
+     "body": "Trước khi nghe, đọc câu hỏi: chúng báo trước bạn cần tìm gì (một giờ, một địa điểm, một lý do).\n\n- **Lần 1**: không ghi chú, chỉ trả lời: ai nói, với ai, về việc gì.\n- **Lần 2**: ghi từ khoá bên cạnh mỗi câu hỏi, không ghi câu đầy đủ.\n- Số, giờ, ngày trong tuần, tên địa điểm thường là đáp án. Luyện nghe số: *dix-huit* và *dix-neuf*, *quinze* và *cinquante* dễ lẫn.\n- Đừng dừng lại ở một từ không hiểu. Câu sau thường nhắc lại ý đó bằng cách khác."},
+    {"type": "vocab", "title": "Từ vựng của bài nghe",
+     "items": [
+       {"fr": "une balade", "vi": "cuộc dạo chơi", "example": "On a fait une balade sur les quais."},
+       {"fr": "le vieux quartier", "vi": "khu phố cổ", "example": "Le vieux quartier est classé au patrimoine mondial."},
+       {"fr": "un bouchon (lyonnais)", "vi": "quán ăn truyền thống ở Lyon", "example": "On a déjeuné dans un bouchon près de la place."},
+       {"fr": "le funiculaire", "vi": "tàu leo dốc", "example": "Le funiculaire monte jusqu'à la basilique."},
+       {"fr": "faire la queue", "vi": "xếp hàng", "example": "On a fait la queue pendant vingt minutes."},
+       {"fr": "la correspondance", "vi": "chuyến nối, đổi tuyến", "example": "Prenez la correspondance à Bellecour."},
+       {"fr": "le quai", "vi": "bờ kè, sân ga", "example": "Le train part du quai numéro trois."},
+       {"fr": "se tromper de", "vi": "nhầm (đường, tàu)", "example": "Je me suis trompé de ligne."},
+       {"fr": "au bout de", "vi": "ở cuối, sau (khoảng thời gian)", "example": "Au bout de la rue, tournez à gauche."},
+       {"fr": "en face de", "vi": "đối diện", "example": "L'arrêt est en face de la pharmacie."}
+     ]},
+    {"type": "listening", "title": "Écoute 1 : Le week-end de Nadia", "instructions": "Nghe tối đa 2 lần. Trả lời rồi mới mở văn bản.",
+     "text": "Samedi dernier, je suis allée à Lyon pour la première fois avec ma colocataire. Nous avons pris le train de huit heures à Paris et nous sommes arrivées un peu avant dix heures. D'abord, nous avons fait une balade dans le vieux quartier : les rues sont étroites et il y avait beaucoup de touristes. Vers midi et demi, nous avons déjeuné dans un bouchon, un petit restaurant traditionnel. C'était délicieux, mais un peu cher. L'après-midi, nous voulions monter à la basilique en funiculaire, mais il y avait une queue énorme, alors nous sommes montées à pied. Ça a pris trente minutes, et la vue était magnifique. Le soir, nous avons repris le train à dix-neuf heures. J'étais fatiguée mais très contente.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "À quelle heure Nadia est-elle arrivée à Lyon ?", "options": ["À 8 heures", "Un peu avant 10 heures", "À midi et demi"], "answer": 1, "explain": "« nous sommes arrivées un peu avant dix heures »."},
+       {"id": "l2", "type": "mcq", "q": "Qu'est-ce qu'un bouchon, d'après le texte ?", "options": ["Un marché", "Un restaurant traditionnel", "Un musée"], "answer": 1, "explain": "« un bouchon, un petit restaurant traditionnel »."},
+       {"id": "l3", "type": "mcq", "q": "Pourquoi sont-elles montées à pied ?", "options": ["Le funiculaire était fermé.", "Il y avait trop de monde.", "Elles voulaient faire du sport."], "answer": 1, "explain": "« il y avait une queue énorme, alors nous sommes montées à pied »."},
+       {"id": "l4", "type": "truefalse", "q": "Elles ont repris le train à 9 heures du soir.", "answer": false, "explain": "« à dix-neuf heures », tức 7 giờ tối. Luyện phân biệt dix-neuf và neuf."},
+       {"id": "l5", "type": "mcq", "q": "Comment Nadia se sentait-elle le soir ?", "options": ["Déçue", "Fatiguée mais contente", "Malade"], "answer": 1, "explain": "« J'étais fatiguée mais très contente »."}
+     ]},
+    {"type": "listening", "title": "Écoute 2 : Un itinéraire", "instructions": "Nghe chỉ dẫn (tối đa 2 lần). Ghi các từ chỉ hướng.",
+     "text": "Pour aller à la bibliothèque municipale depuis la gare, c'est simple. Vous sortez par la sortie nord et vous prenez le métro ligne B, direction Charpennes. Vous descendez à la troisième station, Saxe-Gambetta, et vous prenez la correspondance avec la ligne D, direction Vaise. Vous descendez à Bellecour. En sortant du métro, vous traversez la place, vous prenez la rue de la République, et la bibliothèque est au bout de la rue, à droite, en face de l'hôtel de ville. Comptez vingt-cinq minutes en tout. Attention, elle est fermée le lundi.",
+     "questions": [
+       {"id": "l6", "type": "mcq", "q": "Quelle est la première ligne de métro à prendre ?", "options": ["La ligne A", "La ligne B", "La ligne D"], "answer": 1, "explain": "« vous prenez le métro ligne B »."},
+       {"id": "l7", "type": "mcq", "q": "Où faut-il changer de ligne ?", "options": ["À Charpennes", "À Saxe-Gambetta", "À Bellecour"], "answer": 1, "explain": "« la troisième station, Saxe-Gambetta, et vous prenez la correspondance »."},
+       {"id": "l8", "type": "mcq", "q": "La bibliothèque se trouve :", "options": ["en face de l'hôtel de ville", "à côté de la gare", "sur la place Bellecour"], "answer": 0, "explain": "« en face de l'hôtel de ville ».", "error_tag": "prepositions"},
+       {"id": "l9", "type": "truefalse", "q": "La bibliothèque est ouverte tous les jours.", "answer": false, "explain": "« elle est fermée le lundi »."}
+     ]},
+    {"type": "exercise", "title": "Từ vựng trong ngữ cảnh", "instructions": "Chọn từ đúng.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Il y avait trop de monde, nous avons ___ pendant vingt minutes.", "options": ["fait la queue", "fait la fête", "fait la cuisine"], "answer": 0, "explain": "Faire la queue: xếp hàng.", "error_tag": "lexique"},
+       {"id": "e2", "type": "mcq", "q": "Je me suis ___ de station et je suis arrivé en retard.", "options": ["perdu", "trompé", "raté"], "answer": 1, "explain": "Se tromper de + nom: nhầm.", "error_tag": "lexique"},
+       {"id": "e3", "type": "mcq", "q": "La pharmacie est ___ la boulangerie, de l'autre côté de la rue.", "options": ["à côté de", "en face de", "au bout de"], "answer": 1, "explain": "Bên kia đường: en face de.", "error_tag": "prepositions"},
+       {"id": "e4", "type": "gap", "q": "Prenez la ___ avec la ligne D à Bellecour.", "answer": ["correspondance"], "explain": "La correspondance: chuyến nối, đổi tuyến.", "error_tag": "lexique"}
+     ]},
+    {"type": "reading", "title": "Horaires et règles de la bibliothèque", "instructions": "Đọc thông báo rồi trả lời.",
+     "text": "Bibliothèque municipale de la Part-Dieu. Horaires : du mardi au vendredi de 10 h à 19 h, le samedi de 10 h à 18 h. Fermée le dimanche et le lundi. L'inscription est gratuite pour les habitants de la ville sur présentation d'un justificatif de domicile ; pour les autres, elle coûte 20 euros par an. Chaque lecteur peut emprunter jusqu'à dix documents pour trois semaines, renouvelables une fois en ligne. Les salles de travail du troisième étage se réservent à l'accueil, pour deux heures maximum. Merci de laisser votre téléphone en mode silencieux.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Quel jour la bibliothèque ferme-t-elle plus tôt ?", "options": ["Le vendredi", "Le samedi", "Le mardi"], "answer": 1, "explain": "Samedi: đến 18 h thay vì 19 h."},
+       {"id": "r2", "type": "truefalse", "q": "L'inscription est gratuite pour tout le monde.", "answer": false, "explain": "Miễn phí cho cư dân thành phố; người khác trả 20 euro một năm."},
+       {"id": "r3", "type": "mcq", "q": "Combien de temps peut-on garder un livre, au maximum, avec le renouvellement ?", "options": ["Trois semaines", "Six semaines", "Deux mois"], "answer": 1, "explain": "Ba tuần, gia hạn một lần: sáu tuần."},
+       {"id": "r4", "type": "mcq", "q": "Pour réserver une salle de travail, il faut :", "options": ["réserver en ligne", "aller à l'accueil", "demander au troisième étage"], "answer": 1, "explain": "« se réservent à l'accueil »."}
+     ]},
+    {"type": "speaking", "title": "Décrivez votre journée idéale dans une ville", "minutes": 3,
+     "prompt": "Vous avez passé une journée dans une ville que vous aimez. Racontez-la comme Nadia : l'arrivée, le matin, le déjeuner, l'après-midi, le retour. Donnez des heures et utilisez au moins quatre mots de la liste de vocabulaire.",
+     "hints": ["Nous sommes arrivés vers...", "D'abord... ensuite... l'après-midi... le soir...", "C'était... il y avait..."]},
+    {"type": "writing", "title": "Expliquer un itinéraire", "words": 100,
+     "prompt": "Un ami vient vous voir pour la première fois. Écrivez-lui un message (90 à 110 mots) pour expliquer comment aller de la gare à chez vous : transports, arrêts, directions, durée, et un conseil pratique.",
+     "criteria": ["Verbes au présent à la deuxième personne (tu prends, tu descends)", "Au moins quatre expressions de lieu ou de direction", "Durée indiquée", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Dans un récit, « d'abord, ensuite, le soir » servent à :", "options": ["donner une opinion", "ordonner les événements", "décrire un lieu"], "answer": 1, "explain": "Đây là các mốc thời gian để sắp xếp sự kiện."},
+       {"id": "q2", "type": "mcq", "q": "« Dix-neuf heures », c'est :", "options": ["9 h du matin", "7 h du soir", "9 h du soir"], "answer": 1, "explain": "19 h = 7 giờ tối.", "error_tag": "lexique"},
+       {"id": "q3", "type": "mcq", "q": "« Prendre la correspondance » signifie :", "options": ["acheter un billet", "changer de ligne", "écrire une lettre"], "answer": 1, "explain": "Đổi tuyến.", "error_tag": "lexique"},
+       {"id": "q4", "type": "mcq", "q": "« Au bout de la rue » signifie :", "options": ["au début de la rue", "à la fin de la rue", "au milieu de la rue"], "answer": 1, "explain": "Au bout de: ở cuối.", "error_tag": "prepositions"},
+       {"id": "q5", "type": "mcq", "q": "Pour comprendre un enregistrement, la meilleure stratégie est :", "options": ["traduire chaque mot", "lire les questions avant d'écouter", "écouter une seule fois"], "answer": 1, "explain": "Đọc câu hỏi trước để biết cần tìm gì."},
+       {"id": "q6", "type": "mcq", "q": "La bibliothèque est ___ l'hôtel de ville.", "options": ["en face de", "en face à", "face de"], "answer": 0, "explain": "Cụm cố định: en face de.", "error_tag": "prepositions"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Đọc câu hỏi trước khi nghe; lần một nắm ý, lần hai tìm chi tiết.\n- Số và giờ là bẫy: luyện 15/50, 18/19, 9/19 h.\n- Từ chỉ dẫn: prendre, descendre à, changer à, traverser, au bout de, en face de, à côté de.\n- Mẫu kể chuyện: d'abord, vers midi, l'après-midi, le soir, finalement."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Nghe một bản tin trên RFI Français facile (10 phút) và ghi 5 con số bạn nghe được, kiểm tra với transcript.\n2. Thêm 6 từ của bài vào Vocabulary Trainer.\n3. Trong Speaking Lab, chỉ đường từ nhà bạn đến nơi bạn làm việc hoặc học (1 phút)."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin có transcript, miễn phí."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video kèm câu hỏi, miễn phí."}
+     ]}
+  ]
+}

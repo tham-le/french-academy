@@ -1,0 +1,91 @@
+{
+  "id": "b1-w4-l15", "phase": 1, "module": "Expression écrite", "week": 4, "order": 3,
+  "level": "B1", "skill": "writing", "title": "Raconter un événement : structurer un récit écrit",
+  "duration_min": 45, "prerequisites": ["b1-w1-l1", "b1-w2-l8"],
+  "error_tags": ["passe_compose_imparfait", "concordance_temps", "connecteurs"],
+  "objectives": [
+    "Xây một đoạn kể bốn phần: situation initiale, événement, réactions, conclusion",
+    "Trộn đúng imparfait, passé composé và plus-que-parfait trong cùng một đoạn",
+    "Nối các phần bằng từ nối thời gian và nói được cảm xúc của nhân vật"
+  ],
+  "intro": "Ở B1, bài viết kể chuyện được chấm theo **cấu trúc** (có mở, có sự kiện, có kết) và theo **thì** (imparfait, passé composé, plus-que-parfait dùng đúng chỗ) nhiều hơn theo từ vựng. Bài này cho một khung bốn phần, các từ nối để chuyển phần, và một thì mới để nói việc xảy ra trước: plus-que-parfait. Phần viết là trọng tâm của bài.",
+  "references": [
+    {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Các bản tin kể lại sự kiện, nguồn mẫu câu ở quá khứ"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Khung bốn phần",
+     "body": "Một đoạn kể 150 từ cần một kế hoạch trước khi viết. Hãy chia bài thành bốn phần, mỗi phần một đoạn.\n\n1. **Situation initiale** (khoảng 30 từ): khi nào, ở đâu, với ai, bạn đang làm gì, tâm trạng ra sao. Thì: imparfait. Nếu cần nói việc đã xong trước đó: plus-que-parfait.\n2. **Événement** (khoảng 50 từ): chuyện bất ngờ xảy ra. Mở bằng *soudain, tout à coup, au moment où*. Thì: passé composé.\n3. **Réactions** (khoảng 50 từ): bạn và những người khác làm gì, cảm thấy gì. Nối bằng *d'abord, puis, pendant ce temps, finalement*.\n4. **Conclusion** (khoảng 20 từ): kết quả, bài học, cảm nhận hôm nay. Có thể dùng présent.\n\nTrước khi viết, ghi ra giấy bốn dòng, một dòng cho mỗi phần. Khi viết xong, đọc lại và hỏi với mỗi động từ ở quá khứ: đây là bối cảnh, sự kiện, hay việc xảy ra trước?"},
+    {"type": "vocab", "title": "Từ nối và cảm xúc",
+     "items": [
+       {"fr": "au moment où", "vi": "vào đúng lúc", "example": "Au moment où je sortais, il a commencé à pleuvoir."},
+       {"fr": "pendant ce temps", "vi": "trong lúc đó", "example": "Pendant ce temps, ma sœur préparait le dîner."},
+       {"fr": "dès que", "vi": "ngay khi", "example": "Dès que le train est arrivé, nous sommes montés."},
+       {"fr": "le lendemain", "vi": "ngày hôm sau", "example": "Le lendemain, tout était réglé."},
+       {"fr": "la veille", "vi": "ngày hôm trước", "example": "La veille, j'avais préparé ma valise."},
+       {"fr": "avoir peur", "vi": "sợ", "example": "J'ai eu très peur quand la porte a claqué."},
+       {"fr": "être soulagé(e)", "vi": "nhẹ nhõm", "example": "J'étais soulagée de retrouver mon passeport."},
+       {"fr": "être inquiet / inquiète", "vi": "lo lắng", "example": "Nous étions inquiets parce qu'il ne répondait pas."},
+       {"fr": "se rendre compte de", "vi": "nhận ra", "example": "Je me suis rendu compte de mon erreur trop tard."},
+       {"fr": "un imprévu", "vi": "chuyện bất ngờ", "example": "Un imprévu a changé tout notre programme."}
+     ]},
+    {"type": "grammar", "title": "Ba thì trong một đoạn kể",
+     "body": "### Vai trò của mỗi thì\n\n- **Imparfait**: bối cảnh, mô tả, cảm xúc kéo dài, hành động đang diễn ra. *Il faisait nuit, j'étais fatigué.*\n- **Passé composé**: sự kiện, hành động xong, chuỗi hành động. *Soudain, le téléphone a sonné.*\n- **Plus-que-parfait**: việc đã xong **trước** một việc khác ở quá khứ. *J'avais déjà fini quand il est arrivé.*\n\n### Plus-que-parfait\n\nHình thức: *avoir* hoặc *être* ở **imparfait** + participe passé. *J'avais fini, elle était partie, nous nous étions levés.* Quy tắc hợp giống và số giống passé composé: với *être*, hợp với chủ ngữ.\n\nDùng khi: *Quand je suis arrivé à la gare, le train était déjà parti.* *Elle était partie depuis une heure quand j'ai appelé.* Trong một đoạn kể, plus-que-parfait thường giải thích nguyên nhân: *Le train était parti, nous avons donc pris un taxi.*\n\n### Từ nối thời gian\n\n- Mở đầu: *un jour, ce matin-là, l'année dernière, il y a deux ans*.\n- Thứ tự: *d'abord, puis, ensuite, après, enfin, finalement*.\n- Cùng lúc: *au moment où, pendant que, pendant ce temps, en même temps*.\n- Nối tiếp nhanh: *dès que, aussitôt, tout à coup, soudain*.\n- Trước, sau: *la veille, le lendemain, deux heures plus tard, avant de + nguyên mẫu, après avoir + participe passé*.\n\n### Nói cảm xúc\n\n*J'étais surpris(e), inquiet (inquiète), soulagé(e), furieux (furieuse).* *J'ai eu peur, j'ai eu honte.* *Je me suis senti(e) perdu(e).* *Quelle surprise ! Quel soulagement !*",
+     "examples": [
+       {"fr": "Quand je suis arrivé à la gare, le train était déjà parti.", "vi": "Việc trước (était parti) rồi việc sau (suis arrivé)."},
+       {"fr": "Il faisait nuit, la rue était vide et j'avais oublié mon téléphone.", "vi": "Bối cảnh ở imparfait, việc đã xảy ra trước ở plus-que-parfait."},
+       {"fr": "Au moment où j'allais partir, quelqu'un a frappé à la porte.", "vi": "Au moment où + imparfait, sự kiện ở passé composé."},
+       {"fr": "D'abord, j'ai eu peur. Puis je me suis calmé et, finalement, j'ai ri.", "vi": "Chuỗi phản ứng với ba từ nối."}
+     ]},
+    {"type": "exercise", "title": "Choisir le temps et le connecteur", "instructions": "Chia động từ trong ngoặc ở imparfait, passé composé hoặc plus-que-parfait, hoặc chọn từ nối đúng.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Quand je suis arrivé à la gare, le train ___ (partir, plus-que-parfait).", "answer": ["était parti", "était déjà parti"], "explain": "Tàu đi trước khi tôi đến: plus-que-parfait, partir với être.", "error_tag": "concordance_temps"},
+       {"id": "e2", "type": "gap", "q": "Il ___ (faire) nuit et la rue était vide.", "answer": ["faisait"], "explain": "Bối cảnh: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e3", "type": "gap", "q": "Soudain, quelqu'un ___ (crier).", "answer": ["a crié"], "explain": "Sự kiện bất ngờ sau soudain: passé composé.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e4", "type": "mcq", "q": "J'ai couru à la pharmacie, mais elle ___ dix minutes plus tôt.", "options": ["fermait", "avait fermé", "a fermé"], "answer": 1, "explain": "Hiệu thuốc đóng cửa trước khi tôi chạy đến: plus-que-parfait.", "error_tag": "concordance_temps"},
+       {"id": "e5", "type": "mcq", "q": "___ je cherchais mon billet, le contrôleur attendait.", "options": ["Pendant que", "Dès que", "Finalement"], "answer": 0, "explain": "Hai hành động cùng lúc: pendant que.", "error_tag": "connecteurs"},
+       {"id": "e6", "type": "mcq", "q": "D'abord, j'ai appelé l'hôtel. ___, j'ai pris un taxi.", "options": ["La veille", "Ensuite", "Au moment où"], "answer": 1, "explain": "Thứ tự sau d'abord: ensuite.", "error_tag": "connecteurs"},
+       {"id": "e7", "type": "gap", "q": "Nous ___ (être) inquiets parce qu'il ne répondait pas.", "answer": ["étions"], "explain": "Cảm xúc kéo dài: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e8", "type": "gap", "q": "Elle ___ (perdre) ses clés la veille, alors elle ne pouvait pas entrer.", "answer": ["avait perdu"], "explain": "La veille cho thấy việc xảy ra trước: plus-que-parfait.", "error_tag": "concordance_temps"}
+     ]},
+    {"type": "listening", "title": "Mon pire voyage", "instructions": "Nghe tối đa 2 lần. Ghi lại bốn phần: bối cảnh, sự kiện, phản ứng, kết.",
+     "text": "Je vais vous raconter mon pire voyage. C'était en juillet, l'année dernière. Je partais en Italie avec mon frère, et nous étions très contents : nous avions réservé les billets six mois avant. Le matin du départ, nous sommes arrivés à l'aéroport à six heures. Au moment où nous passions le contrôle, je me suis rendu compte que je n'avais pas mon passeport. Je l'avais laissé sur la table de la cuisine ! Mon frère est devenu tout blanc. D'abord, j'ai appelé ma voisine, mais elle ne répondait pas. Puis j'ai pris un taxi, je suis rentré à la maison, et je suis revenu une heure plus tard. Pendant ce temps, mon frère expliquait la situation à la compagnie. Finalement, nous avons pu partir avec le vol suivant. J'étais soulagé, mais j'ai eu vraiment honte.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Où le narrateur partait-il ?", "options": ["En Espagne", "En Italie", "En Grèce"], "answer": 1, "explain": "« Je partais en Italie avec mon frère »."},
+       {"id": "l2", "type": "mcq", "q": "Quel était le problème ?", "options": ["Le vol était annulé.", "Il avait oublié son passeport.", "Il avait perdu son billet."], "answer": 1, "explain": "« je n'avais pas mon passeport. Je l'avais laissé sur la table de la cuisine »."},
+       {"id": "l3", "type": "mcq", "q": "Dans « je l'avais laissé sur la table », le plus-que-parfait indique une action :", "options": ["qui se passe en même temps", "qui a eu lieu avant le moment du récit", "qui va se passer"], "answer": 1, "explain": "Anh ấy để quên hộ chiếu trước khi đến sân bay: việc trước.", "error_tag": "concordance_temps"},
+       {"id": "l4", "type": "truefalse", "q": "Ils ont finalement pris l'avion prévu.", "answer": false, "explain": "« nous avons pu partir avec le vol suivant »: chuyến bay sau."}
+     ]},
+    {"type": "reading", "title": "Un déménagement mouvementé", "instructions": "Đọc bài kể mẫu rồi trả lời. Tìm bốn phần của bài.",
+     "text": "Le jour de mon déménagement, je pensais que tout serait simple. J'avais loué une camionnette, mes amis Léa et Karim avaient promis de m'aider, et j'avais fini les cartons la veille. Il faisait beau, j'étais de bonne humeur.\n\nLe matin, tout s'est bien passé : nous avons descendu les meubles et chargé la camionnette en deux heures. Mais au moment où nous arrivions devant le nouvel immeuble, j'ai cherché les clés dans ma poche. Rien. Je les avais laissées à l'agence ! Et l'agence fermait à midi. Il était onze heures et demie.\n\nJ'ai eu une seconde de panique. Puis Karim a pris le volant et nous avons traversé la ville le plus vite possible. Pendant ce temps, Léa téléphonait à l'agence pour les prévenir. Nous sommes arrivés à midi moins cinq. L'employée nous attendait devant la porte avec les clés, et elle riait.\n\nFinalement, nous avons tout installé avant la nuit. Ce soir-là, nous avons mangé une pizza par terre, au milieu des cartons. J'étais épuisé mais heureux. Aujourd'hui encore, quand je déménage, je vérifie mes clés trois fois.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Quelle phrase appartient à la situation initiale ?", "options": ["J'ai eu une seconde de panique.", "Il faisait beau, j'étais de bonne humeur.", "Nous sommes arrivés à midi moins cinq."], "answer": 1, "explain": "Bối cảnh và tâm trạng ở imparfait: situation initiale."},
+       {"id": "r2", "type": "mcq", "q": "« Je les avais laissées à l'agence » : pourquoi le plus-que-parfait ?", "options": ["L'action est antérieure au moment où il cherche les clés.", "C'est une habitude.", "C'est une description."], "answer": 0, "explain": "Anh ấy để quên chìa khoá trước khi tìm chúng: việc trước.", "error_tag": "concordance_temps"},
+       {"id": "r3", "type": "mcq", "q": "Que faisait Léa pendant que Karim conduisait ?", "options": ["Elle chargeait la camionnette.", "Elle téléphonait à l'agence.", "Elle mangeait une pizza."], "answer": 1, "explain": "« Pendant ce temps, Léa téléphonait à l'agence »."},
+       {"id": "r4", "type": "truefalse", "q": "L'agence était fermée quand ils sont arrivés.", "answer": false, "explain": "« L'employée nous attendait devant la porte avec les clés »."}
+     ]},
+    {"type": "speaking", "title": "Un imprévu", "minutes": 3,
+     "prompt": "Racontez en deux ou trois minutes un imprévu qui vous est arrivé : un retard, un objet perdu, une rencontre inattendue. Suivez les quatre parties : la situation, l'événement, vos réactions, la conclusion. Utilisez au moins un plus-que-parfait et quatre connecteurs de temps.",
+     "hints": ["Ce jour-là, je... (imparfait) ; j'avais déjà... (plus-que-parfait)", "Soudain / au moment où... (passé composé)", "D'abord..., puis..., pendant ce temps..., finalement..."]},
+    {"type": "writing", "title": "Un événement marquant", "words": 165,
+     "prompt": "Racontez un événement marquant de votre vie ou un incident de voyage (150 à 180 mots). Organisez votre texte en quatre paragraphes : la situation initiale, l'événement, les réactions, la conclusion. Dites ce que vous avez ressenti et ce que cela a changé pour vous.",
+     "criteria": ["Quatre parties visibles (situation, événement, réactions, conclusion) en quatre paragraphes", "Imparfait pour le décor et passé composé pour les événements, choisis correctement", "Au moins un plus-que-parfait pour une action antérieure", "Au moins cinq connecteurs de temps différents (d'abord, puis, au moment où, pendant ce temps, finalement...)", "Au moins trois expressions de sentiment, et longueur respectée (150 à 180 mots)"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Hier soir, je ___ tranquillement quand l'alarme ___.", "options": ["lisais / a sonné", "ai lu / sonnait", "lisais / sonnait"], "answer": 0, "explain": "Hành động nền (lisais) bị cắt bởi sự kiện (a sonné).", "error_tag": "passe_compose_imparfait"},
+       {"id": "q2", "type": "mcq", "q": "Quand nous sommes arrivés, le film ___.", "options": ["commence", "avait déjà commencé", "commençait déjà"], "answer": 1, "explain": "Phim bắt đầu trước khi chúng tôi đến: plus-que-parfait.", "error_tag": "concordance_temps"},
+       {"id": "q3", "type": "mcq", "q": "J'ai fermé la porte, ___ j'ai pris le bus.", "options": ["puis", "la veille", "pendant ce temps"], "answer": 0, "explain": "Hai hành động nối tiếp: puis.", "error_tag": "connecteurs"},
+       {"id": "q4", "type": "mcq", "q": "___ il pleuvait, nous attendions sous un arbre.", "options": ["Dès que", "Pendant que", "Finalement"], "answer": 1, "explain": "Hai việc cùng lúc, cả hai ở imparfait: pendant que.", "error_tag": "connecteurs"},
+       {"id": "q5", "type": "mcq", "q": "Elle ___ ses clés la veille, donc elle a dormi chez une amie.", "options": ["a perdu", "perdait", "avait perdu"], "answer": 2, "explain": "La veille: việc xảy ra trước, plus-que-parfait.", "error_tag": "concordance_temps"},
+       {"id": "q6", "type": "mcq", "q": "Dans un récit, la situation initiale utilise surtout :", "options": ["le passé composé", "l'imparfait", "le futur"], "answer": 1, "explain": "Bối cảnh, mô tả, tâm trạng: imparfait.", "error_tag": "passe_compose_imparfait"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Bốn phần: situation initiale (imparfait), événement (passé composé), réactions (trộn hai thì), conclusion (présent hoặc passé composé).\n- Plus-que-parfait = avoir/être ở imparfait + participe passé: việc xảy ra trước một việc khác ở quá khứ.\n- Từ nối: d'abord, puis, ensuite, finalement (thứ tự); au moment où, pendant que, pendant ce temps (cùng lúc); la veille, le lendemain (trước, sau).\n- Cảm xúc: j'étais surpris(e), inquiet, soulagé(e); j'ai eu peur, j'ai eu honte.\n- Lập dàn ý bốn dòng trước khi viết; đọc lại từng động từ sau khi viết."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Trong Writing Lab, viết lại bài nghe « Mon pire voyage » từ góc nhìn của người anh (khoảng 120 từ).\n2. Thêm 10 từ nối và từ chỉ cảm xúc của bài vào Vocabulary Trainer.\n3. Trong Speaking Lab, kể lại trong 2 phút sự kiện bạn đã viết ở phần viết, không nhìn bài."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục Production écrite và mục Plus-que-parfait, bài tập miễn phí."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe một bản tin và ghi lại các câu ở plus-que-parfait."}
+     ]}
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "b1-w3-l9", "phase": 1, "module": "Grammaire fondamentale", "week": 3, "order": 1,
+  "level": "B1", "skill": "grammar", "title": "Le subjonctif présent : quand et comment",
+  "duration_min": 50, "prerequisites": ["b1-w2-l5"],
+  "error_tags": ["subjonctif", "concordance_temps"],
+  "objectives": [
+    "Chia đúng subjonctif présent của động từ đều và bảy động từ bất quy tắc hay gặp",
+    "Nhận ra các cấu trúc kéo theo subjonctif: il faut que, vouloir que, pour que, bien que, avant que, cảm xúc, nghi ngờ",
+    "Phân biệt indicatif và subjonctif sau penser que, croire que, espérer que"
+  ],
+  "intro": "Subjonctif là thức mà người học B1 sợ nhất. Thật ra chỉ cần nhớ hai việc: **cách chia** (một quy tắc, bảy ngoại lệ) và **danh sách các cấu trúc kéo theo nó**. Bài này tập trung vào hai việc đó, rồi áp dụng ngay vào nói và viết.",
+  "references": [
+    {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục « subjonctif » để làm thêm bài tập có đáp án"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Subjonctif là gì ?",
+     "body": "Indicatif dùng để nói về điều có thật, chắc chắn. Subjonctif dùng khi người nói **nhìn hành động qua một ý muốn, một sự cần thiết, một cảm xúc hay một nghi ngờ**.\n\n- *Je sais qu'il vient.* (sự thật: indicatif)\n- *Je veux qu'il vienne.* (ý muốn: subjonctif)\n\nSubjonctif gần như luôn đứng sau **que**, trong mệnh đề phụ. Chủ ngữ của hai mệnh đề phải khác nhau. Nếu cùng chủ ngữ, dùng infinitif: *Je veux partir*, không phải *je veux que je parte*.\n\nChiến lược: học thuộc **danh sách cấu trúc** kéo theo subjonctif như học một danh sách từ vựng. Thấy một cấu trúc trong danh sách, chia subjonctif. Không thấy, chia indicatif."},
+    {"type": "vocab", "title": "Các cấu trúc cần thuộc",
+     "items": [
+       {"fr": "il faut que", "vi": "cần phải (ai đó làm gì)", "example": "Il faut que tu finisses avant midi."},
+       {"fr": "il est important que", "vi": "điều quan trọng là", "example": "Il est important que vous soyez à l'heure."},
+       {"fr": "vouloir que", "vi": "muốn (ai đó làm gì)", "example": "Mes parents veulent que je fasse des études."},
+       {"fr": "pour que", "vi": "để (ai đó làm gì)", "example": "Je parle lentement pour que tu comprennes."},
+       {"fr": "bien que", "vi": "mặc dù", "example": "Bien qu'il pleuve, nous sortons."},
+       {"fr": "avant que", "vi": "trước khi", "example": "Rentrons avant qu'il fasse nuit."},
+       {"fr": "avoir peur que", "vi": "sợ rằng", "example": "J'ai peur qu'elle soit malade."},
+       {"fr": "être content(e) que", "vi": "vui vì", "example": "Je suis contente que tu viennes."},
+       {"fr": "douter que", "vi": "nghi ngờ rằng", "example": "Je doute qu'il sache la réponse."},
+       {"fr": "espérer que", "vi": "hy vọng rằng (+ indicatif)", "example": "J'espère que tu vas bien."}
+     ]},
+    {"type": "grammar", "title": "Hình thức và cách dùng",
+     "body": "### Cách chia\n\nLấy gốc từ dạng *ils* ở présent, bỏ *-ent*, thêm: **-e, -es, -e, -ions, -iez, -ent**. *Ils finissent* → *que je finisse, que tu finisses, qu'il finisse, que nous finissions, que vous finissiez, qu'ils finissent*. Với *nous* và *vous*, dạng giống hệt imparfait.\n\nĐộng từ có hai gốc (*ils prennent / nous prenons*): gốc *ils* cho je, tu, il, ils và gốc *nous* cho nous, vous: *que je prenne, que nous prenions*. Cùng quy tắc với *venir* (*vienne / venions*), *boire* (*boive / buvions*), *devoir* (*doive / devions*).\n\n### Bảy động từ bất quy tắc\n\n- **être**: sois, sois, soit, soyons, soyez, soient\n- **avoir**: aie, aies, ait, ayons, ayez, aient\n- **aller**: aille, ailles, aille, allions, alliez, aillent\n- **faire**: fasse, fasses, fasse, fassions, fassiez, fassent\n- **pouvoir**: puisse, puisses, puisse, puissions, puissiez, puissent\n- **savoir**: sache, saches, sache, sachions, sachiez, sachent\n- **vouloir**: veuille, veuilles, veuille, voulions, vouliez, veuillent\n\n### Các cấu trúc kéo theo subjonctif\n\n- **Sự cần thiết**: il faut que, il est nécessaire que, il est important que.\n- **Ý muốn**: vouloir que, souhaiter que, préférer que, demander que.\n- **Cảm xúc**: être content que, être triste que, avoir peur que, regretter que, c'est dommage que.\n- **Nghi ngờ, khả năng**: douter que, il est possible que, il se peut que.\n- **Liên từ**: pour que, bien que, avant que, à condition que, jusqu'à ce que.\n\n### Penser que, croire que, espérer que\n\n- Khẳng định: *Je pense qu'il **a** raison.* (indicatif, người nói tin là thật)\n- Phủ định hoặc nghi vấn: *Je ne pense pas qu'il **ait** raison.* (subjonctif, có nghi ngờ)\n- *Espérer que* luôn đi với **indicatif**, kể cả futur: *J'espère que tu **viendras**.*\n- *Il est probable que* + indicatif, nhưng *il est possible que* + subjonctif.\n\n### Thời của subjonctif\n\nỞ B1 chỉ cần subjonctif présent. Nó diễn tả cả hiện tại lẫn tương lai: *Il faut que tu viennes demain.* Không dùng futur sau *que* khi cấu trúc kéo theo subjonctif.",
+     "examples": [
+       {"fr": "Il faut que nous partions tôt demain.", "vi": "Sự cần thiết: il faut que + subjonctif."},
+       {"fr": "Je ne crois pas qu'il soit chez lui.", "vi": "Croire ở phủ định: subjonctif."},
+       {"fr": "Je crois qu'il est chez lui.", "vi": "Croire ở khẳng định: indicatif."},
+       {"fr": "J'espère que vous pourrez venir.", "vi": "Espérer que + indicatif, ở đây là futur."},
+       {"fr": "Bien qu'elle ait beaucoup de travail, elle fait du sport tous les jours.", "vi": "Bien que + subjonctif, kể cả khi sự việc có thật."}
+     ]},
+    {"type": "exercise", "title": "Indicatif hay subjonctif ?", "instructions": "Chia động từ trong ngoặc ở thức và thì đúng.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Il faut que tu ___ (finir) ce rapport avant ce soir.", "answer": ["finisses"], "explain": "Il faut que + subjonctif. Gốc ils finissent, thêm -es.", "error_tag": "subjonctif"},
+       {"id": "e2", "type": "gap", "q": "Je veux que vous ___ (être) à l'heure.", "answer": ["soyez"], "explain": "Vouloir que + subjonctif. Être bất quy tắc: soyez.", "error_tag": "subjonctif"},
+       {"id": "e3", "type": "gap", "q": "Je pense qu'il ___ (avoir) raison.", "answer": ["a"], "explain": "Penser que ở khẳng định: indicatif.", "error_tag": "subjonctif"},
+       {"id": "e4", "type": "gap", "q": "Je ne pense pas qu'elle ___ (pouvoir) venir.", "answer": ["puisse"], "explain": "Penser que ở phủ định: subjonctif. Pouvoir bất quy tắc: puisse.", "error_tag": "subjonctif"},
+       {"id": "e5", "type": "gap", "q": "J'espère que tu ___ (aller) mieux.", "answer": ["vas"], "explain": "Espérer que + indicatif, không bao giờ subjonctif.", "error_tag": "subjonctif"},
+       {"id": "e6", "type": "gap", "q": "Nous rentrons avant qu'il ___ (faire) nuit.", "answer": ["fasse"], "explain": "Avant que + subjonctif. Faire bất quy tắc: fasse.", "error_tag": "subjonctif"},
+       {"id": "e7", "type": "gap", "q": "Mes parents sont contents que nous ___ (prendre) des vacances.", "answer": ["prenions"], "explain": "Cảm xúc + subjonctif. Với nous, dùng gốc nous prenons: prenions.", "error_tag": "subjonctif"},
+       {"id": "e8", "type": "gap", "q": "Elle espère que son fils ___ (réussir) son examen l'année prochaine.", "answer": ["réussira", "va réussir"], "explain": "Espérer que + indicatif. Sự việc ở tương lai: futur simple hoặc futur proche, không dùng subjonctif.", "error_tag": "concordance_temps"}
+     ]},
+    {"type": "listening", "title": "Un message avant la fête", "instructions": "Nghe tin nhắn thoại (tối đa 2 lần). Trả lời rồi mới xem văn bản.",
+     "text": "Salut Thomas, c'est Léa. Je t'appelle pour la fête de samedi. Il faut que tu arrives avant dix-neuf heures pour m'aider à préparer la salle. J'aimerais que tu apportes des boissons, mais pas de gâteau : Karim s'en occupe. Je ne pense pas que Julie puisse venir, elle travaille ce week-end. C'est dommage qu'elle ne soit pas là, mais on fera une autre soirée avec elle. Ah, et j'ai peur qu'il pleuve, alors je préfère qu'on reste à l'intérieur. Avant que tu partes de chez toi, envoie-moi un message pour que je t'ouvre la porte du bâtiment. J'espère que tu as bien reçu l'adresse. À samedi !",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "À quelle heure Thomas doit-il arriver ?", "options": ["Avant 19 heures", "À 20 heures", "Après 21 heures"], "answer": 0, "explain": "« il faut que tu arrives avant dix-neuf heures »."},
+       {"id": "l2", "type": "mcq", "q": "Qu'est-ce que Thomas doit apporter ?", "options": ["Un gâteau", "Des boissons", "De la musique"], "answer": 1, "explain": "« j'aimerais que tu apportes des boissons »."},
+       {"id": "l3", "type": "truefalse", "q": "Julie viendra sûrement à la fête.", "answer": false, "explain": "« Je ne pense pas que Julie puisse venir »."},
+       {"id": "l4", "type": "mcq", "q": "Pourquoi Léa préfère-t-elle rester à l'intérieur ?", "options": ["Il fait froid.", "Elle a peur qu'il pleuve.", "Les voisins se plaignent."], "answer": 1, "explain": "« j'ai peur qu'il pleuve »."}
+     ]},
+    {"type": "reading", "title": "Quelques conseils avant le départ", "instructions": "Đọc tin nhắn rồi trả lời. Chú ý thức của các động từ sau que.",
+     "text": "Mon chéri, je sais que tu es grand, mais laisse-moi te donner quelques conseils avant que tu partes à Toulouse. D'abord, il faut que tu trouves un médecin près de ton appartement dès la première semaine. Je ne veux pas que tu attendes d'être malade pour le faire. Ensuite, il est important que tu manges correctement : je doute que les pâtes tous les soirs soient une bonne idée. Ton père voudrait que tu appelles au moins une fois par semaine, le dimanche par exemple. Moi, je préfère que tu m'envoies un message quand tu veux, même court. Je suis très contente que tu aies choisi cette université, et je ne pense pas que tu aies des difficultés à te faire des amis. Mais j'ai un peu peur que tu sois seul les premiers jours. Alors inscris-toi à un club de sport ou de musique pour que tu rencontres du monde rapidement. Enfin, j'espère que tu viendras nous voir pour les vacances de Noël : ta grand-mère a déjà demandé la date. Bon courage, on pense à toi. Maman.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Que doit faire le fils dès la première semaine ?", "options": ["Trouver un travail", "Trouver un médecin", "Acheter une voiture"], "answer": 1, "explain": "« il faut que tu trouves un médecin... dès la première semaine »."},
+       {"id": "r2", "type": "mcq", "q": "« Je ne pense pas que tu aies des difficultés » : pourquoi le verbe est-il au subjonctif ?", "options": ["Parce que penser que est à la forme négative", "Parce que c'est une question", "Parce que le verbe avoir est irrégulier"], "answer": 0, "explain": "Penser que ở phủ định kéo theo subjonctif.", "error_tag": "subjonctif"},
+       {"id": "r3", "type": "truefalse", "q": "Le père veut que son fils appelle tous les jours.", "answer": false, "explain": "« au moins une fois par semaine »."},
+       {"id": "r4", "type": "mcq", "q": "« J'espère que tu viendras » : le verbe est au futur de l'indicatif parce que :", "options": ["espérer que est suivi de l'indicatif", "espérer que est suivi du subjonctif", "c'est une erreur de la mère"], "answer": 0, "explain": "Espérer que + indicatif. Sự việc ở tương lai nên dùng futur.", "error_tag": "concordance_temps"}
+     ]},
+    {"type": "speaking", "title": "Donnez des conseils à un ami", "minutes": 3,
+     "prompt": "Un ami français vient vivre dans votre pays pendant un an. Donnez-lui des conseils pendant trois minutes : ce qu'il faut qu'il fasse avant de partir, ce que vous voulez qu'il apporte, ce dont vous avez peur, et ce que vous espérez pour lui.",
+     "hints": ["Il faut que tu... / Il est important que tu...", "Je voudrais que tu... / J'ai peur que tu...", "J'espère que tu... (indicatif !)", "Bien que..., ... / Avant que tu..."]},
+    {"type": "writing", "title": "Un message de conseils", "words": 120,
+     "prompt": "Écrivez un message (110 à 130 mots) à un ami français qui vient visiter votre pays pour la première fois : ce qu'il faut qu'il fasse ou qu'il évite, ce que vous voulez qu'il apporte, et ce que vous espérez pour son voyage.",
+     "criteria": ["Au moins cinq verbes au subjonctif, bien formés", "Au moins une phrase avec espérer que + indicatif", "Au moins une phrase avec je ne pense pas que ou bien que", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Il faut que nous ___ le train de 8 heures.", "options": ["prenons", "prenions", "prendrons"], "answer": 1, "explain": "Il faut que + subjonctif. Với nous: prenions.", "error_tag": "subjonctif"},
+       {"id": "q2", "type": "mcq", "q": "Je crois qu'il ___ raison.", "options": ["ait", "a", "aie"], "answer": 1, "explain": "Croire que ở khẳng định: indicatif.", "error_tag": "subjonctif"},
+       {"id": "q3", "type": "mcq", "q": "Bien qu'il ___ froid, ils sortent sans manteau.", "options": ["fait", "fasse", "fera"], "answer": 1, "explain": "Bien que + subjonctif: fasse.", "error_tag": "subjonctif"},
+       {"id": "q4", "type": "mcq", "q": "Elle ne pense pas que ce ___ une bonne idée.", "options": ["est", "sera", "soit"], "answer": 2, "explain": "Penser que ở phủ định: subjonctif, ce soit.", "error_tag": "subjonctif"},
+       {"id": "q5", "type": "mcq", "q": "J'espère que vous ___ venir samedi.", "options": ["puissiez", "pourrez", "pouviez"], "answer": 1, "explain": "Espérer que + indicatif. Sự việc ở tương lai: futur.", "error_tag": "concordance_temps"},
+       {"id": "q6", "type": "mcq", "q": "Je veux ___ avant midi.", "options": ["que je parte", "partir", "que je pars"], "answer": 1, "explain": "Cùng chủ ngữ: dùng infinitif, không dùng que + subjonctif.", "error_tag": "subjonctif"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Subjonctif: gốc ils + e, es, e, ions, iez, ent; nous và vous giống imparfait.\n- Bảy động từ bất quy tắc: être, avoir, aller, faire, pouvoir, savoir, vouloir.\n- Kéo theo subjonctif: il faut que, vouloir que, pour que, bien que, avant que, cảm xúc, nghi ngờ.\n- Penser que, croire que: khẳng định indicatif, phủ định subjonctif.\n- Espérer que + indicatif, luôn luôn.\n- Cùng chủ ngữ: infinitif, không dùng que + subjonctif."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Thêm 10 cấu trúc của bài vào Vocabulary Trainer, mỗi cấu trúc kèm một câu ví dụ của bạn.\n2. Trong Speaking Lab, nói 1 phút về ba việc cần làm trước một chuyến đi (il faut que, il est important que, avant que).\n3. Trong Writing Lab, viết 5 câu: hai với je pense que, ba với je ne pense pas que, rồi kiểm tra thức của động từ."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục « subjonctif »: nhiều bài tập có đáp án, miễn phí."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe một bản tin và ghi lại mọi câu có il faut que."}
+     ]}
+  ]
+}

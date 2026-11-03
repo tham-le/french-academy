@@ -1,0 +1,99 @@
+{
+  "id": "b1-w3-l11", "phase": 1, "module": "Compréhension orale", "week": 3, "order": 3,
+  "level": "B1", "skill": "listening", "title": "Les actualités au quotidien : comprendre un flash info",
+  "duration_min": 45, "prerequisites": ["b1-w1-l3"],
+  "error_tags": ["lexique", "accord_participe_passe"],
+  "objectives": [
+    "Nhận ra cấu trúc của một bản tin ngắn: titres, développement, météo",
+    "Hiểu các từ khoá thời sự: grève, manifestation, élection, accident, hausse, baisse",
+    "Nghe đúng số, phần trăm và nhận ra câu bị động"
+  ],
+  "intro": "Một flash info trên radio dài 2 đến 3 phút, nói nhanh, nhiều số và nhiều câu bị động. Tin tốt: cấu trúc của nó **luôn giống nhau** và từ vựng lặp lại từ ngày này sang ngày khác. Bài này cho bạn bộ khung, 10 từ khoá và cách nhận ra ai làm gì trong một câu bị động.",
+  "references": [
+    {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin chậm có transcript, cùng dạng với bài này"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Cấu trúc của một flash info",
+     "body": "Một bản tin ngắn gần như luôn có ba phần:\n\n1. **Les titres**: mỗi tin một câu, đọc nhanh ở đầu. Đây là lúc nắm chủ đề: *grève, accident, élection, prix*.\n2. **Le développement**: mỗi tin được kể lại trong hai hoặc ba câu, với địa điểm, con số, hậu quả và một lời hứa hoặc phản ứng (*la mairie a promis, la direction a annoncé*).\n3. **La météo et le trafic**: nhiệt độ theo vùng, mưa hay nắng, tắc đường.\n\n**Bẫy số**\n\n- *pour cent* đi sau số: *cinq pour cent* = 5 %.\n- *une centaine, des milliers, une dizaine* là số gần đúng.\n- *en hausse de, en baisse de* + số: hướng tăng hay giảm nằm ở danh từ, không ở động từ.\n\n**Bẫy bị động**\n\nKhi nghe *a été, ont été, sera, seront* + participe passé, chủ ngữ là người hoặc vật **chịu** hành động: *deux personnes ont été blessées* (hai người bị thương, không phải họ làm ai bị thương)."},
+    {"type": "vocab", "title": "Từ vựng thời sự",
+     "items": [
+       {"fr": "une grève", "vi": "cuộc đình công", "example": "Une grève des transports est prévue jeudi."},
+       {"fr": "une manifestation", "vi": "cuộc biểu tình", "example": "Des milliers de personnes ont participé à la manifestation."},
+       {"fr": "une élection", "vi": "cuộc bầu cử", "example": "L'élection aura lieu dimanche prochain."},
+       {"fr": "un accident", "vi": "tai nạn", "example": "Un accident a eu lieu sur l'autoroute ce matin."},
+       {"fr": "une hausse", "vi": "sự tăng", "example": "Les prix sont en hausse de deux pour cent."},
+       {"fr": "une baisse", "vi": "sự giảm", "example": "On observe une baisse du chômage."},
+       {"fr": "un blessé / une blessée", "vi": "người bị thương", "example": "L'accident a fait trois blessés."},
+       {"fr": "être annoncé(e)", "vi": "được thông báo", "example": "Une nouvelle ligne de bus a été annoncée par la mairie."},
+       {"fr": "un embouteillage", "vi": "tắc đường", "example": "Il y a dix kilomètres d'embouteillages à l'entrée de la ville."},
+       {"fr": "une averse", "vi": "cơn mưa rào", "example": "Des averses sont attendues dans l'après-midi."}
+     ]},
+    {"type": "grammar", "title": "La voix passive và « il y a »",
+     "body": "### La voix passive\n\nDạng: **être** (chia ở thì cần dùng) + **participe passé**. Participe passé **hợp giống và số với chủ ngữ**.\n\n- Chủ động: *La mairie a annoncé une nouvelle ligne.* → Bị động: *Une nouvelle ligne **a été annoncée** par la mairie.*\n- Présent: *La route **est fermée**.* Passé composé: *Trois personnes **ont été blessées**.* Futur: *Le musée **sera ouvert** dimanche.*\n\nTác nhân đi sau **par**. Khi không biết hoặc không quan trọng thì bỏ: *Deux voitures ont été volées.* Bản tin dùng bị động rất nhiều vì sự việc quan trọng hơn người làm.\n\n### Bẫy: est fermé hay a fermé ?\n\n*Le magasin **est fermé*** (trạng thái, bị động) khác *le magasin **a fermé** à 19 h* (hành động, chủ động). Khi nghe *être* + participe passé, hãy tự hỏi: ai làm việc đó ?\n\n### Le présentatif « il y a »\n\n*Il y a* giới thiệu một sự việc hoặc một số lượng. Nó chia theo thì nhưng không bao giờ đổi theo số nhiều:\n\n- Présent: *il y a des grèves* (không phải *ils y ont*).\n- Passé composé: *il y a eu un accident*.\n- Futur: *il y aura des averses*.\n\n*Il y a* cũng dùng cho thời gian đã qua: *il y a trois jours* = ba ngày trước.",
+     "examples": [
+       {"fr": "Trois personnes ont été blessées dans un accident.", "vi": "Bị động ở passé composé; blessées hợp với trois personnes (giống cái, số nhiều)."},
+       {"fr": "La ligne 4 sera fermée tout le week-end.", "vi": "Bị động ở futur; fermée hợp với la ligne."},
+       {"fr": "Il y a eu une manifestation hier à Lille.", "vi": "Il y a ở passé composé: il y a eu."},
+       {"fr": "Une hausse de trois pour cent a été annoncée.", "vi": "Participe passé hợp với chủ ngữ une hausse: annoncée."}
+     ]},
+    {"type": "exercise", "title": "Từ khoá, số và bị động", "instructions": "Chọn hoặc điền từ đúng. Với participe passé, chú ý hợp giống và số.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Quand les salariés arrêtent le travail pour protester, c'est :", "options": ["une grève", "une élection", "une averse"], "answer": 0, "explain": "Grève: đình công.", "error_tag": "lexique"},
+       {"id": "e2", "type": "mcq", "q": "« Les prix sont en hausse » signifie que les prix :", "options": ["augmentent", "baissent", "ne changent pas"], "answer": 0, "explain": "Hausse: tăng. Baisse: giảm.", "error_tag": "lexique"},
+       {"id": "e3", "type": "gap", "q": "La route a été ___ (fermer) par la police.", "answer": ["fermée"], "explain": "Bị động: participe passé hợp với la route, giống cái: fermée.", "error_tag": "accord_participe_passe"},
+       {"id": "e4", "type": "gap", "q": "Deux personnes ont été ___ (blesser) dans l'accident.", "answer": ["blessées"], "explain": "Deux personnes: giống cái, số nhiều: blessées.", "error_tag": "accord_participe_passe"},
+       {"id": "e5", "type": "gap", "q": "Le nouveau maire a été ___ (élire) dimanche.", "answer": ["élu"], "explain": "Le maire: giống đực, số ít: élu.", "error_tag": "accord_participe_passe"},
+       {"id": "e6", "type": "mcq", "q": "« Trois pour cent », on l'écrit :", "options": ["3 %", "30 %", "1/3"], "answer": 0, "explain": "Pour cent = %. Trois pour cent = 3 %.", "error_tag": "lexique"},
+       {"id": "e7", "type": "mcq", "q": "Hier, ___ un accident sur l'autoroute.", "options": ["il y a eu", "il y aura", "ils y ont eu"], "answer": 0, "explain": "Il y a ở passé composé: il y a eu. Il y a không đổi theo số nhiều.", "error_tag": "syntaxe"},
+       {"id": "e8", "type": "mcq", "q": "« Une centaine de personnes », c'est :", "options": ["exactement 100 personnes", "environ 100 personnes", "plus de 1 000 personnes"], "answer": 1, "explain": "Une centaine: khoảng một trăm, số gần đúng.", "error_tag": "lexique"}
+     ]},
+    {"type": "listening", "title": "Écoute 1 : Le flash de 8 heures", "instructions": "Nghe bản tin (tối đa 2 lần). Lần một, ghi chủ đề của mỗi tin. Lần hai, ghi các con số.",
+     "text": "Il est huit heures, voici les titres de ce matin. Les transports d'abord : la grève des conducteurs de bus continue pour le troisième jour à Toulouse. Seule une ligne sur deux fonctionne, et la direction a annoncé une nouvelle réunion avec les syndicats cet après-midi. À Lille, une manifestation a réuni hier environ quatre mille personnes contre la fermeture d'un hôpital de quartier. La mairie a promis une réponse avant la fin du mois. Sur les routes, un accident a eu lieu cette nuit sur l'autoroute, près de Valence : deux personnes ont été légèrement blessées et la circulation a été coupée pendant trois heures. Côté économie, le prix de l'essence est en baisse de deux pour cent depuis une semaine, mais celui de l'électricité va augmenter de cinq pour cent en janvier. Enfin, la bibliothèque de Nantes sera fermée samedi pour travaux. La météo dans un instant.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Depuis combien de jours la grève des bus dure-t-elle ?", "options": ["Un jour", "Deux jours", "Trois jours"], "answer": 2, "explain": "« continue pour le troisième jour »."},
+       {"id": "l2", "type": "mcq", "q": "Combien de personnes ont participé à la manifestation de Lille ?", "options": ["Environ 400", "Environ 4 000", "Environ 40 000"], "answer": 1, "explain": "« environ quatre mille personnes »."},
+       {"id": "l3", "type": "truefalse", "q": "L'accident de l'autoroute a fait des morts.", "answer": false, "explain": "« deux personnes ont été légèrement blessées », không có người chết."},
+       {"id": "l4", "type": "mcq", "q": "Le prix de l'essence :", "options": ["augmente de 2 %", "baisse de 2 %", "augmente de 5 %"], "answer": 1, "explain": "« en baisse de deux pour cent ». 5 % là giá điện.", "error_tag": "lexique"},
+       {"id": "l5", "type": "mcq", "q": "« Deux personnes ont été blessées » : qui a fait l'action ?", "options": ["Les deux personnes", "On ne le dit pas", "La police"], "answer": 1, "explain": "Câu bị động không có tác nhân: bản tin không nói ai gây ra.", "error_tag": "syntaxe"}
+     ]},
+    {"type": "listening", "title": "Écoute 2 : La météo et le trafic", "instructions": "Nghe bản tin thời tiết (tối đa 2 lần). Ghi nhiệt độ và giờ.",
+     "text": "Et la météo pour cette journée de mardi. Ce matin, le ciel est gris sur tout le nord du pays, avec des averses jusqu'à midi. L'après-midi, le soleil revient, mais les températures restent fraîches : dix degrés à Lille, douze à Paris. Dans le sud, il fait beau toute la journée, avec vingt-deux degrés à Marseille. Attention sur les routes : à cause de la pluie, des embouteillages sont attendus autour de Paris entre sept heures et neuf heures. Demain, le temps sera sec partout.",
+     "questions": [
+       {"id": "l6", "type": "mcq", "q": "Quel temps fait-il dans le nord ce matin ?", "options": ["Il y a du soleil.", "Il y a des averses.", "Il neige."], "answer": 1, "explain": "« le ciel est gris sur tout le nord du pays, avec des averses jusqu'à midi »."},
+       {"id": "l7", "type": "mcq", "q": "Quelle est la température à Marseille ?", "options": ["12 degrés", "20 degrés", "22 degrés"], "answer": 2, "explain": "« vingt-deux degrés à Marseille ». 12 là ở Paris."},
+       {"id": "l8", "type": "truefalse", "q": "Les embouteillages sont attendus le soir.", "answer": false, "explain": "« entre sept heures et neuf heures », tức buổi sáng."}
+     ]},
+    {"type": "reading", "title": "Travaux dans le centre-ville", "instructions": "Đọc tin ngắn rồi trả lời. Gạch dưới mọi câu bị động.",
+     "text": "Travaux dans le centre-ville : ce qui change à partir de lundi. À partir de lundi 3 mars, la rue de la République sera fermée à la circulation pendant six semaines. Les trottoirs seront élargis et une piste cyclable sera créée entre la gare et la place du marché. Les travaux ont été décidés après une consultation des habitants : selon la mairie, soixante-dix pour cent des personnes interrogées ont demandé plus de place pour les vélos et les piétons. Pendant les travaux, les bus des lignes 2 et 5 seront déviés par le boulevard Pasteur, et deux arrêts ne seront pas desservis. Un parking gratuit de deux cents places a été ouvert près du stade pour les automobilistes. Les commerçants de la rue, eux, sont inquiets : plusieurs d'entre eux craignent une baisse de leurs ventes. La mairie a promis une aide financière pour les petits magasins les plus touchés. Les travaux devraient se terminer à la mi-avril, si la météo le permet. Une réunion d'information est organisée jeudi soir à la salle des fêtes.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Combien de temps la rue sera-t-elle fermée ?", "options": ["Six jours", "Six semaines", "Six mois"], "answer": 1, "explain": "« pendant six semaines »."},
+       {"id": "r2", "type": "mcq", "q": "Quel pourcentage des habitants a demandé plus de place pour les vélos ?", "options": ["17 %", "70 %", "80 %"], "answer": 1, "explain": "« soixante-dix pour cent ». Luyện phân biệt dix-sept và soixante-dix.", "error_tag": "lexique"},
+       {"id": "r3", "type": "truefalse", "q": "Les commerçants sont contents des travaux.", "answer": false, "explain": "« Les commerçants de la rue, eux, sont inquiets »."},
+       {"id": "r4", "type": "mcq", "q": "Dans « une piste cyclable sera créée », pourquoi écrit-on « créée » avec deux e à la fin ?", "options": ["Parce que piste est un nom féminin", "Parce que le verbe est au futur", "C'est une faute"], "answer": 0, "explain": "Bị động: participe passé hợp với chủ ngữ une piste, giống cái: créée.", "error_tag": "accord_participe_passe"}
+     ]},
+    {"type": "speaking", "title": "Présentez votre flash info", "minutes": 2,
+     "prompt": "Préparez puis présentez un flash info de deux minutes sur votre ville ou votre pays : trois titres au début, deux phrases de développement pour chaque nouvelle, et la météo de demain. Utilisez au moins deux phrases à la voix passive et un pourcentage.",
+     "hints": ["Il est huit heures, voici les titres : ...", "Une manifestation a réuni... / Un accident a eu lieu...", "... a été annoncé(e) par... / ... sera fermé(e)...", "Côté météo, demain, il y aura..."]},
+    {"type": "writing", "title": "Rédiger une brève", "words": 100,
+     "prompt": "Écrivez une brève (90 à 110 mots) sur un événement récent de votre ville : ce qui s'est passé, où, quand, les conséquences, et ce que la mairie ou la police a annoncé.",
+     "criteria": ["Au moins deux phrases à la voix passive, participes passés accordés", "Un chiffre et un pourcentage", "Au moins trois mots de la liste de vocabulaire", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Dans un flash info, les « titres » sont :", "options": ["les nouvelles en une phrase, au début", "la météo", "les publicités"], "answer": 0, "explain": "Titres: mỗi tin một câu ở đầu bản tin."},
+       {"id": "q2", "type": "mcq", "q": "« Une baisse de cinq pour cent », c'est :", "options": ["une augmentation de 5 %", "une diminution de 5 %", "un total de 5 %"], "answer": 1, "explain": "Baisse: giảm.", "error_tag": "lexique"},
+       {"id": "q3", "type": "mcq", "q": "Les routes ont été ___ par la neige.", "options": ["bloqué", "bloquées", "bloquée"], "answer": 1, "explain": "Les routes: giống cái, số nhiều: bloquées.", "error_tag": "accord_participe_passe"},
+       {"id": "q4", "type": "mcq", "q": "« Il y a eu un accident » est :", "options": ["au présent", "au passé composé", "au futur"], "answer": 1, "explain": "Il y a eu = passé composé của il y a.", "error_tag": "syntaxe"},
+       {"id": "q5", "type": "mcq", "q": "Un « blessé », c'est une personne qui :", "options": ["est morte", "a été touchée dans un accident", "a gagné une élection"], "answer": 1, "explain": "Blessé: bị thương, còn sống.", "error_tag": "lexique"},
+       {"id": "q6", "type": "mcq", "q": "La phrase passive de « La police a arrêté deux hommes » est :", "options": ["Deux hommes ont été arrêtés par la police.", "Deux hommes ont arrêté la police.", "Deux hommes sont arrêtés la police."], "answer": 0, "explain": "Être ở passé composé (ont été) + participe passé hợp với deux hommes (arrêtés) + par + tác nhân.", "error_tag": "accord_participe_passe"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Flash info: titres, développement, météo và trafic. Đọc câu hỏi trước, lần một nắm chủ đề, lần hai ghi số.\n- Từ khoá: grève, manifestation, élection, accident, hausse, baisse, blessé, embouteillage, averse.\n- Số: pour cent đi sau số; une centaine, des milliers là số gần đúng.\n- Bị động: être + participe passé, hợp giống và số với chủ ngữ; tác nhân sau par, thường bị bỏ.\n- Il y a: il y a eu (quá khứ), il y aura (tương lai), không đổi theo số nhiều."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Nghe một bản tin chậm trên RFI Français facile, ghi 5 con số và 3 câu bị động, rồi kiểm tra với transcript.\n2. Thêm 10 từ của bài vào Vocabulary Trainer.\n3. Trong Speaking Lab, đọc lại bản tin « Le flash de 8 heures » bằng lời của bạn, đổi tên thành phố và các con số (2 phút).\n4. Trong Writing Lab, viết lại 5 câu chủ động của bản tin ở dạng bị động."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin chậm có transcript, miễn phí. Nghe mỗi ngày 10 phút."},
+       {"title": "franceinfo", "url": "https://www.franceinfo.fr/", "note": "Tin tức thật, tốc độ thật. Chỉ nghe các titres lúc đầu để luyện nắm chủ đề."}
+     ]}
+  ]
+}

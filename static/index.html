@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>French Academy</title>
+<meta name="description" content="Nền tảng học tiếng Pháp B1 đến C1 với lộ trình cá nhân, AI tutor và theo dõi năng lực.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <a href="#/dashboard" class="brand">French Academy <span>B1 → C1</span></a>
+  <span class="ai-badge" id="aiBadge"></span>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <a href="#/dashboard" data-nav="dashboard">Tổng quan</a>
+    <a href="#/path" data-nav="path">Lộ trình</a>
+    <a href="#/catalog" data-nav="catalog">Khoá học</a>
+    <div class="nav-group">Luyện tập</div>
+    <a href="#/grammar" data-nav="grammar">Grammar Practice</a>
+    <a href="#/vocab" data-nav="vocab">Vocabulary Trainer</a>
+    <a href="#/speaking" data-nav="speaking">Speaking Lab</a>
+    <a href="#/writing" data-nav="writing">Writing Lab</a>
+    <a href="#/tutor/grammar" data-nav="tutor">AI Tutor</a>
+    <a href="#/exam" data-nav="exam">DALF C1 thi thử</a>
+    <div class="nav-group">Theo dõi</div>
+    <a href="#/analytics" data-nav="analytics">Phân tích năng lực</a>
+    <a href="#/report" data-nav="report">Báo cáo tuần, tháng</a>
+    <a href="#/notes" data-nav="notes">Ghi chú</a>
+    <a href="#/resources" data-nav="resources">Tài nguyên</a>
+    <div class="nav-group">Tài khoản</div>
+    <a href="#/settings" data-nav="settings">Cài đặt</a>
+    <a href="#" id="logoutLink">Đăng xuất</a>
+  </nav>
+  <main id="view" class="view"></main>
+</div>
+<div id="toast" class="toast" hidden></div>
+<div id="tooltip" class="tooltip" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>

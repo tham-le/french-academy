@@ -1,0 +1,91 @@
+{
+  "id": "b1-w3-l12", "phase": 1, "module": "Expression orale", "week": 3, "order": 4,
+  "level": "B1", "skill": "speaking", "title": "Donner son opinion et la justifier",
+  "duration_min": 50, "prerequisites": ["b1-w1-l4", "b1-w3-l9"],
+  "error_tags": ["subjonctif", "connecteurs", "syntaxe"],
+  "objectives": [
+    "Nêu ý kiến với à mon avis, je trouve que, il me semble que",
+    "Đồng ý và không đồng ý một cách lịch sự, rồi đưa lý do và ví dụ",
+    "Dùng đúng indicatif và subjonctif sau je pense que và je ne pense pas que"
+  ],
+  "intro": "Ở phần nói B1, giám khảo không chờ một ý kiến hay. Họ chờ một ý kiến **rõ**, có **lý do**, có **ví dụ**, và một câu **đối lập** cho thấy bạn nhìn cả hai mặt. Bài này cho bạn bộ khung một phút, các cụm từ cần thuộc, rồi một bài nói ba phút để luyện.",
+  "references": [
+    {"title": "TV5MONDE Apprendre, niveau B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video có người Pháp nêu ý kiến về đời sống hằng ngày"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Khung một phút cho một ý kiến",
+     "body": "Một ý kiến tốt đi theo năm bước, mỗi bước một câu:\n\n1. **Ý kiến**: *À mon avis, le télétravail est une bonne chose.*\n2. **Lý do**: *parce qu'on gagne du temps de transport.*\n3. **Ví dụ**: *Par exemple, ma sœur économise deux heures par jour.*\n4. **Mặt kia**: *Pourtant, on peut se sentir seul.*\n5. **Kết**: *Donc, pour moi, deux jours par semaine, c'est l'idéal.*\n\nVới bài nói ba phút: dùng 30 giây để ghi năm từ khoá, rồi nói theo khung trên hai lần, với hai lý do khác nhau.\n\n**Đừng tìm từ hoàn hảo.** Một câu ngắn, đúng, nói ngay, hơn một câu dài phải dừng giữa chừng. Khi không đồng ý, nói *je ne suis pas d'accord* rồi **lý do ngay sau**; một câu phủ định không có lý do nghe cộc lốc."},
+    {"type": "vocab", "title": "Cụm từ để nêu ý kiến",
+     "items": [
+       {"fr": "à mon avis", "vi": "theo tôi", "example": "À mon avis, le télétravail est une bonne chose."},
+       {"fr": "je trouve que", "vi": "tôi thấy rằng", "example": "Je trouve que la ville est trop bruyante."},
+       {"fr": "il me semble que", "vi": "tôi có cảm giác rằng", "example": "Il me semble que les loyers ont beaucoup augmenté."},
+       {"fr": "être d'accord avec", "vi": "đồng ý với", "example": "Je suis tout à fait d'accord avec toi."},
+       {"fr": "je ne suis pas d'accord", "vi": "tôi không đồng ý", "example": "Je ne suis pas d'accord, c'est trop cher."},
+       {"fr": "avoir raison / avoir tort", "vi": "nói đúng / nói sai", "example": "Tu as raison sur le prix, mais tu as tort sur la qualité."},
+       {"fr": "d'ailleurs", "vi": "vả lại", "example": "C'est pratique ; d'ailleurs, tout le monde le fait."},
+       {"fr": "en revanche", "vi": "ngược lại, bù lại", "example": "La campagne est calme ; en revanche, il n'y a pas de transports."},
+       {"fr": "pourtant", "vi": "thế nhưng", "example": "Il est fatigué, pourtant il continue à travailler."},
+       {"fr": "par exemple", "vi": "ví dụ", "example": "Beaucoup de gens, par exemple mes voisins, travaillent de chez eux."}
+     ]},
+    {"type": "grammar", "title": "Ý kiến, subjonctif và từ nối",
+     "body": "### Ý kiến khẳng định + indicatif\n\n*Je pense que, je crois que, je trouve que, il me semble que* → **indicatif**: *Je trouve que c'**est** une bonne idée.* *À mon avis* đứng đầu câu, có dấu phẩy, rồi một câu thường.\n\n### Ý kiến phủ định + subjonctif\n\n*Je ne pense pas que, je ne crois pas que, je ne trouve pas que, je ne suis pas sûr que* → **subjonctif**: *Je ne pense pas que ce **soit** une bonne idée.* Ba mẫu để thuộc lòng:\n\n- *je ne pense pas que ce soit...*\n- *je ne crois pas qu'il y ait...*\n- *je ne suis pas sûr qu'il ait raison.*\n\n### Lý do, ví dụ, đối lập\n\n- Lý do: **parce que** (trả lời câu hỏi pourquoi, giữa câu), **car** (hơi trang trọng, không đứng đầu câu), **puisque** (lý do mà người nghe đã biết).\n- Ví dụ, bổ sung: **par exemple**, **d'ailleurs** (thêm một lý lẽ ủng hộ), **en plus**.\n- Đối lập: **mais** (đơn giản nhất), **pourtant** (bất ngờ, trái với mong đợi), **en revanche** (đổi sang mặt kia).\n- Kết: **donc**, **c'est pourquoi**, **finalement**.\n\n### Thứ tự từ cần chú ý\n\n- *Je ne suis pas d'accord **avec toi*** (không phải *avec tu*, không phải *à toi*).\n- *Je pense **que oui** / **que non**.*\n- *Avoir raison **de** + infinitif*: *Tu as raison de dire ça.*",
+     "examples": [
+       {"fr": "À mon avis, vivre à la campagne est plus agréable, parce qu'on a plus d'espace.", "vi": "Ý kiến rồi lý do với parce que."},
+       {"fr": "Je ne pense pas que le télétravail soit bon pour tout le monde.", "vi": "Phủ định: subjonctif (soit)."},
+       {"fr": "Je suis d'accord avec toi sur le prix ; en revanche, je trouve le trajet trop long.", "vi": "Đồng ý một phần, rồi đối lập với en revanche."},
+       {"fr": "C'est pratique ; d'ailleurs, la plupart de mes collègues le font déjà.", "vi": "D'ailleurs thêm một lý lẽ ủng hộ."}
+     ]},
+    {"type": "exercise", "title": "Thức và từ nối", "instructions": "Chọn hoặc điền từ đúng.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Je ne pense pas que ce ___ une bonne idée.", "options": ["est", "soit", "sera"], "answer": 1, "explain": "Penser que ở phủ định: subjonctif.", "error_tag": "subjonctif"},
+       {"id": "e2", "type": "mcq", "q": "Je trouve que la vie en ville ___ trop chère.", "options": ["soit", "est", "serait"], "answer": 1, "explain": "Trouver que ở khẳng định: indicatif.", "error_tag": "subjonctif"},
+       {"id": "e3", "type": "mcq", "q": "La campagne est calme ; ___, il y a peu de transports.", "options": ["en revanche", "parce que", "donc"], "answer": 0, "explain": "Đổi sang mặt kia: en revanche.", "error_tag": "connecteurs"},
+       {"id": "e4", "type": "mcq", "q": "Je reste chez moi ___ je suis malade.", "options": ["pourtant", "parce que", "en revanche"], "answer": 1, "explain": "Lý do: parce que.", "error_tag": "connecteurs"},
+       {"id": "e5", "type": "mcq", "q": "Il pleut, ___ ils sortent sans parapluie.", "options": ["car", "pourtant", "parce que"], "answer": 1, "explain": "Trái với mong đợi: pourtant.", "error_tag": "connecteurs"},
+       {"id": "e6", "type": "mcq", "q": "Je ne suis pas d'accord ___.", "options": ["avec tu", "avec toi", "à toi"], "answer": 1, "explain": "Sau giới từ dùng đại từ mạnh: avec toi.", "error_tag": "syntaxe"},
+       {"id": "e7", "type": "gap", "q": "Le télétravail est pratique ; ___, on évite les embouteillages. (connecteur qui ajoute un argument)", "answer": ["d'ailleurs", "en plus"], "explain": "Thêm một lý lẽ ủng hộ: d'ailleurs hoặc en plus.", "error_tag": "connecteurs"},
+       {"id": "e8", "type": "gap", "q": "Je ne suis pas sûr qu'elle ___ (avoir) raison.", "answer": ["ait"], "explain": "Ne pas être sûr que + subjonctif: ait.", "error_tag": "subjonctif"}
+     ]},
+    {"type": "listening", "title": "Le télétravail, pour ou contre ?", "instructions": "Nghe ý kiến (tối đa 2 lần). Ghi: ý kiến, lý do, ví dụ, mặt kia, kết.",
+     "text": "Le télétravail ? Moi, je suis pour, mais pas tous les jours. Je travaille de chez moi le lundi et le vendredi depuis deux ans. À mon avis, c'est un vrai progrès : je gagne deux heures de transport par jour, je suis plus concentrée et je peux aller chercher mes enfants à l'école. D'ailleurs, mes collègues disent la même chose. Pourtant, je ne pense pas que ce soit une bonne idée de rester à la maison toute la semaine. Au bureau, on parle, on règle les problèmes en cinq minutes, et on se sent moins seul. En revanche, il faut que l'entreprise donne un bon ordinateur et une chaise correcte, parce que travailler sur la table de la cuisine, ce n'est pas possible longtemps. Donc, pour moi, la bonne formule, c'est deux ou trois jours chez soi, et le reste au bureau.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Combien de jours par semaine la personne travaille-t-elle de chez elle ?", "options": ["Un", "Deux", "Cinq"], "answer": 1, "explain": "« le lundi et le vendredi »."},
+       {"id": "l2", "type": "mcq", "q": "Quel avantage du télétravail cite-t-elle en premier ?", "options": ["Elle gagne du temps de transport.", "Elle gagne plus d'argent.", "Elle dort plus."], "answer": 0, "explain": "« je gagne deux heures de transport par jour »."},
+       {"id": "l3", "type": "truefalse", "q": "Elle voudrait travailler à la maison toute la semaine.", "answer": false, "explain": "« je ne pense pas que ce soit une bonne idée de rester à la maison toute la semaine »."},
+       {"id": "l4", "type": "mcq", "q": "Que demande-t-elle à l'entreprise ?", "options": ["Une voiture", "Un bon ordinateur et une chaise", "Plus de vacances"], "answer": 1, "explain": "« il faut que l'entreprise donne un bon ordinateur et une chaise correcte »."}
+     ]},
+    {"type": "reading", "title": "Ville ou campagne ? Deux avis", "instructions": "Đọc hai ý kiến rồi trả lời. Gạch dưới các cụm từ nêu ý kiến và các từ nối.",
+     "text": "Samir, 34 ans : « J'ai grandi à la campagne et j'habite à Lyon depuis dix ans. Je ne regrette rien. En ville, tout est à côté : le travail, les magasins, le cinéma, le médecin. Je n'ai pas de voiture, et d'ailleurs je n'en ai pas besoin. Bien sûr, le loyer est élevé et il y a du bruit, mais pour moi, la liberté de sortir à n'importe quelle heure vaut ce prix. Je ne pense pas qu'un village puisse m'offrir ça. »\n\nClaire, 41 ans : « Nous avons quitté Paris il y a trois ans pour un village de six cents habitants. Je trouve que nos enfants sont plus heureux : ils jouent dehors, ils connaissent tous les voisins. Il me semble aussi qu'on dépense moins. En revanche, il faut une voiture pour tout, et le soir, il n'y a rien à faire. Mon mari a gardé son travail à Paris, il fait deux heures de train par jour, et c'est fatigant. Pourtant, nous ne reviendrons pas. À mon avis, la qualité de vie est plus importante que le confort. »",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi Samir n'a-t-il pas besoin de voiture ?", "options": ["Il ne sait pas conduire.", "Tout est près de chez lui.", "Il n'a pas assez d'argent."], "answer": 1, "explain": "« En ville, tout est à côté »."},
+       {"id": "r2", "type": "mcq", "q": "Quels inconvénients de la ville Samir cite-t-il ?", "options": ["Le loyer et le bruit", "Les transports", "Le manque de magasins"], "answer": 0, "explain": "« le loyer est élevé et il y a du bruit »."},
+       {"id": "r3", "type": "truefalse", "q": "Le mari de Claire travaille dans le village.", "answer": false, "explain": "« Mon mari a gardé son travail à Paris »."},
+       {"id": "r4", "type": "mcq", "q": "« Je ne pense pas qu'un village puisse m'offrir ça » : le verbe puisse est au subjonctif parce que :", "options": ["penser est à la forme négative", "offrir est un verbe irrégulier", "c'est une question"], "answer": 0, "explain": "Ne pas penser que + subjonctif.", "error_tag": "subjonctif"}
+     ]},
+    {"type": "speaking", "title": "Trois minutes pour donner votre avis", "minutes": 3,
+     "prompt": "Choisissez un sujet : (1) Le télétravail est-il une bonne chose ? (2) Vaut-il mieux vivre en ville ou à la campagne ? Parlez pendant trois minutes : votre opinion, deux raisons avec un exemple pour chacune, un argument contraire, puis votre conclusion. Utilisez au moins une phrase avec je ne pense pas que + subjonctif.",
+     "hints": ["À mon avis... / Je trouve que... / Il me semble que...", "parce que... / Par exemple, ... / D'ailleurs, ...", "Pourtant... / En revanche... / Certains pensent que..., mais...", "Je ne pense pas que ce soit... / Je ne crois pas qu'il y ait...", "Donc, pour moi, ... / C'est pourquoi..."]},
+    {"type": "writing", "title": "Un message pour donner son avis", "words": 120,
+     "prompt": "Un ami français hésite à accepter un poste entièrement en télétravail et vous demande votre avis. Écrivez-lui un message (110 à 130 mots) : votre opinion, deux raisons avec un exemple, un point négatif, et un conseil pour finir.",
+     "criteria": ["Au moins trois expressions d'opinion différentes", "Une phrase avec je ne pense pas que + subjonctif", "Au moins quatre connecteurs (parce que, par exemple, pourtant, en revanche, donc)", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Je ne crois pas qu'il ___ raison.", "options": ["a", "ait", "aura"], "answer": 1, "explain": "Croire que ở phủ định: subjonctif, ait.", "error_tag": "subjonctif"},
+       {"id": "q2", "type": "mcq", "q": "Il me semble que ce ___ trop cher.", "options": ["soit", "est", "sois"], "answer": 1, "explain": "Il me semble que + indicatif.", "error_tag": "subjonctif"},
+       {"id": "q3", "type": "mcq", "q": "J'aime la ville ; ___, je déteste le bruit.", "options": ["parce que", "en revanche", "donc"], "answer": 1, "explain": "Đổi sang mặt kia: en revanche.", "error_tag": "connecteurs"},
+       {"id": "q4", "type": "mcq", "q": "Il est malade, ___ il va au travail.", "options": ["pourtant", "car", "parce que"], "answer": 0, "explain": "Trái với mong đợi: pourtant.", "error_tag": "connecteurs"},
+       {"id": "q5", "type": "mcq", "q": "Pour ajouter un argument qui va dans le même sens, on dit :", "options": ["d'ailleurs", "pourtant", "en revanche"], "answer": 0, "explain": "D'ailleurs thêm một lý lẽ cùng hướng. Pourtant và en revanche là đối lập.", "error_tag": "connecteurs"},
+       {"id": "q6", "type": "mcq", "q": "Quelle phrase est correcte ?", "options": ["Je suis d'accord avec toi.", "Je suis d'accord à toi.", "Je suis d'accord avec tu."], "answer": 0, "explain": "Être d'accord avec + đại từ mạnh: avec toi.", "error_tag": "syntaxe"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Khung: ý kiến, lý do, ví dụ, mặt kia, kết.\n- Ý kiến: à mon avis, je trouve que, il me semble que (+ indicatif).\n- Phủ định: je ne pense pas que, je ne crois pas que, je ne suis pas sûr que (+ subjonctif): je ne pense pas que ce soit.\n- Lý do và ví dụ: parce que, car, par exemple, d'ailleurs, en plus.\n- Đối lập: mais, pourtant, en revanche. Kết: donc, c'est pourquoi.\n- Đồng ý: je suis d'accord avec toi, tu as raison. Không đồng ý: je ne suis pas d'accord, parce que..."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Thêm 10 cụm từ của bài vào Vocabulary Trainer.\n2. Trong Speaking Lab, làm lại bài nói ba phút với chủ đề còn lại (télétravail hoặc ville / campagne), rồi nghe lại và đếm số từ nối.\n3. Trong Writing Lab, viết 6 câu: ba với je pense que, ba với je ne pense pas que, về cùng một chủ đề."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video người Pháp nêu ý kiến, kèm câu hỏi, miễn phí."},
+       {"title": "France Culture", "url": "https://www.radiofrance.fr/franceculture", "note": "Nghe một cuộc tranh luận ngắn và ghi lại các cụm từ nêu ý kiến. Tốc độ nhanh, chỉ cần nắm các từ nối."}
+     ]}
+  ]
+}

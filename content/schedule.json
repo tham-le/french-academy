@@ -1,0 +1,9 @@
+[
+  {"activity": "grammar", "skill": null, "minutes": 45, "label": "Grammaire"},
+  {"activity": "vocab", "skill": null, "minutes": 30, "label": "Vocabulaire"},
+  {"activity": "listening", "skill": "listening", "minutes": 45, "label": "Compréhension orale"},
+  {"activity": "reading", "skill": "reading", "minutes": 45, "label": "Compréhension écrite"},
+  {"activity": "speaking", "skill": "speaking", "minutes": 90, "label": "Expression orale"},
+  {"activity": "writing", "skill": "writing", "minutes": 30, "label": "Expression écrite"},
+  {"activity": "review", "skill": null, "minutes": 15, "label": "Révision"}
+]

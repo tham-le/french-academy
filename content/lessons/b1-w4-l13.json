@@ -1,0 +1,91 @@
+{
+  "id": "b1-w4-l13", "phase": 1, "module": "Pronoms et propositions relatives", "week": 4, "order": 1,
+  "level": "B1", "skill": "grammar", "title": "Les pronoms compléments : le, la, les, lui, leur, y, en",
+  "duration_min": 50, "prerequisites": ["b1-w2-l6"],
+  "error_tags": ["pronoms_cod_coi", "accord_participe_passe"],
+  "objectives": [
+    "Phân biệt COD (le, la, les) và COI (lui, leur) theo động từ có hay không có giới từ à",
+    "Dùng y và en thay cho à + vật/nơi chốn, de + vật và số lượng",
+    "Đặt đại từ đúng chỗ ở passé composé, trước nguyên mẫu và ở impératif, hợp participe passé khi cần"
+  ],
+  "intro": "Người học B1 thường biết *le, la, les, lui, leur* nhưng vẫn nhầm giữa COD và COI, quên *y* và *en*, hoặc đặt đại từ sai chỗ ở passé composé và impératif. Bài này đi từ một câu hỏi đơn giản, **động từ này có giới từ à hay không?**, rồi luyện vị trí của đại từ trong mọi trường hợp.",
+  "references": [
+    {"title": "Le Point du FLE : grammaire", "url": "https://www.lepointdufle.net/", "note": "Tìm mục Pronoms compléments, bài tập có đáp án"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Hỏi đúng câu hỏi trước khi chọn đại từ",
+     "body": "Trước khi thay một bổ ngữ bằng đại từ, hãy hỏi ba câu.\n\n1. Bổ ngữ là **người** hay **vật, nơi chốn**?\n2. Động từ đi **trực tiếp** (*voir quelqu'un*), đi với **à** (*parler à quelqu'un*) hay đi với **de** (*parler de quelque chose*)?\n3. Có **số lượng** không (*deux, beaucoup, un peu, pas de*)?\n\nKết quả:\n\n- người, trực tiếp → *le, la, les*\n- người, với *à* → *lui, leur*\n- vật hoặc nơi, với *à* → *y*\n- vật với *de*, hoặc số lượng → *en*\n\nMẹo: tiếng Việt nói « gọi cho ai », « đợi ai », nhưng tiếng Pháp không luôn giống. *Attendre quelqu'un* (đợi ai) không có giới từ, *téléphoner à quelqu'un* lại có. Học mỗi động từ cùng với giới từ của nó."},
+    {"type": "vocab", "title": "Động từ và giới từ của nó",
+     "items": [
+       {"fr": "téléphoner à quelqu'un", "vi": "gọi điện cho ai", "example": "Je téléphone à ma mère. → Je lui téléphone."},
+       {"fr": "parler à quelqu'un", "vi": "nói với ai", "example": "Tu parles à tes voisins ? → Tu leur parles ?"},
+       {"fr": "écrire à quelqu'un", "vi": "viết cho ai", "example": "J'écris à Paul. → Je lui écris."},
+       {"fr": "demander quelque chose à quelqu'un", "vi": "hỏi, xin ai cái gì", "example": "Je demande l'adresse à Léa. → Je la lui demande."},
+       {"fr": "offrir quelque chose à quelqu'un", "vi": "tặng ai cái gì", "example": "Il offre des fleurs à sa femme. → Il lui offre des fleurs."},
+       {"fr": "inviter quelqu'un", "vi": "mời ai", "example": "J'invite mes collègues. → Je les invite."},
+       {"fr": "attendre quelqu'un", "vi": "đợi ai", "example": "J'attends le médecin. → Je l'attends."},
+       {"fr": "penser à quelque chose", "vi": "nghĩ đến cái gì", "example": "Je pense à mon examen. → J'y pense."},
+       {"fr": "s'occuper de quelque chose", "vi": "lo việc gì", "example": "Je m'occupe des courses. → Je m'en occupe."},
+       {"fr": "avoir besoin de quelque chose", "vi": "cần cái gì", "example": "Tu as besoin de la voiture ? → Tu en as besoin ?"}
+     ]},
+    {"type": "grammar", "title": "Hình thức, vị trí, hợp participe passé",
+     "body": "### COD : le, la, l', les\n\nĐại từ bổ ngữ trực tiếp thay cho một người hoặc một vật đứng ngay sau động từ, không có giới từ. Động từ trực tiếp hay gặp: *voir, aimer, inviter, connaître, prendre, attendre, écouter, regarder*.\n\n*Tu vois Marie ?* → *Je la vois.* *Tu aimes ce film ?* → *Je l'aime.* *Tu invites tes amis ?* → *Je les invite.*\n\n### COI : lui, leur\n\nĐại từ bổ ngữ gián tiếp thay cho **một người** sau giới từ *à*. Động từ đi với *à quelqu'un*: *téléphoner à, parler à, écrire à, répondre à, demander à, offrir à, plaire à*.\n\n*Tu téléphones à Paul ?* → *Je lui téléphone.* *Tu écris à tes parents ?* → *Je leur écris.*\n\nChú ý: *lui* dùng cho cả nam và nữ. *Je parle à Marie* → *Je lui parle.*\n\n### y và en\n\n**y** thay cho *à* + vật hoặc nơi chốn: *Je pense à ce projet* → *J'y pense.* *Je vais à Lyon* → *J'y vais.*\n\n**en** thay cho *de* + vật, và thay cho số lượng: *Je parle de mon travail* → *J'en parle.* *Tu as des enfants ?* → *J'en ai deux.* *Tu veux du café ?* → *J'en veux bien.*\n\nVới số lượng, phải giữ lại con số hoặc từ chỉ lượng sau động từ: *j'en ai deux, j'en veux un peu, je n'en ai pas.*\n\n### Vị trí\n\nĐại từ đứng **trước động từ chia**: *Je le prends. Je ne le prends pas.*\n\nỞ passé composé, đại từ đứng trước trợ động từ: *Je l'ai vu. Je ne lui ai pas parlé.* Khi COD (*le, la, les*) đứng trước *avoir*, participe passé hợp giống và số với nó: *Marie ? Je l'ai vue. Les photos ? Je les ai prises.* Với *lui, leur, y, en* không hợp: *Je leur ai écrit. J'en ai acheté deux.*\n\nVới động từ nguyên mẫu, đại từ đứng trước nguyên mẫu: *Je vais lui parler. Je ne peux pas les inviter.*\n\n### Impératif\n\nKhẳng định: đại từ đứng **sau** động từ, nối bằng gạch ngang, và *me* thành *moi*: *Prends-le ! Parle-lui ! Écoute-moi !*\n\nPhủ định: đại từ trở về **trước** động từ: *Ne le prends pas ! Ne lui parle pas !*\n\nVới *y* và *en*, động từ nhóm 1 và *aller* lấy lại *s* ở ngôi *tu*: *Vas-y ! Manges-en !*",
+     "examples": [
+       {"fr": "Tu as vu le médecin ? Oui, je l'ai vu hier.", "vi": "Voir quelqu'un, trực tiếp: le, rút thành l' trước nguyên âm."},
+       {"fr": "Tu as parlé à la propriétaire ? Non, je vais lui parler demain.", "vi": "Parler à quelqu'un: lui, đứng trước nguyên mẫu."},
+       {"fr": "Les clés ? Je les ai laissées sur la table.", "vi": "COD les đứng trước avoir: participe passé hợp, laissées."},
+       {"fr": "Du pain ? Il n'y en a plus, achètes-en deux.", "vi": "En thay cho du pain; impératif khẳng định với en: achètes-en."}
+     ]},
+    {"type": "exercise", "title": "Choisir et placer le pronom", "instructions": "Điền đại từ đúng, hoặc chia động từ với đại từ như trong ngoặc (ví dụ: l'ai vue). Chú ý hợp participe passé.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Tu as vu Marie ? Oui, je ___ (voir) hier.", "answer": ["l'ai vue"], "explain": "Voir quelqu'un, trực tiếp: l'. COD đứng trước avoir, Marie là nữ: vue.", "error_tag": "accord_participe_passe"},
+       {"id": "e2", "type": "gap", "q": "Tu téléphones à tes parents ce soir ? Oui, je ___ téléphone après le dîner.", "answer": ["leur"], "explain": "Téléphoner à quelqu'un, số nhiều: leur.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e3", "type": "gap", "q": "Tu vas souvent à la piscine ? Oui, j'___ vais deux fois par semaine.", "answer": ["y"], "explain": "À + nơi chốn: y.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e4", "type": "gap", "q": "Vous avez des enfants ? Oui, j'___ ai deux.", "answer": ["en"], "explain": "Số lượng: en, và giữ lại deux sau động từ.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e5", "type": "gap", "q": "Tu as parlé au directeur ? Non, je vais ___ parler demain.", "answer": ["lui"], "explain": "Parler à quelqu'un: lui, đứng trước nguyên mẫu parler.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e6", "type": "mcq", "q": "Ce gâteau est pour Léa. Ne ___ mange pas !", "options": ["le", "lui", "en"], "answer": 0, "explain": "Manger quelque chose, trực tiếp: le. Impératif phủ định: đại từ trước động từ.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e7", "type": "mcq", "q": "Les clés sont sur la table. Prends-___ avant de sortir.", "options": ["les", "leur", "y"], "answer": 0, "explain": "Prendre quelque chose, trực tiếp, số nhiều: les. Impératif khẳng định: đại từ sau động từ.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e8", "type": "gap", "q": "Les fleurs que tu m'as ___ (offrir) sont magnifiques.", "answer": ["offertes"], "explain": "COD les fleurs (que) đứng trước avoir, giống cái số nhiều: offertes.", "error_tag": "accord_participe_passe"}
+     ]},
+    {"type": "listening", "title": "Une fête surprise", "instructions": "Nghe tối đa 2 lần. Chú ý mỗi đại từ thay cho ai hoặc cái gì.",
+     "text": "Samedi, c'est l'anniversaire de ma sœur Camille, et je lui prépare une fête surprise. Je lui ai téléphoné hier pour lui proposer un dîner tranquille, et elle a dit oui sans rien soupçonner. J'ai invité ses amis : je les ai contactés par message et ils ont tous accepté. Pour le gâteau, je l'ai commandé chez le pâtissier du quartier ; je vais le chercher samedi matin. Les cadeaux, je m'en occupe aussi : j'en ai déjà acheté deux, un livre et une écharpe. Son copain Julien m'aide beaucoup. Je lui ai demandé d'emmener Camille au cinéma l'après-midi, pendant que nous décorons l'appartement. Il reste un problème : la musique. Je n'y ai pas pensé ! Je vais demander à mon cousin, il en a beaucoup sur son ordinateur.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Qui organise la fête ?", "options": ["Camille", "La sœur de Camille", "Julien"], "answer": 1, "explain": "« c'est l'anniversaire de ma sœur Camille, et je lui prépare une fête surprise »."},
+       {"id": "l2", "type": "mcq", "q": "Dans « je les ai contactés », « les » remplace :", "options": ["les cadeaux", "les amis de Camille", "les messages"], "answer": 1, "explain": "« J'ai invité ses amis : je les ai contactés ».", "error_tag": "pronoms_cod_coi"},
+       {"id": "l3", "type": "truefalse", "q": "Julien va emmener Camille au cinéma pendant la décoration.", "answer": true, "explain": "« Je lui ai demandé d'emmener Camille au cinéma l'après-midi, pendant que nous décorons »."},
+       {"id": "l4", "type": "mcq", "q": "Quel est le problème qui reste ?", "options": ["Le gâteau", "La musique", "Les invités"], "answer": 1, "explain": "« Il reste un problème : la musique »."}
+     ]},
+    {"type": "reading", "title": "Un mot pour la voisine", "instructions": "Đọc rồi trả lời. Với mỗi đại từ in trong câu hỏi, tìm từ mà nó thay thế.",
+     "text": "Bonjour Madame Lefèvre,\n\nLe facteur est passé ce matin pendant votre absence. Il avait un colis pour vous, et comme vous n'étiez pas là, il me l'a laissé. Je l'ai mis dans mon entrée, vous pouvez passer le chercher quand vous voulez, je suis chez moi jusqu'à vingt heures. Si vous préférez, je peux vous le déposer devant votre porte ce soir, dites-le-moi.\n\nJ'en profite pour vous parler de la réunion des voisins de jeudi. Le syndic nous a écrit la semaine dernière pour nous en informer, mais je crois que vous n'avez pas reçu le courrier. Il s'agit des travaux dans l'escalier : ils commencent en mars et vont durer un mois. Nous devons en discuter ensemble et voter. Si vous ne pouvez pas venir, vous pouvez donner une procuration à quelqu'un. Moi, j'y serai, et je peux vous représenter si vous me la donnez avant mercredi.\n\nDernière chose : votre chat est encore venu chez moi hier ! Je lui ai donné un peu d'eau et je l'ai laissé dormir sur le canapé. Il est adorable, mais pensez à fermer la fenêtre de la cuisine.\n\nÀ bientôt,\nThomas, votre voisin du troisième",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi Thomas écrit-il à Madame Lefèvre ?", "options": ["Pour se plaindre du chat", "Pour parler d'un colis et d'une réunion", "Pour vendre son appartement"], "answer": 1, "explain": "Hai chủ đề chính: le colis và la réunion des voisins."},
+       {"id": "r2", "type": "mcq", "q": "Dans « il me l'a laissé », « l' » remplace :", "options": ["le facteur", "le colis", "Madame Lefèvre"], "answer": 1, "explain": "Người đưa thư để lại cái gì? Le colis, nên participe passé là laissé, không có e.", "error_tag": "pronoms_cod_coi"},
+       {"id": "r3", "type": "mcq", "q": "Dans « j'y serai », « y » remplace :", "options": ["à la réunion", "chez moi", "dans l'escalier"], "answer": 0, "explain": "Y thay cho à + nơi, ở đây là la réunion de jeudi.", "error_tag": "pronoms_cod_coi"},
+       {"id": "r4", "type": "truefalse", "q": "Les travaux dans l'escalier vont durer deux mois.", "answer": false, "explain": "« ils commencent en mars et vont durer un mois »."}
+     ]},
+    {"type": "speaking", "title": "Répondre sans répéter", "minutes": 3,
+     "prompt": "Un ami vous pose des questions sur votre quotidien : Tu vois souvent tes parents ? Tu leur téléphones ? Tu vas à la salle de sport ? Tu bois du café ? Tu as parlé à ton voisin ? Répondez à huit questions de ce type en deux ou trois minutes, en remplaçant chaque complément par un pronom. Puis racontez une chose que vous avez faite pour quelqu'un cette semaine.",
+     "hints": ["Oui, je les vois tous les dimanches. Je leur téléphone le soir.", "Non, je ne lui ai pas encore parlé, je vais le faire ce soir.", "J'y vais deux fois par semaine ; j'en bois trop !"]},
+    {"type": "writing", "title": "Un message à un colocataire", "words": 120,
+     "prompt": "Votre colocataire part en vacances et vous laisse une liste de choses à faire : les plantes, le courrier, le chat, les clés, les voisins. Répondez-lui par un message (100 à 130 mots) : dites ce que vous avez déjà fait, ce que vous allez faire, et donnez-lui deux consignes à l'impératif (prends-le, ne l'oublie pas). Utilisez au moins six pronoms compléments différents.",
+     "criteria": ["Au moins six pronoms compléments (le, la, les, lui, leur, y, en), bien choisis", "Pronoms placés correctement au passé composé et devant l'infinitif", "Participe passé accordé avec le COD placé avant", "Un impératif affirmatif et un impératif négatif avec pronom", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Tu connais Paul ? Oui, je ___ connais bien.", "options": ["lui", "le", "y"], "answer": 1, "explain": "Connaître quelqu'un, trực tiếp: le.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q2", "type": "mcq", "q": "Tu as écrit à ta grand-mère ? Oui, je ___ ai écrit dimanche.", "options": ["l'", "lui", "la"], "answer": 1, "explain": "Écrire à quelqu'un: lui, cho cả nam và nữ.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q3", "type": "mcq", "q": "Tu penses encore à ce projet ? Oui, j'___ pense tous les jours.", "options": ["en", "y", "le"], "answer": 1, "explain": "Penser à + vật: y.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q4", "type": "mcq", "q": "Il veut du sucre ? Oui, il ___ veut un peu.", "options": ["le", "en", "y"], "answer": 1, "explain": "Số lượng (du sucre, un peu): en.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q5", "type": "mcq", "q": "Ces photos, je ___ hier.", "options": ["les ai pris", "les ai prises", "leur ai prises"], "answer": 1, "explain": "COD les photos đứng trước avoir: prises. Prendre là trực tiếp, không dùng leur.", "error_tag": "accord_participe_passe"},
+       {"id": "q6", "type": "mcq", "q": "Ce document est important : ne ___ pas !", "options": ["le perds", "perds-le", "en perds"], "answer": 0, "explain": "Impératif phủ định: đại từ đứng trước động từ. Perdre quelque chose, trực tiếp: le.", "error_tag": "pronoms_cod_coi"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- COD (không giới từ): *le, la, l', les*. COI (*à* + người): *lui, leur*.\n- *y* = *à* + vật hoặc nơi. *en* = *de* + vật, hoặc số lượng (*j'en ai deux*).\n- Đại từ đứng trước động từ chia, trước trợ động từ ở passé composé, trước nguyên mẫu.\n- Participe passé hợp với COD *le, la, les* đứng trước avoir: *je l'ai vue*. Không hợp với *lui, leur, y, en*.\n- Impératif khẳng định: *prends-le, parle-lui, vas-y*. Phủ định: *ne le prends pas, n'y va pas*."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Chọn 10 động từ của bài, ghi mỗi động từ với giới từ của nó (hoặc « sans préposition ») và một câu ví dụ có đại từ, rồi thêm vào Vocabulary Trainer.\n2. Trong Speaking Lab, trả lời 8 câu hỏi về thói quen của bạn bằng đại từ, không lặp lại danh từ (2 phút).\n3. Trong Writing Lab, viết lại bài nghe « Une fête surprise » ở ngôi thứ ba (Elle lui a téléphoné...), khoảng 80 từ."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục Pronoms compléments, nhiều bài tập có đáp án, miễn phí."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Xem một video và ghi lại mọi đại từ bổ ngữ bạn nghe thấy."}
+     ]}
+  ]
+}

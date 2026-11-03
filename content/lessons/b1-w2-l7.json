@@ -1,0 +1,100 @@
+{
+  "id": "b1-w2-l7", "phase": 1, "module": "Compréhension écrite", "week": 2, "order": 3,
+  "level": "B1", "skill": "reading", "title": "Se déplacer en ville : lire des informations pratiques",
+  "duration_min": 45, "prerequisites": ["b1-w1-l3"],
+  "error_tags": ["connecteurs", "lexique", "syntaxe"],
+  "objectives": [
+    "Tìm nhanh số, giờ, giá và điều kiện trong thông báo, bảng giờ và bài báo ngắn",
+    "Hiểu các từ nối đối lập: cependant, pourtant, alors que, en revanche",
+    "Dùng comparatif và superlatif để so sánh các phương tiện đi lại"
+  ],
+  "intro": "Ở B1, bạn phải đọc được những văn bản thực dụng gặp hằng ngày: thông báo ở ga, bảng giờ xe buýt, một bài báo ngắn về giao thông. Bài này luyện **đọc lướt để tìm số và điều kiện**, rồi hiểu các từ nối báo hiệu một ý ngược lại. Phần ngữ pháp đi kèm là comparatif và superlatif, công cụ để so sánh hai phương tiện.",
+  "references": [
+    {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin ngắn có transcript"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Chiến lược đọc văn bản thực dụng",
+     "body": "Thông báo, bảng giờ, bài báo ngắn: các văn bản này có cấu trúc rõ, bạn không cần đọc hết từng từ.\n\n- **Đọc lướt** (survoler): tiêu đề, chữ in đậm, số, ngày, giờ. Chúng cho biết văn bản nói về gì.\n- **Đọc quét** (repérer): đọc câu hỏi trước, rồi tìm đúng chỗ trong văn bản có con số hoặc từ khoá cần tìm.\n- **Điều kiện**: chú ý *si, à condition de, sauf, uniquement, jusqu'à, à partir de, au lieu de*. Một điều kiện nhỏ thường đổi cả câu trả lời.\n- **Từ nối đối lập**: *cependant, pourtant, en revanche, alors que* báo hiệu một ý ngược lại ý vừa nói. Sau các từ này thường là chi tiết được hỏi.\n\nKhi văn bản so sánh hai phương tiện, hai giá hay hai tuyến, hãy ghi thành hai cột rồi so."},
+    {"type": "vocab", "title": "Từ vựng giao thông trong thành phố",
+     "items": [
+       {"fr": "un abonnement", "vi": "thẻ thuê bao, vé tháng", "example": "Avec un abonnement mensuel, le trajet revient moins cher."},
+       {"fr": "un trajet", "vi": "chuyến đi, quãng đường", "example": "Mon trajet dure vingt minutes le matin."},
+       {"fr": "un embouteillage", "vi": "tắc đường", "example": "Il y a des embouteillages tous les soirs sur le pont."},
+       {"fr": "une piste cyclable", "vi": "làn đường xe đạp", "example": "La ville a construit dix kilomètres de pistes cyclables."},
+       {"fr": "les heures de pointe", "vi": "giờ cao điểm", "example": "Évitez le métro aux heures de pointe."},
+       {"fr": "un arrêt", "vi": "trạm dừng", "example": "Descendez au prochain arrêt."},
+       {"fr": "valider (un ticket)", "vi": "quẹt vé, kích hoạt vé khi lên xe", "example": "N'oubliez pas de valider votre ticket en montant."},
+       {"fr": "une amende", "vi": "tiền phạt", "example": "Sans ticket, l'amende est de cinquante euros."},
+       {"fr": "en travaux", "vi": "đang sửa chữa", "example": "La ligne 2 est en travaux jusqu'en mars."},
+       {"fr": "le covoiturage", "vi": "đi chung xe", "example": "Je vais au travail en covoiturage avec une collègue."}
+     ]},
+    {"type": "grammar", "title": "Comparatif, superlatif et từ nối đối lập",
+     "body": "### Comparatif\n\n- *plus / moins / aussi* + tính từ hoặc trạng từ + *que*: *Le métro est plus rapide que le bus.* *Le vélo est aussi pratique que la voiture.*\n- *plus de / moins de / autant de* + danh từ + *que*: *Il y a plus de monde le matin que le soir.*\n- động từ + *plus / moins / autant que*: *Je marche plus que toi.*\n\nTrước nguyên âm, *que* thành *qu'*: *plus rapide qu'un bus*.\n\n### Superlatif\n\n*le / la / les plus (moins)* + tính từ, thường theo sau là *de* để chỉ phạm vi: *la ligne la plus fréquentée de la ville*, *le quartier le moins cher de Lyon*. Với tính từ ngắn đứng trước danh từ, superlatif cũng đứng trước: *le plus grand parc*.\n\n### bon, bien, mauvais\n\nBa từ này có dạng riêng. Không nói *plus bon*, *plus bien*.\n\n- *bon* → *meilleur(e)(s)*, superlatif *le / la meilleur(e)*: *C'est le meilleur moyen de transport.*\n- *bien* → *mieux*, superlatif *le mieux*: *Je dors mieux depuis que je vais au travail à vélo.*\n- *mauvais* → *pire* (hoặc *plus mauvais*): *Le trafic est pire le vendredi soir.*\n\n### Từ nối đối lập\n\n- *cependant, pourtant*: ý ngược lại, hơi bất ngờ. Đứng đầu câu hoặc sau dấu phẩy.\n- *en revanche*: bù lại, mặt khác. Đặt hai mặt của hai đối tượng cạnh nhau.\n- *alors que*: trong khi. Nối hai mệnh đề trong cùng một câu: *Le tram est gratuit le week-end, alors que le parking reste cher.*",
+     "examples": [
+       {"fr": "Le tram est plus rapide que le bus, mais moins fréquent.", "vi": "Hai comparatif với tính từ."},
+       {"fr": "Il y a moins d'embouteillages qu'avant.", "vi": "Moins de + danh từ. Que rút gọn thành qu' trước avant."},
+       {"fr": "C'est la station la plus proche de chez moi.", "vi": "Superlatif, rồi de để chỉ phạm vi."},
+       {"fr": "Le vélo est le meilleur choix pour les petits trajets, et on respire mieux.", "vi": "Bon → meilleur, bien → mieux."},
+       {"fr": "Le bus est bondé le matin ; en revanche, il est presque vide l'après-midi.", "vi": "En revanche: mặt khác, bù lại."}
+     ]},
+    {"type": "exercise", "title": "Từ nối và so sánh", "instructions": "Chọn từ nối đúng hoặc điền dạng so sánh. Với hai chỗ trống, viết theo dạng « plus / de ».",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Le métro est rapide, ___ il est souvent bondé le matin.", "options": ["cependant", "donc", "parce que"], "answer": 0, "explain": "Ý ngược lại (nhanh nhưng đông): cependant. Donc và parce que chỉ kết quả và nguyên nhân.", "error_tag": "connecteurs"},
+       {"id": "e2", "type": "mcq", "q": "___ le tram est gratuit le week-end, le parking du centre reste cher.", "options": ["Alors que", "Pourtant", "En revanche"], "answer": 0, "explain": "Alors que mở một mệnh đề phụ (alors que + chủ ngữ + động từ). Pourtant và en revanche nối hai câu độc lập.", "error_tag": "connecteurs"},
+       {"id": "e3", "type": "mcq", "q": "Il a un abonnement, ___ il prend souvent sa voiture.", "options": ["pourtant", "en revanche", "donc"], "answer": 0, "explain": "Có vé tháng mà vẫn đi ô tô: ý ngược, bất ngờ, dùng pourtant.", "error_tag": "connecteurs"},
+       {"id": "e4", "type": "gap", "q": "Ce trajet est ___ (bon) en tram qu'en bus.", "answer": ["meilleur"], "explain": "Comparatif của bon là meilleur, không dùng plus bon.", "error_tag": "syntaxe"},
+       {"id": "e5", "type": "gap", "q": "Depuis les travaux, je dors ___ (bien) parce que la rue est plus calme.", "answer": ["mieux"], "explain": "Comparatif của bien là mieux, không dùng plus bien.", "error_tag": "syntaxe"},
+       {"id": "e6", "type": "gap", "q": "C'est la ligne la ___ fréquentée ___ la ville.", "answer": ["plus / de", "plus, de", "plus de"], "explain": "Superlatif: la plus + tính từ, rồi de để chỉ phạm vi. Ghi theo dạng « plus / de ».", "error_tag": "syntaxe"},
+       {"id": "e7", "type": "mcq", "q": "Sans ticket validé, vous risquez ___.", "options": ["une amende", "un abonnement", "un arrêt"], "answer": 0, "explain": "Une amende: tiền phạt.", "error_tag": "lexique"},
+       {"id": "e8", "type": "mcq", "q": "Entre 8 h et 9 h, c'est ___ : les bus sont pleins.", "options": ["l'heure de pointe", "le tarif réduit", "la piste cyclable"], "answer": 0, "explain": "L'heure de pointe: giờ cao điểm.", "error_tag": "lexique"}
+     ]},
+    {"type": "listening", "title": "Informations trafic du lundi matin", "instructions": "Nghe thông báo tối đa 2 lần. Ghi: tuyến nào, vì sao, bao lâu, phương tiện thay thế.",
+     "text": "Bonjour à tous, voici les informations trafic de ce lundi matin. En raison de travaux sur la place de la République, la ligne de tram T1 est interrompue entre les arrêts Gare et Hôtel de ville jusqu'à vendredi. Des bus de remplacement circulent toutes les dix minutes, cependant le trajet est plus long d'environ un quart d'heure. Nous vous conseillons de partir plus tôt, surtout aux heures de pointe. En revanche, les lignes de métro fonctionnent normalement. Rappelons que les vélos de la ville sont gratuits pendant la première demi-heure : c'est peut-être le moyen le plus rapide pour traverser le centre cette semaine. Pour toute question, le service client est ouvert de huit heures à dix-neuf heures. Bonne journée et bon voyage.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Pourquoi la ligne T1 est-elle interrompue ?", "options": ["À cause de la neige", "À cause de travaux", "À cause d'une grève"], "answer": 1, "explain": "« En raison de travaux sur la place de la République »."},
+       {"id": "l2", "type": "mcq", "q": "Les bus de remplacement passent :", "options": ["toutes les cinq minutes", "toutes les dix minutes", "toutes les quinze minutes"], "answer": 1, "explain": "« Des bus de remplacement circulent toutes les dix minutes »."},
+       {"id": "l3", "type": "truefalse", "q": "Le métro est aussi perturbé.", "answer": false, "explain": "« En revanche, les lignes de métro fonctionnent normalement »."},
+       {"id": "l4", "type": "mcq", "q": "Pendant combien de temps les vélos de la ville sont-ils gratuits ?", "options": ["Quinze minutes", "Trente minutes", "Une heure"], "answer": 1, "explain": "« gratuits pendant la première demi-heure », tức ba mươi phút."}
+     ]},
+    {"type": "reading", "title": "Moins de voitures, plus de vélos : la ville change", "instructions": "Đọc câu hỏi trước. Gạch dưới mọi con số và mọi từ nối đối lập trong bài, rồi trả lời.",
+     "text": "Depuis cinq ans, la mairie encourage les habitants à laisser leur voiture au garage. Aujourd'hui, un trajet sur trois se fait à vélo ou à pied dans le centre, alors qu'en 2020, c'était seulement un sur cinq. La ville a construit quarante kilomètres de pistes cyclables et le stationnement est devenu plus cher : trois euros de l'heure dans le centre, contre un euro cinquante auparavant.\n\nLes transports en commun ont aussi changé. Le tram passe maintenant toutes les six minutes aux heures de pointe, et l'abonnement mensuel coûte trente euros, soit moins qu'un plein d'essence. Pour les moins de vingt-six ans et les demandeurs d'emploi, le tarif réduit est de quinze euros. Cependant, tout le monde n'est pas satisfait. Les commerçants du centre affirment que leurs clients viennent moins souvent depuis que le parking est plus cher. Les habitants des quartiers éloignés, en revanche, se plaignent du contraire : chez eux, le bus passe seulement deux fois par heure et s'arrête à vingt et une heures.\n\nPourtant, sept habitants sur dix trouvent que la ville est plus agréable qu'avant : moins de bruit, moins d'embouteillages et un air plus propre. La prochaine étape est annoncée pour l'année prochaine : les bus seront gratuits le week-end, à condition d'avoir une carte de transport valide.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "En 2020, quelle part des trajets du centre se faisait à vélo ou à pied ?", "options": ["Un sur trois", "Un sur cinq", "Sept sur dix"], "answer": 1, "explain": "« alors qu'en 2020, c'était seulement un sur cinq ». Un sur trois là con số hiện nay."},
+       {"id": "r2", "type": "mcq", "q": "Combien coûte l'abonnement mensuel pour un étudiant de vingt ans ?", "options": ["Trente euros", "Quinze euros", "Trois euros"], "answer": 1, "explain": "Dưới hai mươi sáu tuổi: tarif réduit, quinze euros."},
+       {"id": "r3", "type": "mcq", "q": "« Les habitants des quartiers éloignés, en revanche, se plaignent du contraire. » Ici, en revanche exprime :", "options": ["une cause", "une opposition", "une conséquence"], "answer": 1, "explain": "En revanche đặt hai nhóm có ý kiến ngược nhau cạnh nhau: đối lập.", "error_tag": "connecteurs"},
+       {"id": "r4", "type": "truefalse", "q": "Les commerçants du centre sont contents du nouveau prix du parking.", "answer": false, "explain": "« leurs clients viennent moins souvent depuis que le parking est plus cher »: họ than phiền."},
+       {"id": "r5", "type": "mcq", "q": "À quelle condition les bus seront-ils gratuits le week-end ?", "options": ["Il faut avoir moins de vingt-six ans.", "Il faut avoir une carte de transport valide.", "Il faut habiter dans le centre."], "answer": 1, "explain": "« à condition d'avoir une carte de transport valide »."}
+     ]},
+    {"type": "reading", "title": "Avis aux voyageurs", "instructions": "Đọc thông báo một lần, tìm ngày, giờ và điều kiện, rồi trả lời.",
+     "text": "Avis aux voyageurs. Du lundi 3 au dimanche 16 novembre, la station Jardin des Plantes est fermée pour travaux. Les trains ne s'arrêtent pas dans cette station. Pour rejoindre le quartier, descendez à la station Université et prenez le bus 12 jusqu'à l'arrêt Jardin des Plantes (cinq minutes). Les voyageurs à mobilité réduite peuvent demander un transport gratuit en appelant le service client avant 17 h la veille. Pendant toute la durée des travaux, les abonnements mensuels sont prolongés de deux semaines, sans démarche de votre part. Attention : le dernier train en direction de la gare part à 0 h 30 au lieu de 1 h. Merci de votre compréhension.",
+     "questions": [
+       {"id": "r6", "type": "mcq", "q": "Pendant les travaux, pour aller au Jardin des Plantes, il faut :", "options": ["prendre un taxi", "descendre à Université et prendre le bus 12", "marcher depuis la gare"], "answer": 1, "explain": "« descendez à la station Université et prenez le bus 12 »."},
+       {"id": "r7", "type": "truefalse", "q": "Les abonnés doivent remplir un formulaire pour prolonger leur abonnement.", "answer": false, "explain": "« sans démarche de votre part »: không cần làm gì, gia hạn tự động."},
+       {"id": "r8", "type": "mcq", "q": "À quelle heure part le dernier train vers la gare pendant les travaux ?", "options": ["À 1 h", "À 0 h 30", "À 17 h"], "answer": 1, "explain": "« part à 0 h 30 au lieu de 1 h ». Au lieu de: thay vì."}
+     ]},
+    {"type": "speaking", "title": "Comparez deux moyens de transport", "minutes": 3,
+     "prompt": "Comparez deux moyens de transport de votre ville en deux ou trois minutes : prix, rapidité, confort, et dites lequel est le meilleur pour vous. Utilisez des comparatifs, un superlatif et au moins deux connecteurs d'opposition (cependant, pourtant, alors que, en revanche).",
+     "hints": ["Le bus est moins cher que le métro, en revanche il est plus lent.", "C'est le moyen le plus pratique de la ville, pourtant...", "Pour moi, le meilleur choix, c'est... parce que..."]},
+    {"type": "writing", "title": "Votre avis sur les bus gratuits", "words": 120,
+     "prompt": "Votre ville veut rendre les bus gratuits le week-end. Écrivez un message (100 à 130 mots) sur le forum de votre quartier pour donner votre avis : deux avantages, un inconvénient, et une comparaison avec la situation actuelle.",
+     "criteria": ["Au moins trois comparatifs ou superlatifs corrects (plus... que, le meilleur, mieux)", "Au moins deux connecteurs d'opposition bien employés", "Un avis clair avec une raison", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Le tram est ___ rapide que le bus, mais il passe moins souvent.", "options": ["plus", "le plus", "mieux"], "answer": 0, "explain": "Comparatif với tính từ: plus + rapide + que.", "error_tag": "syntaxe"},
+       {"id": "q2", "type": "mcq", "q": "C'est ___ solution pour traverser le centre.", "options": ["la plus bonne", "la meilleure", "la mieux"], "answer": 1, "explain": "Superlatif của bon là le / la meilleur(e).", "error_tag": "syntaxe"},
+       {"id": "q3", "type": "mcq", "q": "Le parking est cher dans le centre. ___, il est gratuit dans les quartiers éloignés.", "options": ["En revanche", "Donc", "Parce que"], "answer": 0, "explain": "Hai mặt ngược nhau của hai nơi: en revanche.", "error_tag": "connecteurs"},
+       {"id": "q4", "type": "mcq", "q": "Il a un abonnement, ___ il préfère marcher.", "options": ["pourtant", "donc", "alors"], "answer": 0, "explain": "Ý ngược, bất ngờ: pourtant. Donc và alors chỉ kết quả.", "error_tag": "connecteurs"},
+       {"id": "q5", "type": "mcq", "q": "« Valider son ticket » signifie :", "options": ["acheter un ticket", "faire enregistrer son ticket en montant", "demander un remboursement"], "answer": 1, "explain": "Valider: quẹt hoặc đưa vé vào máy khi lên xe.", "error_tag": "lexique"},
+       {"id": "q6", "type": "mcq", "q": "Dans un horaire, « toutes les dix minutes » signifie :", "options": ["dix passages par jour", "un passage à chaque intervalle de dix minutes", "un passage qui dure dix minutes"], "answer": 1, "explain": "Toutes les dix minutes: cứ mười phút một chuyến.", "error_tag": "lexique"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Văn bản thực dụng: đọc lướt tiêu đề và số, rồi đọc quét theo câu hỏi.\n- Điều kiện nhỏ đổi câu trả lời: sauf, uniquement, à condition de, au lieu de.\n- cependant, pourtant: ý ngược bất ngờ. en revanche: mặt khác. alors que: trong khi, nối hai mệnh đề.\n- plus / moins / aussi + tính từ + que; plus de / moins de + danh từ + que.\n- Superlatif: le plus, le moins, rồi de. bon → meilleur, bien → mieux, mauvais → pire."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Tìm một bảng giờ hoặc thông báo xe buýt thật bằng tiếng Pháp và ghi ra 3 con số, 1 điều kiện, 1 từ nối.\n2. Thêm 8 từ của bài vào Vocabulary Trainer và ôn trong ngày.\n3. Trong Speaking Lab, so sánh xe đạp và xe buýt trong 1 phút, dùng ít nhất 3 comparatif.\n4. Trong Writing Lab, nộp bài « Votre avis sur les bus gratuits » rồi sửa các từ nối theo nhận xét."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin ngắn có transcript: luyện tìm số và từ nối."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video kèm câu hỏi, miễn phí."}
+     ]}
+  ]
+}

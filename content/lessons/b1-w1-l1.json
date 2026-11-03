@@ -1,0 +1,91 @@
+{
+  "id": "b1-w1-l1", "phase": 1, "module": "Temps et modes verbaux", "week": 1, "order": 1,
+  "level": "B1", "skill": "grammar", "title": "Passé composé et imparfait : raconter au passé",
+  "duration_min": 45, "prerequisites": [],
+  "error_tags": ["passe_compose_imparfait", "accord_participe_passe"],
+  "objectives": [
+    "Phân biệt passé composé (sự kiện) và imparfait (bối cảnh, thói quen)",
+    "Chia đúng passé composé với avoir và être, hợp participe passé với être",
+    "Kể lại một kỷ niệm với các từ nối thời gian"
+  ],
+  "intro": "Người học B1 thường chia đúng từng thì nhưng chọn sai thì khi kể chuyện. Bài này tập trung vào **lựa chọn** giữa passé composé và imparfait trong cùng một đoạn văn, rồi áp dụng ngay vào nói và viết.",
+  "references": [
+    {"title": "Le Point du FLE : passé composé / imparfait", "url": "https://www.lepointdufle.net/p/passe-compose-imparfait.htm", "note": "Bài tập bổ sung"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Hai thì, hai vai trò",
+     "body": "Khi kể chuyện ở quá khứ, tiếng Pháp chia việc giữa hai thì.\n\n- **Passé composé** kể **sự kiện**: cái gì đã xảy ra, theo thứ tự, có bắt đầu và kết thúc. *Hier, je suis allé au marché, j'ai acheté des pommes et je suis rentré.*\n- **Imparfait** vẽ **bối cảnh**: thời tiết, cảm xúc, mô tả, thói quen, hành động đang diễn ra khi sự kiện khác xảy đến. *Il faisait beau, il y avait beaucoup de monde, j'étais content.*\n\nCách nghĩ đơn giản: imparfait là phông nền của bức ảnh, passé composé là nhân vật bước vào khung hình."},
+    {"type": "grammar", "title": "Hình thức và cách dùng",
+     "body": "### Imparfait\n\nLấy gốc từ dạng *nous* ở présent, bỏ *-ons*, thêm: **-ais, -ais, -ait, -ions, -iez, -aient**. *Nous finissons* → *je finissais*. Ngoại lệ duy nhất: *être* → *j'étais*.\n\nDùng khi: thói quen (*souvent, tous les jours, d'habitude*), mô tả (*il faisait, il y avait, c'était*), hành động nền đang diễn ra (*pendant que je dormais...*).\n\n### Passé composé\n\n**avoir / être** ở présent + participe passé. Đi với *être*: 14 động từ di chuyển và thay đổi trạng thái (*aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, retourner, passer*) và mọi động từ phản thân (*se lever, se souvenir*). Với *être*, participe passé **hợp giống và số với chủ ngữ**: *elle est partie, ils sont arrivés*.\n\nDùng khi: sự kiện hoàn tất, chuỗi hành động (*d'abord, puis, ensuite, enfin*), sự kiện cắt ngang bối cảnh (*je dormais quand le téléphone a sonné*).\n\n### Bẫy thường gặp\n\n- *Je suis allé* (đi) nhưng *j'ai marché* (đi bộ): *marcher* đi với avoir.\n- *Sortir, monter, descendre, passer* đi với **avoir** khi có bổ ngữ trực tiếp: *j'ai sorti la voiture* nhưng *je suis sorti*.\n- Với avoir, participe passé chỉ hợp khi COD đứng **trước**: *les pommes que j'ai achetées*.",
+     "examples": [
+       {"fr": "Quand j'étais étudiant, je prenais le bus tous les matins.", "vi": "Thói quen trong quá khứ: imparfait."},
+       {"fr": "Un jour, le bus n'est pas venu et j'ai raté mon examen.", "vi": "Hai sự kiện nối tiếp: passé composé."},
+       {"fr": "Il pleuvait quand nous sommes sortis du cinéma.", "vi": "Bối cảnh (pleuvait) và sự kiện (sommes sortis)."},
+       {"fr": "Elle s'est levée tôt, elle a pris son café et elle est partie.", "vi": "Phản thân và động từ di chuyển với être, hợp giống: levée, partie."}
+     ]},
+    {"type": "vocab", "title": "Từ nối để kể chuyện",
+     "items": [
+       {"fr": "autrefois", "vi": "ngày xưa, trước kia", "example": "Autrefois, ce quartier était très calme."},
+       {"fr": "à l'époque", "vi": "hồi đó, thời đó", "example": "À l'époque, je ne parlais pas un mot de français."},
+       {"fr": "d'habitude", "vi": "thường thường", "example": "D'habitude, je rentrais à pied."},
+       {"fr": "soudain", "vi": "bỗng nhiên", "example": "Soudain, la lumière s'est éteinte."},
+       {"fr": "tout à coup", "vi": "đột nhiên", "example": "Tout à coup, quelqu'un a frappé à la porte."},
+       {"fr": "pendant que", "vi": "trong khi", "example": "Pendant que je cuisinais, il a mis la table."},
+       {"fr": "ensuite", "vi": "sau đó", "example": "Nous avons visité le musée, ensuite nous avons déjeuné."},
+       {"fr": "finalement", "vi": "cuối cùng", "example": "Finalement, nous avons pris le train de nuit."},
+       {"fr": "se souvenir de", "vi": "nhớ về", "example": "Je me souviens de mon premier jour à Paris."},
+       {"fr": "avoir l'habitude de", "vi": "có thói quen", "example": "J'avais l'habitude de lire le soir."}
+     ]},
+    {"type": "exercise", "title": "Chọn thì đúng", "instructions": "Điền động từ trong ngoặc ở passé composé hoặc imparfait. Viết cả trợ động từ khi cần (ví dụ : suis allé).",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Quand j'___ (être) enfant, nous habitions à la campagne.", "answer": ["étais"], "explain": "Mô tả bối cảnh quá khứ: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e2", "type": "gap", "q": "Hier, elle ___ (partir) à 7 heures.", "answer": ["est partie"], "explain": "Sự kiện xác định (hier, 7 heures): passé composé. Partir đi với être, chủ ngữ elle nên partie.", "error_tag": "accord_participe_passe"},
+       {"id": "e3", "type": "gap", "q": "Il ___ (pleuvoir) quand nous sommes arrivés.", "answer": ["pleuvait"], "explain": "Bối cảnh đang diễn ra khi sự kiện xảy ra: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e4", "type": "gap", "q": "Tous les étés, nous ___ (aller) chez mes grands-parents.", "answer": ["allions"], "explain": "Thói quen (tous les étés): imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e5", "type": "gap", "q": "Je lisais tranquillement quand le téléphone ___ (sonner).", "answer": ["a sonné"], "explain": "Sự kiện cắt ngang hành động nền: passé composé.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e6", "type": "gap", "q": "Ils ___ (se lever) tard dimanche dernier.", "answer": ["se sont levés"], "explain": "Động từ phản thân, être, chủ ngữ ils: se sont levés.", "error_tag": "accord_participe_passe"},
+       {"id": "e7", "type": "gap", "q": "Nous ___ (monter) les valises au deuxième étage.", "answer": ["avons monté"], "explain": "Monter có bổ ngữ trực tiếp (les valises) nên đi với avoir.", "error_tag": "accord_participe_passe"},
+       {"id": "e8", "type": "gap", "q": "Ce matin-là, il ___ (faire) très froid et les rues ___ (être) vides.", "answer": ["faisait / étaient", "faisait, étaient", "faisait étaient"], "explain": "Hai mô tả bối cảnh: imparfait. Ghi theo dạng « faisait / étaient ».", "error_tag": "passe_compose_imparfait"}
+     ]},
+    {"type": "listening", "title": "Un souvenir de voyage", "instructions": "Nghe đoạn kể (tối đa 2 lần), trả lời rồi mới xem văn bản.",
+     "text": "L'été dernier, je suis parti en Bretagne avec deux amis. Nous avions loué une petite maison près de la mer. Tous les matins, nous allions au marché, puis nous passions l'après-midi sur la plage. Un jour, pendant que nous nagions, le ciel est devenu noir et un orage a éclaté. Nous avons couru jusqu'à la maison, complètement trempés. Finalement, nous avons passé la soirée à jouer aux cartes devant la cheminée. C'était le meilleur moment du voyage.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Où le narrateur est-il allé ?", "options": ["En Normandie", "En Bretagne", "En Provence"], "answer": 1, "explain": "« je suis parti en Bretagne »."},
+       {"id": "l2", "type": "mcq", "q": "Que faisaient-ils tous les matins ?", "options": ["Ils nageaient.", "Ils allaient au marché.", "Ils jouaient aux cartes."], "answer": 1, "explain": "Thói quen: « tous les matins, nous allions au marché »."},
+       {"id": "l3", "type": "truefalse", "q": "L'orage a éclaté pendant qu'ils dormaient.", "answer": false, "explain": "« pendant que nous nagions »."},
+       {"id": "l4", "type": "mcq", "q": "Comment ont-ils fini la journée ?", "options": ["À la plage", "Au restaurant", "Devant la cheminée"], "answer": 2, "explain": "« à jouer aux cartes devant la cheminée »."}
+     ]},
+    {"type": "reading", "title": "Le jour où j'ai rencontré mon meilleur ami", "instructions": "Đọc rồi trả lời. Chú ý thì của các động từ in đậm trong câu hỏi.",
+     "text": "J'avais dix ans et je venais d'arriver dans une nouvelle école. Je ne connaissais personne et je restais seul dans la cour pendant la récréation. Un matin, un garçon s'est approché de moi avec un ballon. Il m'a demandé si je voulais jouer. J'ai dit oui, un peu timidement. Nous avons joué jusqu'à la sonnerie et, le lendemain, il m'attendait déjà devant la porte. Vingt ans plus tard, nous sommes toujours amis. Il habite maintenant à Lyon, mais nous nous téléphonons toutes les semaines et nous partons en vacances ensemble chaque été.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi le narrateur restait-il seul ?", "options": ["Il n'aimait pas jouer.", "Il ne connaissait personne.", "Il était malade."], "answer": 1, "explain": "« Je ne connaissais personne »."},
+       {"id": "r2", "type": "mcq", "q": "« Je restais seul » est à l'imparfait parce que c'est :", "options": ["une action terminée", "une situation qui dure", "une action future"], "answer": 1, "explain": "Tình trạng kéo dài trong quá khứ: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "r3", "type": "mcq", "q": "« Un garçon s'est approché » est au passé composé parce que c'est :", "options": ["une habitude", "une description", "un événement précis"], "answer": 2, "explain": "Sự kiện cụ thể, xảy ra một lần: passé composé.", "error_tag": "passe_compose_imparfait"},
+       {"id": "r4", "type": "truefalse", "q": "Les deux amis habitent dans la même ville aujourd'hui.", "answer": false, "explain": "« Il habite maintenant à Lyon »."}
+     ]},
+    {"type": "speaking", "title": "Racontez un souvenir d'enfance", "minutes": 3,
+     "prompt": "Racontez un souvenir d'enfance en deux ou trois minutes : où vous étiez, avec qui, ce que vous faisiez d'habitude, et ce qui s'est passé un jour en particulier. Utilisez au moins trois mots de la liste de vocabulaire.",
+     "hints": ["Commencez par le décor : Quand j'étais petit(e), je... (imparfait)", "Puis l'événement : Un jour, ... (passé composé)", "Terminez par ce que vous ressentez aujourd'hui."]},
+    {"type": "writing", "title": "Un week-end inoubliable", "words": 120,
+     "prompt": "Écrivez un message à un ami français (100 à 130 mots) pour raconter un week-end inoubliable : le contexte (temps, lieu, humeur), ce qui s'est passé, et comment cela s'est terminé.",
+     "criteria": ["Au moins quatre verbes à l'imparfait et quatre au passé composé, bien choisis", "Participes passés accordés avec être", "Au moins trois connecteurs temporels", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Quand je ___ petit, je ___ beaucoup de bandes dessinées.", "options": ["ai été / ai lu", "étais / lisais", "étais / ai lu"], "answer": 1, "explain": "Bối cảnh và thói quen: hai imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "q2", "type": "mcq", "q": "Elle ___ à Marseille en 2015.", "options": ["est née", "a né", "est né"], "answer": 0, "explain": "Naître đi với être, chủ ngữ elle: est née.", "error_tag": "accord_participe_passe"},
+       {"id": "q3", "type": "mcq", "q": "Nous ___ la télé quand quelqu'un ___ à la porte.", "options": ["avons regardé / frappait", "regardions / a frappé", "regardions / frappait"], "answer": 1, "explain": "Hành động nền (regardions) bị cắt bởi sự kiện (a frappé).", "error_tag": "passe_compose_imparfait"},
+       {"id": "q4", "type": "mcq", "q": "Les lettres que tu as ___ sont sur la table.", "options": ["écrit", "écrites", "écrite"], "answer": 1, "explain": "COD « les lettres » đứng trước avoir: participe hợp giống cái số nhiều.", "error_tag": "accord_participe_passe"},
+       {"id": "q5", "type": "mcq", "q": "Ils ___ les escaliers en courant.", "options": ["sont descendu", "ont descendu", "sont descendus"], "answer": 1, "explain": "Descendre có COD (les escaliers) nên dùng avoir.", "error_tag": "accord_participe_passe"},
+       {"id": "q6", "type": "mcq", "q": "Hier, il ___ froid, alors je ___ un manteau.", "options": ["faisait / ai mis", "a fait / mettais", "faisait / mettais"], "answer": 0, "explain": "Bối cảnh (faisait) và quyết định cụ thể (ai mis).", "error_tag": "passe_compose_imparfait"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Imparfait: bối cảnh, mô tả, thói quen, hành động nền.\n- Passé composé: sự kiện, chuỗi hành động, hành động cắt ngang.\n- Être + 14 động từ di chuyển và mọi động từ phản thân; participe passé hợp với chủ ngữ.\n- Avoir: participe passé chỉ hợp khi COD đứng trước.\n- Khi kể chuyện: mở bằng imparfait, đưa sự kiện vào bằng passé composé, kết bằng cảm nhận."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Ghi 5 câu về ngày hôm qua của bạn: 2 câu bối cảnh (imparfait), 3 câu sự kiện (passé composé).\n2. Thêm 5 từ nối trong danh sách vào Vocabulary Trainer và ôn ngay hôm nay.\n3. Trong Speaking Lab, kể lại bài nghe « Un souvenir de voyage » bằng lời của bạn (2 phút)."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE : passé composé / imparfait", "url": "https://www.lepointdufle.net/p/passe-compose-imparfait.htm", "note": "Nhiều bài tập có đáp án, miễn phí."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe bản tin rồi tìm các câu ở passé composé."}
+     ]}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "phases": [
+    {"phase": 1, "name": "Consolidation B1", "months": "Tháng 1 đến 3", "level": "B1",
+     "goals": ["Củng cố toàn bộ ngữ pháp B1", "Phát triển vốn từ chủ động", "Nói về các chủ đề quen thuộc", "Hiểu hội thoại và tin tức đơn giản", "Viết văn bản có cấu trúc"],
+     "modules": [
+       {"name": "Grammaire fondamentale"}, {"name": "Temps et modes verbaux"}, {"name": "Pronoms et propositions relatives"},
+       {"name": "Vocabulaire quotidien"}, {"name": "Compréhension orale"}, {"name": "Compréhension écrite"},
+       {"name": "Expression orale"}, {"name": "Expression écrite"}, {"name": "Vie quotidienne en France"}, {"name": "Révision et évaluation B1"}]},
+    {"phase": 2, "name": "Transition B1 vers B2", "months": "Tháng 4 đến 6", "level": "B2",
+     "goals": ["Diễn đạt ý kiến rõ ràng", "Trình bày lập luận", "Thảo luận vấn đề xã hội", "Hiểu chương trình phát thanh", "Viết bài luận có cấu trúc"],
+     "modules": [
+       {"name": "Argumentation"}, {"name": "Grammaire avancée B2"}, {"name": "Connecteurs logiques"}, {"name": "Vocabulaire abstrait"},
+       {"name": "Actualité et société française"}, {"name": "Débats et discussions"}, {"name": "Compréhension de documents authentiques"},
+       {"name": "Production écrite B2"}, {"name": "Production orale B2"}, {"name": "Évaluation B2"}]},
+    {"phase": 3, "name": "Advanced B2 vers C1", "months": "Tháng 7 đến 9", "level": "C1",
+     "goals": ["Phân tích vấn đề phức tạp", "Tổng hợp nhiều tài liệu", "Hiểu nội dung học thuật", "Diễn đạt chính xác và có sắc thái", "Trình bày quan điểm độc lập"],
+     "modules": [
+       {"name": "Français académique"}, {"name": "Synthèse de documents"}, {"name": "Argumentation complexe"}, {"name": "Analyse critique"},
+       {"name": "Vocabulaire spécialisé"}, {"name": "Médias et société"}, {"name": "Compréhension orale C1"}, {"name": "Compréhension écrite C1"},
+       {"name": "Expression écrite C1"}, {"name": "Expression orale C1"}]},
+    {"phase": 4, "name": "Préparation DALF C1", "months": "Tháng 10 đến 12", "level": "C1",
+     "goals": ["Nắm phương pháp từng phần thi", "Luyện đề theo thời gian thật", "Tổng hợp tài liệu và trình bày lập luận", "Thi thử và đọc báo cáo sẵn sàng"],
+     "modules": [
+       {"name": "Méthodologie DALF C1"}, {"name": "Compréhension orale"}, {"name": "Compréhension écrite"}, {"name": "Production écrite"},
+       {"name": "Production orale"}, {"name": "Analyse de documents"}, {"name": "Synthèse"}, {"name": "Exposé argumenté"},
+       {"name": "Débat et interaction"}, {"name": "Examens blancs"}]}
+  ],
+  "note": "Các module chưa có bài học được đánh dấu rõ. Nội dung được thêm dần theo từng sprint; không có bài học giả."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "b1-w4-l16", "phase": 1, "module": "Révision et évaluation B1", "week": 4, "order": 4,
+  "level": "B1", "skill": "reading", "title": "Révision et évaluation B1 : bilan des quatre semaines",
+  "duration_min": 90, "prerequisites": ["b1-w4-l13", "b1-w4-l15"],
+  "error_tags": ["passe_compose_imparfait", "subjonctif", "pronoms_relatifs", "pronoms_cod_coi", "futur", "conditionnel"],
+  "objectives": [
+    "Kiểm tra lại các thì và thức của bốn tuần: passé composé, imparfait, futur, conditionnel, subjonctif",
+    "Dùng đúng đại từ quan hệ và đại từ bổ ngữ trong câu và trong bài viết",
+    "Làm trọn một bài nghe, một bài đọc, một bài nói 4 phút và một bài viết 160 từ theo dạng B1"
+  ],
+  "intro": "Bài cuối của module B1 ôn lại bốn tuần: thì và thức (passé composé, imparfait, futur, conditionnel, subjonctif), đại từ quan hệ, đại từ bổ ngữ, và từ vựng của bốn chủ đề (logement, travail, transports, santé). Làm bài như một bài thi nhỏ: không xem lại bài cũ trong khi làm, ghi lại các lỗi, rồi quay lại bài tương ứng.",
+  "references": [
+    {"title": "TV5MONDE Apprendre, niveau B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Bài tập theo dạng thi B1 để luyện thêm"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Cách làm bài ôn tập",
+     "body": "Bài này dài 90 phút. Hãy làm theo thứ tự và không bỏ qua phần nào.\n\n- **Bài tập ngữ pháp** (12 câu): làm liền một mạch. Với mỗi câu sai, ghi lại chủ đề lỗi hiện ở phần giải thích; đó là bài cần ôn lại.\n- **Nghe và đọc**: đọc câu hỏi trước. Nghe hai lần. Đọc một lần nhanh để nắm ý, một lần kỹ để tìm chi tiết.\n- **Nói** (4 phút): nói liên tục, không dừng để tìm từ hoàn hảo. Một bài nói B1 có mở đầu, ý kiến, ví dụ, và kết.\n- **Viết** (160 từ): 5 phút lập dàn ý, 15 phút viết, 5 phút đọc lại.\n\nKết quả của bài này cho biết bạn đã nắm nội dung của module. Mức trình độ B1 thật sự được ước lượng bằng các bài đánh giá kỹ năng (skill assessments), không bằng bài này."},
+    {"type": "vocab", "title": "Mười từ khoá của bốn tuần",
+     "items": [
+       {"fr": "un bail", "vi": "hợp đồng thuê nhà", "example": "Nous avons signé un bail de trois ans."},
+       {"fr": "la caution", "vi": "tiền đặt cọc", "example": "Le propriétaire rend la caution après l'état des lieux."},
+       {"fr": "les charges", "vi": "phí dịch vụ của căn hộ", "example": "Le loyer est de 700 euros, charges comprises."},
+       {"fr": "un CDI", "vi": "hợp đồng lao động không thời hạn", "example": "Elle a enfin signé un CDI."},
+       {"fr": "un entretien d'embauche", "vi": "phỏng vấn xin việc", "example": "J'ai un entretien d'embauche jeudi matin."},
+       {"fr": "un abonnement", "vi": "vé tháng, thuê bao", "example": "J'ai pris un abonnement annuel pour le tram."},
+       {"fr": "une grève", "vi": "đình công", "example": "À cause de la grève, il n'y a pas de trains ce matin."},
+       {"fr": "le médecin traitant", "vi": "bác sĩ gia đình", "example": "Beaucoup de cabinets ne prennent plus de nouveaux patients comme médecin traitant."},
+       {"fr": "une ordonnance", "vi": "đơn thuốc", "example": "Sans ordonnance, la pharmacie ne peut pas vous donner ce médicament."},
+       {"fr": "un arrêt de travail", "vi": "giấy nghỉ ốm", "example": "Le médecin m'a donné un arrêt de travail de trois jours."}
+     ]},
+    {"type": "grammar", "title": "Bilan des quatre semaines",
+     "body": "### Passé composé và imparfait\n\nImparfait: bối cảnh, thói quen, mô tả. Passé composé: sự kiện, chuỗi hành động. *Il pleuvait quand je suis sorti.*\n\n### Futur simple\n\nGốc nguyên mẫu + *-ai, -as, -a, -ons, -ez, -ont*. Bất quy tắc: *serai, aurai, irai, ferai, pourrai, viendrai, devrai*. Sau *quand, dès que* nói về tương lai, dùng futur: *Quand tu seras là, appelle-moi.*\n\n### Conditionnel présent\n\nGốc futur + đuôi imparfait. Lịch sự (*je voudrais*), lời khuyên (*tu devrais*), giả định với *si + imparfait*: *Si j'avais le temps, je viendrais.*\n\n### Subjonctif présent\n\nSau *il faut que, je veux que, je suis content que, je ne pense pas que, pour que, bien que*. Gốc *ils* ở présent + *-e, -es, -e, -ions, -iez, -ent*. Bất quy tắc: *sois, aie, aille, fasse, puisse, sache*.\n\n### Pronoms relatifs\n\n*qui* (chủ ngữ), *que* (COD), *où* (nơi, thời gian), *dont* (thay cho *de* + danh từ). *L'appartement que j'ai visité, le quartier où j'habite, le dossier dont j'ai besoin.*\n\n### Pronoms compléments\n\n*le, la, les* (trực tiếp), *lui, leur* (*à* + người), *y* (*à* + vật hoặc nơi), *en* (*de* + vật, số lượng). Đứng trước động từ chia; participe passé hợp với COD đứng trước: *je l'ai vue*.",
+     "examples": [
+       {"fr": "Quand j'habitais à Lille, j'ai trouvé mon premier travail.", "vi": "Bối cảnh (imparfait) và sự kiện (passé composé)."},
+       {"fr": "Dès que j'aurai mon titre de séjour, je chercherai un appartement.", "vi": "Hai futur sau dès que."},
+       {"fr": "Il faut que vous preniez rendez-vous avec votre médecin traitant.", "vi": "Subjonctif sau il faut que."},
+       {"fr": "La propriétaire que j'ai appelée m'a répondu tout de suite.", "vi": "Que là COD đứng trước: participe passé hợp, appelée."}
+     ]},
+    {"type": "exercise", "title": "Révision grammaticale : 12 questions", "instructions": "Chia động từ trong ngoặc hoặc chọn đáp án đúng. Làm liền một mạch, không xem lại bài cũ.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "Quand j'___ (habiter) à Lille, je prenais le tram tous les jours.", "answer": ["habitais"], "explain": "Bối cảnh và thói quen: imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e2", "type": "gap", "q": "Hier, nous ___ (visiter) un appartement dans le centre.", "answer": ["avons visité"], "explain": "Sự kiện xác định (hier): passé composé.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e3", "type": "gap", "q": "L'année prochaine, je ___ (chercher) un nouveau travail.", "answer": ["chercherai"], "explain": "Dự định tương lai: futur simple.", "error_tag": "futur"},
+       {"id": "e4", "type": "gap", "q": "Quand tu ___ (être) à Paris, appelle-moi.", "answer": ["seras"], "explain": "Sau quand nói về tương lai: futur, être bất quy tắc: seras.", "error_tag": "futur"},
+       {"id": "e5", "type": "gap", "q": "Si j'avais plus d'argent, j'___ (acheter) un appartement.", "answer": ["achèterais"], "explain": "Si + imparfait, mệnh đề chính ở conditionnel.", "error_tag": "conditionnel"},
+       {"id": "e6", "type": "gap", "q": "Je ___ (vouloir) un rendez-vous avec le docteur Morel, s'il vous plaît.", "answer": ["voudrais"], "explain": "Yêu cầu lịch sự: conditionnel.", "error_tag": "conditionnel"},
+       {"id": "e7", "type": "mcq", "q": "L'appartement ___ j'ai visité est trop cher.", "options": ["qui", "que", "où"], "answer": 1, "explain": "L'appartement là COD của visiter: que.", "error_tag": "pronoms_relatifs"},
+       {"id": "e8", "type": "mcq", "q": "C'est le quartier ___ j'ai grandi.", "options": ["que", "qui", "où"], "answer": 2, "explain": "Nơi chốn: où.", "error_tag": "pronoms_relatifs"},
+       {"id": "e9", "type": "gap", "q": "Il faut que tu ___ (finir) ton dossier avant vendredi.", "answer": ["finisses"], "explain": "Sau il faut que: subjonctif, gốc ils finissent.", "error_tag": "subjonctif"},
+       {"id": "e10", "type": "gap", "q": "Je ne pense pas qu'il ___ (être) malade.", "answer": ["soit"], "explain": "Je ne pense pas que + subjonctif: soit.", "error_tag": "subjonctif"},
+       {"id": "e11", "type": "mcq", "q": "Tu as écrit au propriétaire ? Oui, je ___ ai écrit ce matin.", "options": ["l'", "lui", "le"], "answer": 1, "explain": "Écrire à quelqu'un: lui.", "error_tag": "pronoms_cod_coi"},
+       {"id": "e12", "type": "mcq", "q": "Tu as des tickets de métro ? Oui, j'___ ai trois.", "options": ["en", "y", "les"], "answer": 0, "explain": "Số lượng: en, giữ lại trois.", "error_tag": "pronoms_cod_coi"}
+     ]},
+    {"type": "listening", "title": "Ma première année en France", "instructions": "Nghe lời kể kiểu phỏng vấn tối đa 2 lần. Ghi lại cho mỗi chủ đề (logement, travail, transports, santé) một chi tiết.",
+     "text": "Je m'appelle Amina, je suis arrivée en France il y a un an pour un poste d'ingénieure à Nantes. Au début, le plus difficile, c'était le logement. Les agences demandaient beaucoup de documents et je n'avais pas encore de fiche de paie. Finalement, un collègue m'a présenté une propriétaire qui a accepté mon dossier. Pour le travail, je me suis vite habituée, même si les réunions en français me fatiguaient. Je prenais des notes et je demandais à mes collègues de répéter. Aujourd'hui, ça va mieux. Pour les transports, j'ai un abonnement de tram, c'est pratique, mais quand il y a une grève, je fais quarante minutes de vélo. Côté santé, j'ai mis du temps à trouver un médecin traitant : beaucoup de cabinets ne prenaient plus de nouveaux patients. Si je devais donner un conseil, je dirais : préparez vos papiers avant d'arriver, et n'ayez pas peur de demander de l'aide.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Pourquoi Amina est-elle venue en France ?", "options": ["Pour étudier", "Pour un travail", "Pour rejoindre sa famille"], "answer": 1, "explain": "« pour un poste d'ingénieure à Nantes »."},
+       {"id": "l2", "type": "mcq", "q": "Quel a été le plus grand problème au début ?", "options": ["Le logement", "La santé", "Les transports"], "answer": 0, "explain": "« le plus difficile, c'était le logement »."},
+       {"id": "l3", "type": "mcq", "q": "Comment a-t-elle trouvé son appartement ?", "options": ["Par une agence", "Grâce à un collègue", "Sur internet"], "answer": 1, "explain": "« un collègue m'a présenté une propriétaire qui a accepté mon dossier »."},
+       {"id": "l4", "type": "truefalse", "q": "Amina prend le vélo tous les jours.", "answer": false, "explain": "Chỉ khi có đình công: « quand il y a une grève, je fais quarante minutes de vélo »."},
+       {"id": "l5", "type": "mcq", "q": "« Si je devais donner un conseil, je dirais... » : le conditionnel sert ici à :", "options": ["exprimer une hypothèse", "raconter le passé", "donner un ordre"], "answer": 0, "explain": "Si + imparfait, conditionnel: giả định.", "error_tag": "conditionnel"}
+     ]},
+    {"type": "reading", "title": "Quitter Paris pour une ville moyenne", "instructions": "Đọc lời kể rồi trả lời. Hai câu cuối hỏi về ngữ pháp trong bài.",
+     "text": "Il y a deux ans, Julien et moi avons quitté Paris pour nous installer à Angers. Nous habitions un petit deux-pièces que nous payions très cher, et nous passions plus de deux heures par jour dans les transports. Quand mon entreprise a proposé le télétravail trois jours par semaine, nous avons décidé de partir.\n\nLe logement a été la première bonne surprise. Pour le même loyer, nous avons trouvé une maison avec un jardin, à dix minutes du centre en vélo. Le propriétaire, qui habite à côté, est devenu un ami. Les charges sont un peu plus élevées à cause du chauffage, mais nous avons gagné beaucoup d'espace.\n\nPour le travail, Julien a dû changer de poste. Il a passé plusieurs entretiens d'embauche avant de signer un CDI dans une petite entreprise. Moi, je prends le train pour Paris deux fois par semaine ; le trajet dure une heure et demie, et je travaille pendant le voyage.\n\nLes transports en ville sont simples : le tram passe toutes les six minutes, et nous avons vendu notre voiture. Pour la santé, nous avons trouvé un médecin traitant en une semaine, ce qui était impossible à Paris.\n\nEst-ce que je regrette ? Parfois, le soir, les restaurants et les amis me manquent. Mais si je devais choisir à nouveau, je ferais le même choix.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi ont-ils quitté Paris ?", "options": ["Ils n'aimaient pas leur travail.", "Le logement était cher et les trajets longs.", "Ils voulaient acheter une voiture."], "answer": 1, "explain": "« un petit deux-pièces que nous payions très cher » và « plus de deux heures par jour dans les transports »."},
+       {"id": "r2", "type": "mcq", "q": "Le propriétaire de la maison :", "options": ["habite loin", "habite à côté", "habite à Paris"], "answer": 1, "explain": "« Le propriétaire, qui habite à côté, est devenu un ami »."},
+       {"id": "r3", "type": "truefalse", "q": "Julien a gardé son poste à Paris.", "answer": false, "explain": "« Julien a dû changer de poste »."},
+       {"id": "r4", "type": "mcq", "q": "Dans « le propriétaire, qui habite à côté », « qui » remplace :", "options": ["la maison", "le propriétaire", "Julien"], "answer": 1, "explain": "Qui là chủ ngữ của habite, thay cho le propriétaire.", "error_tag": "pronoms_relatifs"},
+       {"id": "r5", "type": "mcq", "q": "« Si je devais choisir à nouveau, je ferais le même choix » exprime :", "options": ["une hypothèse", "un ordre", "un souvenir"], "answer": 0, "explain": "Si + imparfait, conditionnel: giả định.", "error_tag": "conditionnel"}
+     ]},
+    {"type": "speaking", "title": "Présenter un sujet et donner son opinion", "minutes": 4,
+     "prompt": "Sujet : vaut-il mieux vivre en centre-ville ou en dehors de la ville ? Présentez le sujet en une phrase, donnez deux avantages et deux inconvénients de chaque choix (logement, transports, travail, santé), puis dites votre opinion personnelle avec des exemples de votre vie. Parlez quatre minutes sans vous arrêter.",
+     "hints": ["Introduction : Aujourd'hui, je vais parler de...", "D'un côté..., de l'autre... ; par exemple, quand j'habitais...", "À mon avis... ; si je pouvais choisir, je... ; il faut que..."]},
+    {"type": "writing", "title": "Des conseils pour s'installer", "words": 160,
+     "prompt": "Un ami étranger va venir vivre dans votre ville l'année prochaine. Écrivez-lui un courriel (150 à 170 mots) pour lui donner des conseils sur le logement, le travail, les transports et la santé. Racontez une expérience personnelle au passé, donnez au moins deux conseils avec il faut que ou tu devrais, et dites ce qui se passera quand il arrivera.",
+     "criteria": ["Les quatre thèmes abordés avec le vocabulaire des quatre semaines", "Un passage au passé avec passé composé et imparfait bien choisis", "Au moins deux conseils au subjonctif ou au conditionnel", "Au moins une phrase au futur et un pronom relatif", "Longueur respectée (150 à 170 mots)"]},
+    {"type": "quiz", "title": "Quiz final du module B1",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Quand je ___ étudiant, je ___ dans une colocation.", "options": ["étais / habitais", "ai été / ai habité", "étais / ai habité"], "answer": 0, "explain": "Bối cảnh và tình trạng kéo dài: hai imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "q2", "type": "mcq", "q": "Demain, nous ___ le nouvel appartement.", "options": ["visitons", "visiterons", "visiterions"], "answer": 1, "explain": "Demain: futur simple.", "error_tag": "futur"},
+       {"id": "q3", "type": "mcq", "q": "Si tu avais le temps, tu ___ voir un médecin.", "options": ["pourras", "pourrais", "peux"], "answer": 1, "explain": "Si + imparfait, conditionnel.", "error_tag": "conditionnel"},
+       {"id": "q4", "type": "mcq", "q": "Le collègue ___ m'a aidé est très gentil.", "options": ["que", "qui", "dont"], "answer": 1, "explain": "Chủ ngữ của a aidé: qui.", "error_tag": "pronoms_relatifs"},
+       {"id": "q5", "type": "mcq", "q": "C'est un travail ___ j'ai besoin.", "options": ["que", "qui", "dont"], "answer": 2, "explain": "Avoir besoin de: dont.", "error_tag": "pronoms_relatifs"},
+       {"id": "q6", "type": "mcq", "q": "Il faut que vous ___ une mutuelle.", "options": ["avez", "ayez", "aurez"], "answer": 1, "explain": "Il faut que + subjonctif: ayez.", "error_tag": "subjonctif"},
+       {"id": "q7", "type": "mcq", "q": "Je suis content qu'elle ___ un CDI.", "options": ["a", "aura", "ait"], "answer": 2, "explain": "Cảm xúc + que: subjonctif, ait.", "error_tag": "subjonctif"},
+       {"id": "q8", "type": "mcq", "q": "Tu as téléphoné à tes parents ? Oui, je ___ ai téléphoné hier.", "options": ["les", "leur", "y"], "answer": 1, "explain": "Téléphoner à quelqu'un, số nhiều: leur.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q9", "type": "mcq", "q": "Tu vas à la préfecture ? Oui, j'___ vais à dix heures.", "options": ["en", "y", "la"], "answer": 1, "explain": "À + nơi chốn: y.", "error_tag": "pronoms_cod_coi"},
+       {"id": "q10", "type": "mcq", "q": "Hier, il ___ froid, alors nous ___ à la maison.", "options": ["faisait / sommes restés", "a fait / restions", "faisait / restions"], "answer": 0, "explain": "Bối cảnh (faisait) và quyết định cụ thể (sommes restés).", "error_tag": "passe_compose_imparfait"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt : bạn làm được gì sau module B1",
+     "body": "**Sau module B1, bạn phải có thể:**\n\n- Kể một sự kiện ở quá khứ với passé composé, imparfait và plus-que-parfait, có từ nối.\n- Nói về dự định với futur, về giả định và lời khuyên với conditionnel.\n- Dùng subjonctif sau il faut que, je veux que, je suis content que.\n- Nối câu với qui, que, où, dont; thay bổ ngữ bằng le, la, les, lui, leur, y, en.\n- Hiểu một thông báo hành chính, một cuộc gọi đặt lịch, một bài kể dài 150 từ.\n- Trình bày một chủ đề và nêu ý kiến trong 4 phút; viết 160 từ có cấu trúc.\n\n**Lưu ý quan trọng:** đạt bài này cho thấy bạn đã nắm nội dung của module, không phải là một chứng nhận trình độ B1. Mức trình độ ước lượng của bạn được quyết định bởi các bài đánh giá kỹ năng (skill assessments) ở bốn kỹ năng Nghe, Đọc, Nói, Viết."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Ôn lại trong Vocabulary Trainer tất cả các từ của bốn tuần; đánh dấu 20 từ bạn còn quên.\n2. Trong Speaking Lab, làm lại bài nói 4 phút với một chủ đề khác: le télétravail, pour ou contre ?\n3. Trong Writing Lab, viết lại bài viết của bạn sau khi đọc nhận xét, rồi làm các bài đánh giá kỹ năng (skill assessments) để có ước lượng trình độ.\n4. Với mỗi câu sai trong bài tập ngữ pháp, quay lại bài tương ứng của tuần 1 đến 4 và làm lại quiz của bài đó."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Bài tập nghe và đọc theo dạng thi B1, miễn phí."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Bản tin có transcript để luyện nghe mỗi ngày."}
+     ]}
+  ]
+}

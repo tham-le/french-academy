@@ -1,0 +1,91 @@
+{
+  "id": "b1-w1-l4", "phase": 1, "module": "Expression orale", "week": 1, "order": 4,
+  "level": "B1", "skill": "speaking", "title": "Se présenter et raconter son parcours",
+  "duration_min": 50, "prerequisites": ["b1-w1-l1"],
+  "error_tags": ["prepositions", "passe_compose_imparfait", "connecteurs"],
+  "objectives": [
+    "Tự giới thiệu ở mức B1: quá trình học, việc làm, tình hình hiện tại và dự định",
+    "Sắp xếp một bài nói 2 đến 3 phút theo bốn bước, với từ nối và từ đệm tự nhiên",
+    "Dùng đúng depuis, il y a, pendant và ça fait ... que với thì phù hợp"
+  ],
+  "intro": "« Parlez-moi de vous » là câu mở đầu của hầu hết cuộc gặp, phỏng vấn, lớp học. Ở B1, câu trả lời không còn là ba câu rời rạc mà là một **đoạn nói có cấu trúc**: tôi là ai, tôi đã làm gì, tôi đang làm gì, tôi muốn làm gì. Bài này cho bạn khung bốn bước, các từ nối để chuyển ý, và điểm ngữ pháp hay sai nhất khi kể quá trình: depuis, il y a, pendant.",
+  "references": [
+    {"title": "TV5MONDE Apprendre, niveau B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video có người tự giới thiệu"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Khung bốn bước và từ nối",
+     "body": "Một bài tự giới thiệu 2 phút đi theo bốn bước. Mỗi bước có từ nối riêng để người nghe biết bạn đang ở đâu.\n\n1. **Tôi là ai**: tên, tuổi nếu cần, quê, tình hình hiện tại. *Je m'appelle..., je viens de..., je suis...*\n2. **Quá trình**: học gì, làm gì, theo thứ tự thời gian. *D'abord..., ensuite..., puis..., après ça...*\n3. **Hiện tại**: làm gì, từ bao lâu. *Aujourd'hui, je... depuis... / ça fait... que...*\n4. **Dự định**: muốn gì, vì sao. *À propos de mes projets..., j'aimerais..., mon objectif, c'est de...*\n\nTừ nối để nói tự nhiên hơn:\n\n- *en fait* : thực ra, để sửa hoặc nói rõ ý. *En fait, je n'aimais pas ces études.*\n- *du coup* : thế nên, hệ quả, rất hay dùng khi nói. *Du coup, j'ai changé de voie.*\n- *à propos de* : nhân nói về, để chuyển chủ đề. *À propos de mon travail actuel...*\n- *bref* : tóm lại, để kết một ý dài.\n- Từ đệm khi cần một giây suy nghĩ: *alors, bon, euh, disons, voilà*. Dùng ít thôi, một hoặc hai lần trong 2 phút.\n\nQuy tắc vàng: không học thuộc lòng. Học thuộc **khung** và **từ nối**, phần còn lại nói theo ý."},
+    {"type": "vocab", "title": "Từ vựng : le parcours",
+     "items": [
+       {"fr": "le parcours", "vi": "quá trình học tập và nghề nghiệp", "example": "Mon parcours est un peu atypique."},
+       {"fr": "une formation", "vi": "khóa đào tạo", "example": "J'ai suivi une formation de deux ans en informatique."},
+       {"fr": "un stage", "vi": "kỳ thực tập", "example": "J'ai fait un stage de six mois dans une banque."},
+       {"fr": "un diplôme", "vi": "bằng cấp", "example": "J'ai obtenu mon diplôme en 2020."},
+       {"fr": "un poste", "vi": "vị trí công việc", "example": "Je cherche un poste de chef de projet."},
+       {"fr": "une expérience professionnelle", "vi": "kinh nghiệm làm việc", "example": "J'ai trois ans d'expérience professionnelle."},
+       {"fr": "un projet", "vi": "dự định, dự án", "example": "Mon projet, c'est de travailler à l'étranger."},
+       {"fr": "en fait", "vi": "thực ra", "example": "En fait, je n'ai jamais aimé les maths."},
+       {"fr": "du coup", "vi": "thế nên, vậy là (văn nói)", "example": "Du coup, j'ai changé de voie."},
+       {"fr": "à propos de", "vi": "nhân nói về", "example": "À propos de mes études, j'ai commencé par le droit."}
+     ]},
+    {"type": "grammar", "title": "depuis, il y a, pendant, ça fait ... que",
+     "body": "### depuis : bắt đầu trong quá khứ, vẫn tiếp tục\n\nĐộng từ ở **présent** (hành động còn đang diễn ra) + *depuis* + khoảng thời gian hoặc mốc thời gian.\n\n*J'habite à Lyon depuis trois ans.* (từ ba năm nay, vẫn ở)\n\n*Je travaille ici depuis 2021.* (từ mốc 2021)\n\nVới phủ định, dùng passé composé: *Je n'ai pas vu mes parents depuis Noël.*\n\n### il y a : một mốc trong quá khứ, đã xong\n\nĐộng từ ở **passé composé** + *il y a* + khoảng thời gian. Trả lời câu hỏi « cách đây bao lâu ? ».\n\n*J'ai quitté mon pays il y a cinq ans.* (cách đây 5 năm, hành động đã xong)\n\n### pendant : độ dài của một hành động đã kết thúc\n\n*pendant* + khoảng thời gian, thường với passé composé. Có thể bỏ *pendant* trước số: *j'ai travaillé (pendant) deux ans*.\n\n*J'ai fait un stage pendant six mois.*\n\nĐể nói độ dài dự kiến trong tương lai, dùng *pour*: *Je pars pour un an.*\n\n### ça fait ... que / il y a ... que : như depuis, hay dùng khi nói\n\n*Ça fait trois ans que j'habite à Lyon.* = *J'habite à Lyon depuis trois ans.*\n\n*Il y a deux mois que je cherche un poste.* = *Je cherche un poste depuis deux mois.*\n\n### Bẫy thường gặp\n\n- *J'ai habité à Lyon depuis trois ans* là sai nếu bạn vẫn ở đó. Dùng présent: *j'habite... depuis*.\n- *depuis* và *il y a* đều đi với khoảng thời gian, nhưng *depuis* nói hành động còn tiếp tục, *il y a* nói về một mốc đã qua.\n- *pendant* không nói « từ bao lâu », chỉ nói « bao lâu ».",
+     "examples": [
+       {"fr": "J'apprends le français depuis deux ans.", "vi": "Hành động còn tiếp tục: présent + depuis."},
+       {"fr": "J'ai commencé mes études il y a six ans.", "vi": "Mốc trong quá khứ: passé composé + il y a."},
+       {"fr": "J'ai travaillé pendant trois ans dans une agence.", "vi": "Độ dài một việc đã xong: pendant."},
+       {"fr": "Ça fait un an que je cherche un appartement.", "vi": "Cách nói miệng của depuis."}
+     ]},
+    {"type": "exercise", "title": "depuis, il y a ou pendant ?", "instructions": "Điền depuis, il y a, pendant hoặc ça fait, hoặc chọn dạng đúng.",
+     "questions": [
+       {"id": "e1", "type": "gap", "q": "J'apprends le français ___ deux ans.", "answer": ["depuis"], "explain": "Présent, hành động còn tiếp tục: depuis.", "error_tag": "prepositions"},
+       {"id": "e2", "type": "gap", "q": "J'ai quitté mon pays ___ cinq ans.", "answer": ["il y a"], "explain": "Passé composé, mốc đã qua: il y a.", "error_tag": "prepositions"},
+       {"id": "e3", "type": "gap", "q": "J'ai travaillé ___ trois ans dans une agence de voyages.", "answer": ["pendant"], "explain": "Độ dài của một việc đã xong: pendant.", "error_tag": "prepositions"},
+       {"id": "e4", "type": "gap", "q": "___ six mois que je cherche un nouveau poste.", "answer": ["Ça fait", "Il y a"], "explain": "Ça fait ... que (hoặc il y a ... que) + présent: như depuis.", "error_tag": "prepositions"},
+       {"id": "e5", "type": "mcq", "q": "Je ___ à Lyon depuis 2021.", "options": ["habite", "ai habité", "habitais"], "answer": 0, "explain": "Với depuis, hành động còn tiếp tục: présent.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e6", "type": "mcq", "q": "Quand j'étais étudiant, chaque été, je ___ un petit boulot.", "options": ["faisais", "ai fait", "fais"], "answer": 0, "explain": "Thói quen trong quá khứ (chaque été): imparfait.", "error_tag": "passe_compose_imparfait"},
+       {"id": "e7", "type": "mcq", "q": "J'ai fait des études de droit. ___, je n'aimais pas ça, ___ j'ai changé de voie.", "options": ["En fait / du coup", "Du coup / en fait", "À propos / d'abord"], "answer": 0, "explain": "En fait: nói rõ sự thật. Du coup: hệ quả.", "error_tag": "connecteurs"},
+       {"id": "e8", "type": "mcq", "q": "___, j'ai fait une licence, ___ un master, et ___ j'ai trouvé un poste.", "options": ["D'abord / ensuite / enfin", "Enfin / d'abord / ensuite", "Du coup / en fait / bref"], "answer": 0, "explain": "Thứ tự thời gian: d'abord, ensuite, enfin.", "error_tag": "connecteurs"}
+     ]},
+    {"type": "listening", "title": "Le parcours de Mehdi", "instructions": "Nghe tối đa 2 lần. Ghi lại các mốc thời gian (depuis, il y a, pendant).",
+     "text": "Bonjour, je m'appelle Mehdi, j'ai vingt-huit ans et je suis originaire de Marseille. Alors, mon parcours... D'abord, j'ai fait une licence d'économie à Aix-en-Provence. En fait, je n'aimais pas trop la théorie, du coup, après la licence, j'ai suivi une formation en comptabilité pendant un an. Ensuite, j'ai fait un stage de six mois dans une petite entreprise, et ils m'ont proposé un poste. J'y travaille depuis quatre ans maintenant. Il y a deux ans, j'ai déménagé à Paris parce que l'entreprise a ouvert un bureau ici. À propos de mes projets, ça fait quelques mois que je réfléchis à une reconversion : j'aimerais devenir formateur, pour transmettre ce que j'ai appris. Voilà, c'est à peu près tout !",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Qu'est-ce que Mehdi a étudié à l'université ?", "options": ["L'économie", "La comptabilité", "Le droit"], "answer": 0, "explain": "« une licence d'économie ». Comptabilité là khóa đào tạo sau đó."},
+       {"id": "l2", "type": "mcq", "q": "Combien de temps a duré la formation en comptabilité ?", "options": ["Six mois", "Un an", "Deux ans"], "answer": 1, "explain": "« une formation en comptabilité pendant un an ». Six mois là kỳ thực tập."},
+       {"id": "l3", "type": "mcq", "q": "Depuis combien de temps travaille-t-il dans cette entreprise ?", "options": ["Deux ans", "Quatre ans", "Six mois"], "answer": 1, "explain": "« J'y travaille depuis quatre ans ». Hai năm là lúc anh chuyển đến Paris."},
+       {"id": "l4", "type": "truefalse", "q": "Mehdi veut rester comptable toute sa vie.", "answer": false, "explain": "« j'aimerais devenir formateur »."}
+     ]},
+    {"type": "reading", "title": "« Parlez-moi de vous »", "instructions": "Đọc rồi trả lời. Chú ý thứ tự các phần của một bài tự giới thiệu.",
+     "text": "« Parlez-moi de vous. » Cette demande arrive au début d'un entretien, d'une réunion ou d'un cours de langue, et beaucoup de gens ne savent pas par où commencer. Pourtant, une bonne présentation suit presque toujours le même plan. D'abord, l'essentiel en une phrase : le prénom, l'âge si c'est utile, la ville d'origine et la situation actuelle. Ensuite, le parcours, dans l'ordre : les études, puis les premières expériences, en donnant une durée pour chaque étape. « J'ai étudié la chimie pendant trois ans, puis j'ai travaillé deux ans dans un laboratoire. » Les détails inutiles fatiguent l'auditeur ; une ou deux anecdotes suffisent. Après le passé vient le présent : ce que vous faites aujourd'hui et depuis combien de temps. Enfin, les projets : ce que vous voulez faire, et pourquoi. Cette dernière partie est souvent oubliée, alors qu'elle intéresse le plus l'interlocuteur. Un conseil pour l'oral : ne lisez pas un texte appris par cœur. Utilisez des mots de liaison simples, comme « en fait », « du coup » ou « à propos de », pour passer d'une idée à l'autre. Et si vous perdez le fil, une pause et un « bref » permettent de reprendre sans stress. Deux minutes bien organisées valent mieux que cinq minutes de détails.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Par quoi faut-il commencer une présentation, d'après le texte ?", "options": ["Par les projets", "Par l'essentiel en une phrase", "Par une anecdote"], "answer": 1, "explain": "« D'abord, l'essentiel en une phrase »."},
+       {"id": "r2", "type": "truefalse", "q": "Il faut donner beaucoup de détails sur chaque expérience.", "answer": false, "explain": "« Les détails inutiles fatiguent l'auditeur ; une ou deux anecdotes suffisent »."},
+       {"id": "r3", "type": "mcq", "q": "Quelle partie est souvent oubliée ?", "options": ["Les études", "La situation actuelle", "Les projets"], "answer": 2, "explain": "« Cette dernière partie est souvent oubliée », tức là les projets."},
+       {"id": "r4", "type": "mcq", "q": "Que conseille le texte pour l'oral ?", "options": ["Apprendre un texte par cœur", "Utiliser des mots de liaison simples", "Parler cinq minutes"], "answer": 1, "explain": "« Utilisez des mots de liaison simples »."}
+     ]},
+    {"type": "speaking", "title": "Présentez-vous en trois minutes", "minutes": 3,
+     "prompt": "Présentez-vous en trois minutes, comme si vous rencontriez un nouveau collègue français. Suivez quatre étapes : 1) qui vous êtes (prénom, origine, situation actuelle) ; 2) votre parcours (études, formations, expériences, avec des durées : pendant, il y a) ; 3) votre situation aujourd'hui (depuis, ça fait ... que) ; 4) vos projets et pourquoi. Utilisez au moins trois connecteurs de la liste (d'abord, ensuite, en fait, du coup, à propos de) et enregistrez-vous sans lire de notes.",
+     "hints": ["Étape 1 : Je m'appelle..., j'ai ... ans, je viens de... et en ce moment, je...", "Étape 2 : D'abord, j'ai fait des études de... pendant ... ans. Ensuite, il y a ... ans, j'ai...", "Étape 3 : Aujourd'hui, je travaille / j'étudie... depuis... Ça fait ... que...", "Étape 4 : À propos de mes projets, j'aimerais... parce que...", "Si vous perdez le fil : une pause, « bref », et reprenez."]},
+    {"type": "writing", "title": "Votre profil en quelques lignes", "words": 120,
+     "prompt": "Écrivez un court texte de présentation (110 à 130 mots) pour un site d'échange linguistique : qui vous êtes, votre parcours en trois ou quatre étapes, votre situation actuelle et vos projets. Utilisez depuis, il y a et pendant au moins une fois chacun.",
+     "criteria": ["depuis, il y a et pendant utilisés correctement avec le bon temps", "Au moins trois connecteurs pour organiser le texte", "Passé composé pour les étapes du parcours, présent pour la situation actuelle", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Je travaille ici ___ 2019.", "options": ["depuis", "il y a", "pendant"], "answer": 0, "explain": "Mốc bắt đầu, hành động còn tiếp tục: depuis.", "error_tag": "prepositions"},
+       {"id": "q2", "type": "mcq", "q": "Elle a vécu à Montréal ___ deux ans.", "options": ["depuis", "pendant", "ça fait"], "answer": 1, "explain": "Passé composé, độ dài một việc đã xong: pendant.", "error_tag": "prepositions"},
+       {"id": "q3", "type": "mcq", "q": "Nous avons déménagé ___ trois mois.", "options": ["depuis", "pendant", "il y a"], "answer": 2, "explain": "Mốc trong quá khứ với passé composé: il y a.", "error_tag": "prepositions"},
+       {"id": "q4", "type": "mcq", "q": "___ dix ans que je fais du théâtre.", "options": ["Ça fait", "Pendant", "Depuis"], "answer": 0, "explain": "Ça fait ... que + présent.", "error_tag": "prepositions"},
+       {"id": "q5", "type": "mcq", "q": "J'ai fait des études de biologie. ___, je voulais être médecin.", "options": ["En fait", "Du coup", "Ensuite"], "answer": 0, "explain": "En fait: nói ra sự thật. Du coup nói hệ quả, ensuite nói thứ tự.", "error_tag": "connecteurs"},
+       {"id": "q6", "type": "mcq", "q": "Avant, je ___ dans une banque, mais il y a deux ans, j'___ de métier.", "options": ["travaillais / ai changé", "ai travaillé / changeais", "travaille / change"], "answer": 0, "explain": "Bối cảnh (travaillais) và sự kiện có mốc il y a deux ans (ai changé).", "error_tag": "passe_compose_imparfait"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Khung bốn bước: tôi là ai, quá trình, hiện tại, dự định.\n- Từ nối: d'abord, ensuite, puis, en fait, du coup, à propos de, bref.\n- depuis + présent: hành động còn tiếp tục. Ça fait ... que nói cùng ý.\n- il y a + passé composé: mốc trong quá khứ.\n- pendant + passé composé: độ dài một việc đã xong.\n- Không học thuộc lòng, chỉ học khung và từ nối."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Trong Speaking Lab, ghi âm bài tự giới thiệu 2 phút theo bốn bước, nghe lại và đếm số từ nối bạn đã dùng.\n2. Thêm 10 từ của bài vào Vocabulary Trainer, kèm một câu về quá trình của chính bạn.\n3. Trong Writing Lab, viết 6 câu về quá trình của bạn: 2 câu với depuis, 2 câu với il y a, 2 câu với pendant."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video có người tự giới thiệu, nghe cách họ dùng từ nối."},
+       {"title": "RFI Français facile", "url": "https://francaisfacile.rfi.fr/", "note": "Nghe phỏng vấn ngắn và ghi lại các câu với depuis, il y a, pendant."}
+     ]}
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "b1-w3-l10", "phase": 1, "module": "Vocabulaire quotidien", "week": 3, "order": 2,
+  "level": "B1", "skill": "vocab", "title": "Le travail et les études",
+  "duration_min": 40, "prerequisites": ["b1-w1-l2"],
+  "error_tags": ["lexique", "genre_nombre", "prepositions"],
+  "objectives": [
+    "Nắm các từ cốt lõi về nghề nghiệp, nơi làm việc, tìm việc và học tập",
+    "Dùng đúng các cụm cố định: passer un entretien, poser sa candidature, obtenir un diplôme",
+    "Đoán giống của danh từ qua đuôi -tion, -ment, -age, -eur/-euse"
+  ],
+  "intro": "Từ vựng công việc và học tập xuất hiện trong gần như mọi bài thi B1: một quảng cáo tuyển dụng, một email xin việc, một cuộc nói chuyện về con đường học hành. Bài này cho bạn **các từ cốt lõi** và **các cụm cố định** đi kèm, vì người Pháp không « faire un entretien » mà « passer un entretien ».",
+  "references": [
+    {"title": "TV5MONDE Apprendre, niveau B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video về thế giới công việc, có bài tập"}
+  ],
+  "sections": [
+    {"type": "text", "title": "Học từ theo cụm",
+     "body": "Học từ theo **cụm** chứ không theo từ đơn. Người Pháp nói *passer un entretien*, *poser sa candidature*, *obtenir un diplôme*, *signer un contrat*, *faire un stage*, *suivre une formation*. Ghi cả động từ đi kèm.\n\nLuôn ghi **mạo từ** với danh từ: *une* entreprise, *un* salaire. Phần ngữ pháp của bài cho bạn quy tắc đoán giống qua đuôi từ.\n\n**Các nhóm từ cần biết**\n\n- Nghề: un / une comptable, un infirmier / une infirmière, un ingénieur / une ingénieure, un vendeur / une vendeuse, un enseignant / une enseignante.\n- Nơi làm việc: une entreprise, un bureau, une usine, un / une collègue, un patron / une patronne, le salaire, les congés.\n- Tìm việc: une offre d'emploi, un CV, une lettre de motivation, un entretien, embaucher, le chômage, démissionner.\n- Học tập: le bac, la licence (3 năm), le master (2 năm), l'inscription, une bourse, un stage, un diplôme."},
+    {"type": "vocab", "title": "Từ vựng cốt lõi",
+     "items": [
+       {"fr": "un entretien d'embauche", "vi": "cuộc phỏng vấn tuyển dụng", "example": "J'ai passé un entretien d'embauche hier matin."},
+       {"fr": "poser sa candidature", "vi": "nộp đơn ứng tuyển", "example": "Elle a posé sa candidature pour un poste de comptable."},
+       {"fr": "une lettre de motivation", "vi": "thư xin việc", "example": "La lettre de motivation doit tenir sur une page."},
+       {"fr": "un CDI / un CDD", "vi": "hợp đồng không thời hạn / hợp đồng có thời hạn", "example": "Après deux CDD, il a enfin signé un CDI."},
+       {"fr": "un stage", "vi": "kỳ thực tập", "example": "Je cherche un stage de six mois dans le marketing."},
+       {"fr": "une formation", "vi": "khoá đào tạo", "example": "L'entreprise propose une formation en anglais à ses salariés."},
+       {"fr": "obtenir un diplôme", "vi": "lấy bằng", "example": "Elle a obtenu son diplôme de master en juin."},
+       {"fr": "s'inscrire à", "vi": "đăng ký vào (trường, khoá học)", "example": "Il s'est inscrit à l'université en septembre."},
+       {"fr": "une bourse", "vi": "học bổng", "example": "Grâce à une bourse, elle peut étudier à Lyon."},
+       {"fr": "un salarié / une salariée", "vi": "người làm công ăn lương", "example": "Les salariés ont droit à cinq semaines de congés payés."}
+     ]},
+    {"type": "grammar", "title": "Nominalisation và giống của danh từ",
+     "body": "### Nominalisation\n\nTiếng Pháp hành chính và báo chí thích danh từ hơn động từ. *On a inscrit les étudiants* → *l'inscription des étudiants*. Các đuôi hay gặp:\n\n- Động từ → **-tion**: inscrire → l'inscription, former → la formation, informer → l'information.\n- Động từ → **-ment**: recruter → le recrutement, licencier → le licenciement, changer → le changement.\n- Động từ → **-age**: apprendre → l'apprentissage, chômer → le chômage, stocker → le stockage.\n- Người làm → **-eur / -euse**, **-teur / -trice**: vendre → un vendeur, une vendeuse; diriger → un directeur, une directrice.\n\n### Giống của danh từ\n\n- **-tion, -sion, -ure**: giống cái. *la formation, la décision, la candidature*.\n- **-ment**: giống đực. *le recrutement, le licenciement, le gouvernement*.\n- **-age**: giống đực. *le stage, le chômage, l'apprentissage*. Ngoại lệ cần nhớ: *la page, la plage, l'image*.\n- **-eur**: giống đực khi chỉ người (*un employeur, un ingénieur*), giống cái khi là danh từ trừu tượng (*la valeur, la douceur*). Dạng giống cái của người: *-euse* (*une vendeuse*) hoặc *-trice* (*une directrice*).\n- **-é / -ée**: *un employé, une employée*; *un diplômé, une diplômée*.\n\n### Giới từ đi với công việc và học tập\n\n- *travailler **dans** une entreprise, **chez** un fleuriste, **comme** vendeur, **en** usine*.\n- *un poste **de** comptable, un stage **en** marketing, des études **de** droit*.\n- *s'inscrire **à** l'université, être **en** licence, être **en** deuxième année*.",
+     "examples": [
+       {"fr": "L'inscription à l'université se fait en ligne avant le 15 juillet.", "vi": "Inscrire → l'inscription, giống cái."},
+       {"fr": "Le recrutement commence en septembre.", "vi": "Recruter → le recrutement, giống đực."},
+       {"fr": "Ma sœur est ingénieure dans une entreprise de transport.", "vi": "Giới từ dans + entreprise; ingénieure là dạng giống cái."},
+       {"fr": "Il est en deuxième année de licence de droit.", "vi": "En + năm học; de + ngành học."}
+     ]},
+    {"type": "exercise", "title": "Cụm từ, giống và giới từ", "instructions": "Chọn hoặc điền từ đúng.",
+     "questions": [
+       {"id": "e1", "type": "mcq", "q": "Avant l'entretien, il faut ___ sa candidature.", "options": ["faire", "poser", "mettre"], "answer": 1, "explain": "Cụm cố định: poser sa candidature.", "error_tag": "lexique"},
+       {"id": "e2", "type": "mcq", "q": "J'ai ___ un entretien la semaine dernière, et j'attends la réponse.", "options": ["fait", "donné", "passé"], "answer": 2, "explain": "Cụm cố định: passer un entretien.", "error_tag": "lexique"},
+       {"id": "e3", "type": "gap", "q": "___ formation dure trois mois. (article défini)", "answer": ["la"], "explain": "Đuôi -tion: giống cái, la formation.", "error_tag": "genre_nombre"},
+       {"id": "e4", "type": "gap", "q": "___ recrutement est terminé. (article défini)", "answer": ["le"], "explain": "Đuôi -ment: giống đực, le recrutement.", "error_tag": "genre_nombre"},
+       {"id": "e5", "type": "mcq", "q": "Elle travaille ___ une petite entreprise de Nantes.", "options": ["dans", "à", "en"], "answer": 0, "explain": "Travailler dans une entreprise.", "error_tag": "prepositions"},
+       {"id": "e6", "type": "mcq", "q": "Il s'est inscrit ___ l'université de Lille.", "options": ["dans", "à", "sur"], "answer": 1, "explain": "S'inscrire à + nơi.", "error_tag": "prepositions"},
+       {"id": "e7", "type": "mcq", "q": "Un contrat qui n'a pas de date de fin, c'est :", "options": ["un CDD", "un CDI", "un stage"], "answer": 1, "explain": "CDI: contrat à durée indéterminée, không có ngày kết thúc.", "error_tag": "lexique"},
+       {"id": "e8", "type": "gap", "q": "Le nom formé sur le verbe « apprendre » est : l'___ (-age).", "answer": ["apprentissage"], "explain": "Apprendre → l'apprentissage, giống đực.", "error_tag": "lexique"}
+     ]},
+    {"type": "listening", "title": "Un message du service des ressources humaines", "instructions": "Nghe tin nhắn thoại (tối đa 2 lần). Ghi ngày, giờ và loại hợp đồng.",
+     "text": "Bonjour madame Nguyen, c'est monsieur Martin, du service des ressources humaines de la société Verdier, à Nantes. Nous avons bien reçu votre CV et votre lettre de motivation pour le poste d'assistante commerciale. Votre candidature nous intéresse, et je vous propose un entretien jeudi prochain, le douze, à quatorze heures trente, dans nos bureaux. L'entretien durera environ une heure : vous rencontrerez d'abord la responsable du service, puis la directrice. Je vous rappelle qu'il s'agit d'un CDD de six mois, avec une possibilité de CDI ensuite. Le salaire sera discuté pendant l'entretien. Merci de confirmer votre présence par mail avant mardi soir. Si l'horaire ne vous convient pas, appelez-moi au zéro deux, quarante, douze, trente-cinq, dix-huit. Bonne journée.",
+     "questions": [
+       {"id": "l1", "type": "mcq", "q": "Pour quel poste la candidate a-t-elle postulé ?", "options": ["Assistante commerciale", "Directrice", "Comptable"], "answer": 0, "explain": "« pour le poste d'assistante commerciale »."},
+       {"id": "l2", "type": "mcq", "q": "Quand a lieu l'entretien ?", "options": ["Mardi à 14 h", "Jeudi à 14 h 30", "Jeudi à 16 h 30"], "answer": 1, "explain": "« jeudi prochain, le douze, à quatorze heures trente »."},
+       {"id": "l3", "type": "truefalse", "q": "Le poste proposé est un CDI.", "answer": false, "explain": "« un CDD de six mois, avec une possibilité de CDI ensuite »."},
+       {"id": "l4", "type": "mcq", "q": "Que doit faire la candidate avant mardi soir ?", "options": ["Envoyer son CV", "Confirmer sa présence par mail", "Appeler la directrice"], "answer": 1, "explain": "« Merci de confirmer votre présence par mail avant mardi soir »."}
+     ]},
+    {"type": "reading", "title": "Le parcours de Camille", "instructions": "Đọc rồi trả lời. Gạch dưới các cụm từ về học tập và tìm việc.",
+     "text": "Camille a vingt-quatre ans et vient de signer son premier CDI. Son parcours n'a pas été simple. Après le bac, elle s'est inscrite en licence d'économie à l'université de Rennes. Grâce à une bourse, elle n'a pas eu besoin de travailler pendant ses études. En troisième année, elle a fait un stage de quatre mois dans une petite entreprise de la région : c'est là qu'elle a découvert le métier de chargée de communication. Elle a ensuite obtenu son master en deux ans, avec un deuxième stage, cette fois à Paris. Mais à la fin de ses études, la recherche d'emploi a été longue : elle a envoyé plus de cinquante candidatures et passé huit entretiens avant de recevoir une réponse positive. Elle a d'abord travaillé six mois en CDD, puis l'entreprise lui a proposé un CDI. Aujourd'hui, Camille conseille aux étudiants de commencer à chercher tôt, de soigner leur lettre de motivation et de ne pas avoir peur de relancer les entreprises par téléphone. « Un CV sans réponse, ce n'est pas un refus », dit-elle.",
+     "questions": [
+       {"id": "r1", "type": "mcq", "q": "Pourquoi Camille n'a-t-elle pas travaillé pendant ses études ?", "options": ["Elle avait une bourse.", "Ses parents payaient tout.", "Elle n'avait pas le temps."], "answer": 0, "explain": "« Grâce à une bourse, elle n'a pas eu besoin de travailler »."},
+       {"id": "r2", "type": "mcq", "q": "Combien d'entretiens a-t-elle passés avant d'être embauchée ?", "options": ["Cinquante", "Huit", "Six"], "answer": 1, "explain": "« passé huit entretiens ». Cinquante là số đơn ứng tuyển, six là số tháng CDD."},
+       {"id": "r3", "type": "truefalse", "q": "Elle a signé un CDI tout de suite après ses études.", "answer": false, "explain": "« Elle a d'abord travaillé six mois en CDD »."},
+       {"id": "r4", "type": "mcq", "q": "« Relancer les entreprises » signifie :", "options": ["les contacter de nouveau", "les critiquer", "les quitter"], "answer": 0, "explain": "Relancer: liên hệ lại để nhắc về hồ sơ của mình.", "error_tag": "lexique"}
+     ]},
+    {"type": "speaking", "title": "Présentez votre parcours", "minutes": 3,
+     "prompt": "Présentez votre parcours en trois minutes : vos études (où, quoi, combien d'années), votre travail actuel ou votre recherche d'emploi, et ce que vous voulez faire dans cinq ans. Utilisez au moins cinq mots de la liste de vocabulaire.",
+     "hints": ["J'ai fait des études de... / Je me suis inscrit(e) en...", "J'ai obtenu mon diplôme en... / J'ai fait un stage dans...", "Aujourd'hui, je travaille comme... / Je cherche un poste de...", "Dans cinq ans, je voudrais..."]},
+    {"type": "writing", "title": "Une courte lettre de motivation", "words": 120,
+     "prompt": "Vous répondez à une offre d'emploi pour un travail d'été dans un café. Écrivez une courte lettre de motivation (110 à 130 mots) : qui vous êtes, vos études, une expérience, pourquoi ce poste vous intéresse, et vos disponibilités.",
+     "criteria": ["Formules de début et de fin adaptées (Madame, Monsieur / Cordialement)", "Au moins quatre mots ou expressions de la leçon", "Genre des noms correct, surtout en -tion, -ment, -age", "Longueur respectée"]},
+    {"type": "quiz", "title": "Quiz de fin de leçon",
+     "questions": [
+       {"id": "q1", "type": "mcq", "q": "Elle a ___ son diplôme en juin.", "options": ["gagné", "obtenu", "fait"], "answer": 1, "explain": "Cụm cố định: obtenir un diplôme.", "error_tag": "lexique"},
+       {"id": "q2", "type": "mcq", "q": "___ licenciement a surpris tout le monde.", "options": ["La", "Le", "Les"], "answer": 1, "explain": "Đuôi -ment: giống đực.", "error_tag": "genre_nombre"},
+       {"id": "q3", "type": "mcq", "q": "Il travaille ___ vendeur dans un magasin de sport.", "options": ["comme", "pour", "en"], "answer": 0, "explain": "Travailler comme + nghề.", "error_tag": "prepositions"},
+       {"id": "q4", "type": "mcq", "q": "Le féminin de « directeur » est :", "options": ["directeuse", "directrice", "directeure"], "answer": 1, "explain": "-teur → -trice: directrice.", "error_tag": "genre_nombre"},
+       {"id": "q5", "type": "mcq", "q": "Le nom formé sur le verbe « inscrire » est :", "options": ["l'inscrivement", "l'inscription", "l'inscriture"], "answer": 1, "explain": "Inscrire → l'inscription, giống cái.", "error_tag": "lexique"},
+       {"id": "q6", "type": "mcq", "q": "Un stage, c'est :", "options": ["un contrat sans date de fin", "une période de formation pratique dans une entreprise", "une aide financière pour les étudiants"], "answer": 1, "explain": "Stage: kỳ thực tập. Hợp đồng không thời hạn là CDI, hỗ trợ tài chính là bourse.", "error_tag": "lexique"}
+     ]},
+    {"type": "summary", "title": "Tóm tắt",
+     "body": "- Cụm cố định: passer un entretien, poser sa candidature, obtenir un diplôme, signer un CDI, faire un stage, suivre une formation.\n- CDI: không thời hạn; CDD: có thời hạn; stage: thực tập.\n- Học tập: s'inscrire à l'université, être en licence / en master, obtenir une bourse.\n- Giống: -tion, -sion, -ure giống cái; -ment, -age giống đực; -eur chỉ người giống đực, dạng cái -euse / -trice.\n- Giới từ: travailler dans une entreprise, comme vendeur; un poste de; des études de."},
+    {"type": "homework", "title": "Bài tập về nhà",
+     "body": "1. Thêm 10 từ của bài vào Vocabulary Trainer, ghi mạo từ với mỗi danh từ.\n2. Trong Speaking Lab, kể lại con đường học tập của Camille bằng lời của bạn (1 phút).\n3. Trong Writing Lab, viết 6 câu dùng nominalisation: ba danh từ đuôi -tion, hai đuôi -ment, một đuôi -age."},
+    {"type": "resources", "title": "Tài nguyên bổ sung",
+     "items": [
+       {"title": "Le Point du FLE", "url": "https://www.lepointdufle.net/", "note": "Tìm mục « travail » hoặc « monde du travail » để làm bài tập từ vựng."},
+       {"title": "TV5MONDE Apprendre B1", "url": "https://apprendre.tv5monde.com/fr/niveaux/b1-intermediaire", "note": "Video về công việc, kèm câu hỏi, miễn phí."}
+     ]}
+  ]
+}
