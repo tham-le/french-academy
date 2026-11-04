@@ -484,7 +484,8 @@ route('lesson', async ([id]) => {
     if (s.type === 'vocab') html += `<p><button class="sm" id="saveAll">Lưu tất cả vào Vocabulary Trainer</button></p><table>${s.items.map((it, i) => `<tr><td class="fr">${esc(it.fr)} <button class="sm ghost" data-say="${esc(it.fr)}">🔊</button></td><td>${esc(it.vi)}</td><td class="small muted">${esc(it.example || '')}</td><td><button class="sm" data-save="${i}">+</button></td></tr>`).join('')}</table>`;
     if (['exercise', 'quiz', 'listening', 'reading'].includes(s.type)) {
       html += `<p class="muted">${esc(s.instructions || '')}</p>`;
-      if (s.type === 'listening') html += `<p><button id="play">▶ Nghe</button> <button class="sm ghost" id="playSlow">chậm</button> <span class="muted small" id="plays">còn 2 lần</span></p><div id="ltext" hidden class="fr card"></div>`;
+      if (s.type === 'listening' && s.source) html += `<p><button id="open">▶ Écouter sur ${esc(s.source.name)}</button> <span class="muted small">${esc(s.source.date || '')}</span></p><div id="ltext" hidden class="fr card"></div>`;
+      else if (s.type === 'listening') html += `<p><button id="play">▶ Nghe</button> <button class="sm ghost" id="playSlow">chậm</button> <span class="muted small" id="plays">còn 2 lần</span></p><div id="ltext" hidden class="fr card"></div>`;
       if (s.type === 'reading') html += `<div class="fr card">${esc(s.text)}</div>`;
       html += `<div id="qs">${renderQuestions(s.questions)}</div><p class="row"><button class="primary" id="submit">Nộp</button><span class="muted small" id="res"></span></p>`;
       const hist = L.attempts.filter(a => a.kind === s.type);
@@ -505,7 +506,8 @@ route('lesson', async ([id]) => {
       $$('[data-save]', el).forEach(b => { b.onclick = async () => { await save(s.items[+b.dataset.save]); b.textContent = '✓'; b.disabled = true; }; });
       $('#saveAll').onclick = async () => { for (const it of s.items) await save(it); toast(`Đã lưu ${s.items.length} từ`); $$('[data-save]', el).forEach(b => { b.textContent = '✓'; b.disabled = true; }); };
     }
-    if (s.type === 'listening') { let left = 2; const play = rate => { if (left <= 0) return toast('Hết lượt nghe. Nộp bài để xem văn bản.'); left--; $('#plays').textContent = `còn ${left} lần`; speak(s.text, rate); }; $('#play').onclick = () => play(0.95); $('#playSlow').onclick = () => play(0.75); }
+    if (s.type === 'listening' && s.source) $('#open').onclick = () => window.open(s.source.url, '_blank', 'noopener');
+    else if (s.type === 'listening') { let left = 2; const play = rate => { if (left <= 0) return toast('Hết lượt nghe. Nộp bài để xem văn bản.'); left--; $('#plays').textContent = `còn ${left} lần`; speak(s.text, rate); }; $('#play').onclick = () => play(0.95); $('#playSlow').onclick = () => play(0.75); }
     if ($('#submit')) $('#submit').onclick = async () => {
       const answers = collectAnswers($('#qs'), s.questions);
       if (Object.keys(answers).length < s.questions.length && !confirm('Còn câu chưa trả lời. Nộp luôn?')) return;
@@ -513,7 +515,7 @@ route('lesson', async ([id]) => {
       showResults($('#qs'), s.questions, r.results); $('#submit').disabled = true;
       $('#res').textContent = `${r.score}/${r.max} (${r.pct}%)`;
       L.attempts.unshift({ kind: s.type, score: r.score, max_score: r.max, created_at: new Date().toISOString() }); done.add(s.type);
-      if (s.type === 'listening') { $('#ltext').hidden = false; $('#ltext').textContent = s.text; }
+      if (s.type === 'listening') { $('#ltext').hidden = false; if (s.source) $('#ltext').innerHTML = `${esc(s.text || '')} Transcription : <a href="${esc(s.source.url)}" target="_blank" rel="noopener">${esc(s.source.name)}</a>`; else $('#ltext').textContent = s.text; }
       if (s.type === 'quiz') { L.progress.best_score = Math.max(L.progress.best_score || 0, r.pct); L.progress.status = r.completed ? 'completed' : 'review'; toast(r.completed ? 'Đạt. Bài học được đánh dấu hoàn thành.' : 'Dưới 60%: bài được đánh dấu cần ôn lại. Xem lại giải thích rồi làm lại.'); }
     };
     if (s.type === 'speaking') {

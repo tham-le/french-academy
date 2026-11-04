@@ -40,7 +40,7 @@ Trang Cài đặt hiển thị provider và model đang dùng. Với Anthropic, 
 
 ## Nhận dạng giọng nói và đọc văn bản
 
-Speaking Lab dùng Web Speech API của trình duyệt (fr-FR): Chrome và Edge hỗ trợ nhận dạng, Firefox thì không (vẫn ghi âm được, bạn gõ lại transcript). Bài nghe được đọc bằng text-to-speech của trình duyệt, nên nên cài giọng tiếng Pháp trong hệ điều hành.
+Speaking Lab dùng Web Speech API của trình duyệt (fr-FR): Chrome và Edge hỗ trợ nhận dạng, Firefox thì không (vẫn ghi âm được, bạn gõ lại transcript). Bài nghe được đọc bằng text-to-speech của trình duyệt, nên nên cài giọng tiếng Pháp trong hệ điều hành. Một section nghe cũng có thể trỏ tới audio thật bên ngoài qua trường `source` (name, url, date), ví dụ một số của Journal en français facile trên RFI: app chỉ mở trang nguồn trong tab mới và đặt câu hỏi riêng, không sao chép audio hay transcription, vì điều khoản sử dụng của France Médias Monde cấm sao chép và chuyển nội dung sang site khác.
 
 ## Cấu trúc
 
