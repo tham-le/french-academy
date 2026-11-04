@@ -49,7 +49,7 @@ def correct_answers(questions):
 def main():
     tmp = tempfile.mkdtemp()
     port = free_port()
-    env = dict(os.environ, FA_DB=os.path.join(tmp, "t.db"), FA_PORT=str(port))
+    env = dict(os.environ, FA_DB=os.path.join(tmp, "t.db"), FA_PORT=str(port), FA_INVITE="letmein")
     env.pop("ANTHROPIC_API_KEY", None)
     srv = subprocess.Popen([sys.executable, os.path.join(ROOT, "server.py")], env=env, cwd=ROOT,
                            stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -65,9 +65,10 @@ def main():
         assert b"French Academy" in html
         assert b"French Academy" in c.call("GET", "/../store.py")  # SPA fallback, no traversal
         c.call("GET", "/api/me", expect=401)
-        c.call("POST", "/api/register", {"username": "ab", "password": "12345678"}, expect=400)
-        c.call("POST", "/api/register", {"username": "tham_test", "password": "secret123"})
-        c.call("POST", "/api/register", {"username": "tham_test", "password": "secret123"}, expect=400)
+        c.call("POST", "/api/register", {"username": "ab", "password": "12345678", "invite": "letmein"}, expect=400)
+        c.call("POST", "/api/register", {"username": "tham_test", "password": "secret123", "invite": "letmein"})
+        c.call("POST", "/api/register", {"username": "tham_test", "password": "secret123", "invite": "letmein"}, expect=400)
+        c.call("POST", "/api/register", {"username": "no_invite", "password": "secret123"}, expect=403)
         me = c.call("GET", "/api/me")
         assert me["ai"]["mock"] is True and me["profile"]["onboarded"] == 0
         c.call("PUT", "/api/profile", {"display_name": "Tham", "daily_minutes": 240, "target_level": "C1"})

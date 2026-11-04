@@ -304,13 +304,14 @@ function authForm(kind) {
   view.innerHTML = `<div class="card" style="max-width:420px;margin:40px auto"><h1>${isReg ? 'Tạo tài khoản' : 'Đăng nhập'}</h1>
     <form id="authForm"><label>Tên đăng nhập</label><input name="username" required autocomplete="username" pattern="[A-Za-z0-9_]{3,32}">
     <label>Mật khẩu${isReg ? ' (ít nhất 8 ký tự)' : ''}</label><input name="password" type="password" required minlength="8" autocomplete="${isReg ? 'new-password' : 'current-password'}">
+    ${isReg ? '<label>Mã mời (nếu server yêu cầu)</label><input name="invite" autocomplete="off">' : ''}
     <p><button class="primary" type="submit">${isReg ? 'Tạo tài khoản' : 'Đăng nhập'}</button></p>
     <p class="muted small">${isReg ? 'Đã có tài khoản? <a href="#/login">Đăng nhập</a>' : 'Chưa có tài khoản? <a href="#/register">Tạo tài khoản</a>'}</p></form></div>`;
   $('#authForm').onsubmit = async e => {
     e.preventDefault();
     const f = new FormData(e.target);
     try {
-      await api('POST', `/api/${kind}`, { username: f.get('username'), password: f.get('password') });
+      await api('POST', `/api/${kind}`, { username: f.get('username'), password: f.get('password'), invite: f.get('invite') || undefined });
       await loadMe(); location.hash = isReg ? '#/onboarding' : '#/dashboard';
     } catch (err) { toast(err.message); }
   };
@@ -484,7 +485,10 @@ route('lesson', async ([id]) => {
     if (s.type === 'vocab') html += `<p><button class="sm" id="saveAll">Lưu tất cả vào Vocabulary Trainer</button></p><table>${s.items.map((it, i) => `<tr><td class="fr">${esc(it.fr)} <button class="sm ghost" data-say="${esc(it.fr)}">🔊</button></td><td>${esc(it.vi)}</td><td class="small muted">${esc(it.example || '')}</td><td><button class="sm" data-save="${i}">+</button></td></tr>`).join('')}</table>`;
     if (['exercise', 'quiz', 'listening', 'reading'].includes(s.type)) {
       html += `<p class="muted">${esc(s.instructions || '')}</p>`;
-      if (s.type === 'listening' && s.source) html += `<p><button id="open">▶ Écouter sur ${esc(s.source.name)}</button> <span class="muted small">${esc(s.source.date || '')}</span></p><div id="ltext" hidden class="fr card"></div>`;
+      if (s.type === 'listening' && s.source) {
+        const a = s.source, credit = [a.audio ? a.name : '', a.author, a.license, a.date].filter(Boolean).map(esc).join(', ');
+        html += `${a.audio ? `<p><audio id="aud" controls preload="none" src="${esc(a.audio)}" style="width:100%"></audio></p>` : ''}<p><button id="open" class="${a.audio ? 'sm ghost' : ''}">${a.audio ? 'Trang nguồn' : '▶ Écouter sur ' + esc(a.name)}</button> <span class="muted small">${credit}</span></p><div id="ltext" hidden class="fr card" style="white-space:pre-line"></div>`;
+      }
       else if (s.type === 'listening') html += `<p><button id="play">▶ Nghe</button> <button class="sm ghost" id="playSlow">chậm</button> <span class="muted small" id="plays">còn 2 lần</span></p><div id="ltext" hidden class="fr card"></div>`;
       if (s.type === 'reading') html += `<div class="fr card">${esc(s.text)}</div>`;
       html += `<div id="qs">${renderQuestions(s.questions)}</div><p class="row"><button class="primary" id="submit">Nộp</button><span class="muted small" id="res"></span></p>`;
@@ -506,7 +510,7 @@ route('lesson', async ([id]) => {
       $$('[data-save]', el).forEach(b => { b.onclick = async () => { await save(s.items[+b.dataset.save]); b.textContent = '✓'; b.disabled = true; }; });
       $('#saveAll').onclick = async () => { for (const it of s.items) await save(it); toast(`Đã lưu ${s.items.length} từ`); $$('[data-save]', el).forEach(b => { b.textContent = '✓'; b.disabled = true; }); };
     }
-    if (s.type === 'listening' && s.source) $('#open').onclick = () => window.open(s.source.url, '_blank', 'noopener');
+    if (s.type === 'listening' && s.source) { $('#open').onclick = () => window.open(s.source.url, '_blank', 'noopener'); if ($('#aud')) $('#aud').onerror = () => toast('Không tải được audio, dùng nút Trang nguồn.'); }
     else if (s.type === 'listening') { let left = 2; const play = rate => { if (left <= 0) return toast('Hết lượt nghe. Nộp bài để xem văn bản.'); left--; $('#plays').textContent = `còn ${left} lần`; speak(s.text, rate); }; $('#play').onclick = () => play(0.95); $('#playSlow').onclick = () => play(0.75); }
     if ($('#submit')) $('#submit').onclick = async () => {
       const answers = collectAnswers($('#qs'), s.questions);

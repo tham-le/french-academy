@@ -241,8 +241,9 @@ def validate_lesson(d):
             for q in qs:
                 problems += validate_question(q, f"{where} câu {q.get('id')}")
         src = s.get("source") or {}
-        if src and (not src.get("name") or not str(src.get("url", "")).startswith("http")):
-            problems.append(f"{where}: source cần name và url http")
+        if src and (not src.get("name") or not str(src.get("url", "")).startswith("http")
+                    or not str(src.get("audio", "http")).startswith("http")):
+            problems.append(f"{where}: source cần name, url http và audio http nếu có")
         if s["type"] == "listening" and not s.get("text") and not src:
             problems.append(f"{where}: thiếu text hoặc source")
         if s["type"] == "reading" and not s.get("text"):

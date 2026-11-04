@@ -12,7 +12,7 @@ python3 server.py
 
 Mở http://127.0.0.1:8000, tạo tài khoản, làm bài kiểm tra đầu vào. Dữ liệu nằm trong `data/academy.db` (SQLite) và `data/audio/`. Sao lưu bằng cách chép thư mục `data/`.
 
-Biến môi trường: `FA_PORT` (mặc định 8000), `FA_HOST` (mặc định 127.0.0.1), `FA_DB` (đường dẫn database), `FA_MODEL` (mặc định `claude-opus-5-5`, hoặc `deepseek-flash` khi dùng DeepSeek).
+Biến môi trường: `FA_PORT` (mặc định 8000), `FA_HOST` (mặc định 127.0.0.1), `FA_DB` (đường dẫn database), `FA_MODEL` (mặc định `claude-opus-5-5`, hoặc `deepseek-flash` khi dùng DeepSeek), `FA_INVITE` (mã mời bắt buộc khi đăng ký, nên đặt khi mở ra Internet).
 
 ## Bật AI tutor
 
@@ -40,7 +40,19 @@ Trang Cài đặt hiển thị provider và model đang dùng. Với Anthropic, 
 
 ## Nhận dạng giọng nói và đọc văn bản
 
-Speaking Lab dùng Web Speech API của trình duyệt (fr-FR): Chrome và Edge hỗ trợ nhận dạng, Firefox thì không (vẫn ghi âm được, bạn gõ lại transcript). Bài nghe được đọc bằng text-to-speech của trình duyệt, nên nên cài giọng tiếng Pháp trong hệ điều hành. Một section nghe cũng có thể trỏ tới audio thật bên ngoài qua trường `source` (name, url, date), ví dụ một số của Journal en français facile trên RFI: app chỉ mở trang nguồn trong tab mới và đặt câu hỏi riêng, không sao chép audio hay transcription, vì điều khoản sử dụng của France Médias Monde cấm sao chép và chuyển nội dung sang site khác.
+Speaking Lab dùng Web Speech API của trình duyệt (fr-FR): Chrome và Edge hỗ trợ nhận dạng, Firefox thì không (vẫn ghi âm được, bạn gõ lại transcript). Bài nghe được đọc bằng text-to-speech của trình duyệt, nên nên cài giọng tiếng Pháp trong hệ điều hành. Một section nghe cũng có thể trỏ tới audio thật bên ngoài qua trường `source` (name, url, date), ví dụ một số của Journal en français facile trên RFI: app chỉ mở trang nguồn trong tab mới và đặt câu hỏi riêng, không sao chép audio hay transcription, vì điều khoản sử dụng của France Médias Monde cấm sao chép và chuyển nội dung sang site khác. Với nguồn có giấy phép tự do, `source.audio` là URL file âm thanh và app phát trực tiếp bằng thẻ `<audio>`, kèm dòng ghi công (`author`, `license`): LibriVox trên archive.org (domaine public, văn học đọc bởi tình nguyện viên) và Wikipédia parlée trên Wikimedia Commons (domaine public hoặc CC BY-SA, file .ogg, Safari không đọc được). Hai ví dụ: bài b1-w4-l15 (Le Corbeau et le Renard) và b1-w4-l16 (Chat marbré).
+
+## Chạy qua Cloudflare Tunnel
+
+Để học từ điện thoại hoặc máy khác, mở server qua một tunnel; không cần tài khoản Cloudflare, URL `*.trycloudflare.com` ngẫu nhiên và đổi mỗi lần chạy:
+
+```
+export FA_INVITE=mot-ma-bi-mat     # ai không có mã thì không đăng ký được
+python3 server.py &
+cloudflared tunnel --url http://127.0.0.1:8000
+```
+
+Cài `cloudflared` từ https://github.com/cloudflare/cloudflared/releases (một file nhị phân, chép vào `~/.local/bin`). Luôn đặt `FA_INVITE` khi mở ra Internet: ai đăng ký được là dùng được AI tutor bằng khoá API của bạn.
 
 ## Cấu trúc
 

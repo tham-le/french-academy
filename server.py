@@ -49,6 +49,9 @@ def need(body, key, typ, maxlen=MAX_TEXT, optional=False):
 def h_register(con, user, prof, p, body, q):
     username = need(body, "username", str, 64)
     password = need(body, "password", str, 256)
+    invite = os.environ.get("FA_INVITE")
+    if invite and need(body, "invite", str, 64, optional=True) != invite:
+        raise ApiError(403, "Mã mời không đúng")
     try:
         uid = store.create_user(con, username, password)
     except ValueError as e:
